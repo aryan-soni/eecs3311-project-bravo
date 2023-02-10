@@ -22,6 +22,13 @@ public class Form implements ActionListener {
         JButton addButton = new JButton("Add Time-Series");
         JButton loadButton = new JButton("Load Data");
         addButton.addActionListener(this);
+        loadButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                frame.setVisible(false);
+                frame.dispose();
+                new Table();
+            }
+        } );
         panel.add(addButton);
         panel.add(loadButton);
 
