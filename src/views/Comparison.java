@@ -25,13 +25,14 @@ public class Comparison implements ActionListener {
     public Comparison() {
         frame.setTitle("Comparison");
 
-        JLabel chooseCountryLabel = new JLabel("Choose a time-series: ");
+        // TODO: add functionality that disallows comparison when there is only 1 time series
+        JLabel chooseCountryLabel = new JLabel("Choose a comparison: ");
         Vector<String> countriesNames = new Vector<String>();
-        countriesNames.add("temp1");
-        countriesNames.add("temp2");
-        countriesNames.add("temp3");
 
-        //add check here for single time-series
+        // TODO: determine comparisons
+        countriesNames.add("Comparison 1");
+        countriesNames.add("Comparison 2");
+
         JComboBox<String> countriesList = new JComboBox<String>(countriesNames);
         north.add(chooseCountryLabel);
         north.add(countriesList);
@@ -55,10 +56,12 @@ public class Comparison implements ActionListener {
         frame.add(south, BorderLayout.SOUTH);
         frame.pack();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
 
     public void comparisonGraph() {
+        // TODO: after determining which comparisons we are querying, display them
         XYSeries series1 = new XYSeries("Mortality/1000 births");
         series1.add(2018, 5.6);
         series1.add(2017, 5.7);
@@ -125,12 +128,15 @@ public class Comparison implements ActionListener {
         chartPanel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
         chartPanel.setBackground(Color.white);
 
-        mid.add(chartPanel);
+        if (mid.getComponentCount() == 0) {
+            mid.add(chartPanel);
+        }
     }
 
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        // TODO: after comparisons are made, this action listener should pick which one to display
         comparisonGraph();
         frame.pack();
     }

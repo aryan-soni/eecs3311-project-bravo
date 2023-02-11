@@ -19,29 +19,32 @@ import java.util.Vector;
 public class Forecast implements ActionListener {
     private JFrame frame = new JFrame();
     private JPanel north = new JPanel();
-    private JPanel mid = new JPanel(new GridLayout(3, 0));
+    private JPanel mid = new JPanel(new GridLayout(4, 0));
     private JPanel south = new JPanel();
     private JButton forecastButton = new  JButton("Generate Forecast");
     private JButton tableButton = new  JButton("Table View");
 
     public Forecast() {
-        frame.setTitle("Comparison");
+        frame.setTitle("Forecast");
 
         forecastButton.addActionListener(this);
 
 
         JLabel chooseCountryLabel = new JLabel("Choose a time-series: ");
         Vector<String> countriesNames = new Vector<String>();
+
+        // TODO: determine comparisons, run them, display them
         countriesNames.add("temp1");
         countriesNames.add("temp2");
         countriesNames.add("temp3");
 
-        //add check here for single time-series
         JComboBox<String> countriesList = new JComboBox<String>(countriesNames);
         north.add(chooseCountryLabel);
         north.add(countriesList);
         north.add(forecastButton);
 
+        JLabel numberLabel = new JLabel("Number of months:");
+        JTextField numberText = new JTextField(20);
         JLabel iterationLabel = new JLabel("Number of iterations:");
         JTextField iterationText = new JTextField(20);
         JLabel epochLabel = new JLabel("Number of epochs:");
@@ -49,6 +52,8 @@ public class Forecast implements ActionListener {
         JLabel convergenceLabel = new JLabel("Convergence threshold:");
         JTextField convergenceText = new JTextField(20);
 
+        mid.add(numberLabel);
+        mid.add(numberText);
         mid.add(iterationLabel);
         mid.add(iterationText);
         mid.add(epochLabel);
@@ -71,6 +76,7 @@ public class Forecast implements ActionListener {
         frame.add(south, BorderLayout.SOUTH);
         frame.pack();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
 
@@ -103,6 +109,7 @@ public class Forecast implements ActionListener {
         newFrame.add(newPanel);
         newFrame.pack();
         newFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        newFrame.setLocationRelativeTo(null);
         newFrame.setVisible(true);
     }
 

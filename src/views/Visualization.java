@@ -54,6 +54,8 @@ public class Visualization implements ActionListener {
                 new Table();
             }
         } );
+
+        // TODO: add configure button listener and functionality to modify data
         south.add(configureButton);
         south.add(tableButton);
 
@@ -62,10 +64,12 @@ public class Visualization implements ActionListener {
         frame.add(south, BorderLayout.SOUTH);
         frame.pack();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
 
     public void visualizationOne() {
+        // TODO: determine which visualizations we want to show and what the best graph is to do so
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
         dataset.setValue(5.6, "Mortality/1000 births", "2018");
         dataset.setValue(5.7, "Mortality/1000 births", "2017");
@@ -119,17 +123,6 @@ public class Visualization implements ActionListener {
         JFreeChart barChart = new JFreeChart("Mortality vs Expenses & Hospital Beds",
                 new Font("Serif", java.awt.Font.BOLD, 18), plot, true);
 
-        // Different way to create bar chart
-        /*
-         * dataset = new DefaultCategoryDataset();
-         *
-         * dataset.addValue(3.946, "Unemployed", "Men"); dataset.addValue(96.054,
-         * "Employed", "Men"); dataset.addValue(3.837, "Unemployed", "Women");
-         * dataset.addValue(96.163, "Employed", "Women"); barChart =
-         * ChartFactory.createBarChart("Unemployment: Men vs Women", "Gender",
-         * "Percentage", dataset, PlotOrientation.VERTICAL, true, true, false);
-         */
-
         ChartPanel chartPanel = new ChartPanel(barChart);
         chartPanel.setPreferredSize(new Dimension(400, 300));
         chartPanel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
@@ -138,6 +131,7 @@ public class Visualization implements ActionListener {
     }
 
     public void visualizationTwo() {
+        // TODO: determine which visualizations we want to show and what the best graph is to do so
         TimeSeries series1 = new TimeSeries("Mortality/1000 births");
         series1.add(new Year(2018), 5.6);
         series1.add(new Year(2017), 5.7);
