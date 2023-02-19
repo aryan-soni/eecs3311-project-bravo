@@ -30,7 +30,7 @@ public class Forecast implements ActionListener {
         forecastButton.addActionListener(this);
 
 
-        JLabel chooseCountryLabel = new JLabel("Choose a time-series: ");
+        JLabel chooseTimeSeriesLabel = new JLabel("Choose a time-series: ");
         Vector<String> timeSeries = new Vector<String>();
 
         // TODO: determine timeSeries, run them, display them
@@ -38,7 +38,7 @@ public class Forecast implements ActionListener {
         timeSeries.add("temp2");
 
         JComboBox<String> timeSeriesList = new JComboBox<String>(timeSeries);
-        north.add(chooseCountryLabel);
+        north.add(chooseTimeSeriesLabel);
         north.add(timeSeriesList);
         north.add(forecastButton);
 
