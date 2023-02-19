@@ -55,7 +55,23 @@ public class Visualization implements ActionListener {
             }
         } );
 
-        // TODO: add configure button listener and functionality to modify data
+        configureButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // configure tab will only show up if there is a visualization selected
+                if (vis1.isSelected() || vis2.isSelected()) {
+                    JFrame newFrame = new JFrame();
+                    JPanel newPanel = new JPanel();
+
+                    // TODO: IF NEEDED: add params related to the visualizations chosen
+
+                    newFrame.setTitle("Configure");
+                    newFrame.add(newPanel);
+                    newFrame.pack();
+                    newFrame.setLocationRelativeTo(null);
+                    newFrame.setVisible(true);
+                }
+            }
+        } );
         south.add(configureButton);
         south.add(tableButton);
 
@@ -70,6 +86,8 @@ public class Visualization implements ActionListener {
 
     public void visualizationOne() {
         // TODO: determine which visualizations we want to show and what the best graph is to do so
+
+        // THIS WAS SOURCED FROM THE PROFESSORS DEMO WITH PERMISSION. THIS IS SIMPLY A PLACEHOLDER AND WILL NOT BE USED IN THE FINAL APPLICATION
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
         dataset.setValue(5.6, "Mortality/1000 births", "2018");
         dataset.setValue(5.7, "Mortality/1000 births", "2017");
@@ -132,6 +150,8 @@ public class Visualization implements ActionListener {
 
     public void visualizationTwo() {
         // TODO: determine which visualizations we want to show and what the best graph is to do so
+
+        // THIS WAS SOURCED FROM THE PROFESSORS DEMO WITH PERMISSION. THIS IS SIMPLY A PLACEHOLDER AND WILL NOT BE USED IN THE FINAL APPLICATION
         TimeSeries series1 = new TimeSeries("Mortality/1000 births");
         series1.add(new Year(2018), 5.6);
         series1.add(new Year(2017), 5.7);

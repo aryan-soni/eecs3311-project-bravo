@@ -31,16 +31,15 @@ public class Forecast implements ActionListener {
 
 
         JLabel chooseCountryLabel = new JLabel("Choose a time-series: ");
-        Vector<String> countriesNames = new Vector<String>();
+        Vector<String> timeSeries = new Vector<String>();
 
-        // TODO: determine comparisons, run them, display them
-        countriesNames.add("temp1");
-        countriesNames.add("temp2");
-        countriesNames.add("temp3");
+        // TODO: determine timeSeries, run them, display them
+        timeSeries.add("temp1");
+        timeSeries.add("temp2");
 
-        JComboBox<String> countriesList = new JComboBox<String>(countriesNames);
+        JComboBox<String> timeSeriesList = new JComboBox<String>(timeSeries);
         north.add(chooseCountryLabel);
-        north.add(countriesList);
+        north.add(timeSeriesList);
         north.add(forecastButton);
 
         JLabel numberLabel = new JLabel("Number of months:");
@@ -81,7 +80,10 @@ public class Forecast implements ActionListener {
     }
 
     public ChartPanel forecastGraph() {
+        // THIS WAS SOURCED FROM THE PROFESSORS DEMO WITH PERMISSION. THIS IS SIMPLY A PLACEHOLDER AND WILL NOT BE USED IN THE FINAL APPLICATION
+
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+
         dataset.addValue(3.946, "Unemployed", "Men");
         dataset.addValue(96.054, "Employed", "Men");
         dataset.addValue(3.837, "Unemployed", "Women");
@@ -108,7 +110,6 @@ public class Forecast implements ActionListener {
         newFrame.setTitle("Generated Graph");
         newFrame.add(newPanel);
         newFrame.pack();
-        newFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         newFrame.setLocationRelativeTo(null);
         newFrame.setVisible(true);
     }

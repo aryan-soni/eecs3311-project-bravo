@@ -26,16 +26,16 @@ public class Comparison implements ActionListener {
         frame.setTitle("Comparison");
 
         // TODO: add functionality that disallows comparison when there is only 1 time series
-        JLabel chooseCountryLabel = new JLabel("Choose a comparison: ");
-        Vector<String> countriesNames = new Vector<String>();
+        JLabel chooseComparisonLabel = new JLabel("Choose a comparison: ");
+        Vector<String> comparisons = new Vector<String>();
 
         // TODO: determine comparisons
-        countriesNames.add("Comparison 1");
-        countriesNames.add("Comparison 2");
+        comparisons.add("Comparison 1");
+        comparisons.add("Comparison 2");
 
-        JComboBox<String> countriesList = new JComboBox<String>(countriesNames);
-        north.add(chooseCountryLabel);
-        north.add(countriesList);
+        JComboBox<String> comparisonList = new JComboBox<String>(comparisons);
+        north.add(chooseComparisonLabel);
+        north.add(comparisonList);
 
         comparisonButton.addActionListener(this);
         north.add(comparisonButton);
@@ -62,6 +62,8 @@ public class Comparison implements ActionListener {
 
     public void comparisonGraph() {
         // TODO: after determining which comparisons we are querying, display them
+
+        // THIS WAS SOURCED FROM THE PROFESSORS DEMO WITH PERMISSION. THIS IS SIMPLY A PLACEHOLDER AND WILL NOT BE USED IN THE FINAL APPLICATION
         XYSeries series1 = new XYSeries("Mortality/1000 births");
         series1.add(2018, 5.6);
         series1.add(2017, 5.7);
