@@ -7,6 +7,8 @@ import java.sql.ResultSet;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Properties;
+import java.io.FileInputStream;
 
 public class SQLRealEstateData implements RealEstateData {
 
@@ -67,6 +69,50 @@ public class SQLRealEstateData implements RealEstateData {
             System.out.println(databaseResultTwo.get(i).dataDate);
         }
 
+        // Creates a form object to test the program
+        Form testForm2 = new Form(false, false, "Alberta", "Ontario", "", "", true, inDate1,
+                inDate2);
+
+        // Creates two arraylists to store the results from the database
+        ArrayList<QueryResult> databaseResultThree = new ArrayList<QueryResult>();
+        ArrayList<QueryResult> databaseResultFour = new ArrayList<QueryResult>();
+
+        // Handles if location 1 is a city or a province and then calls the method
+        // accordingly
+        if (testForm2.inputLocation.isLocationOneACity == true) {
+            String locationOne = (testForm2.inputLocation.cityNameOne + ", " + testForm2.inputLocation.provinceNameOne);
+            databaseResultThree = caller.returnData(locationOne, convertedDateOne, convertedDateTwo);
+        } else {
+            String locationOne = testForm.inputLocation.provinceNameOne;
+            databaseResultThree = caller.returnData(locationOne, convertedDateOne, convertedDateTwo);
+        }
+
+        // Handles if location 1 is a city or a province and then calls the method
+        // accordingly
+        if (testForm2.inputLocation.isLocationTwoACity == true) {
+            String locationTwo = (testForm2.inputLocation.cityNameTwo + ", " + testForm2.inputLocation.provinceNameTwo);
+            databaseResultFour = caller.returnData(locationTwo, convertedDateOne, convertedDateTwo);
+        } else {
+            String locationTwo = testForm2.inputLocation.provinceNameTwo;
+            databaseResultFour = caller.returnData(locationTwo, convertedDateOne, convertedDateTwo);
+        }
+
+        // Prints the results of the first location
+        for (int i = 0; i < databaseResultThree.size(); i++) {
+            System.out.println(databaseResultThree.get(i).location);
+            System.out.println(databaseResultThree.get(i).NHPIIndexValue);
+            System.out.println(databaseResultThree.get(i).dataDate);
+        }
+
+        // Prints the results of the second location
+        System.out.println("This is the second line");
+
+        for (int i = 0; i < databaseResultFour.size(); i++) {
+            System.out.println(databaseResultFour.get(i).location);
+            System.out.println(databaseResultFour.get(i).NHPIIndexValue);
+            System.out.println(databaseResultFour.get(i).dataDate);
+        }
+
     }
 
     // Converts the date object to a string that can be used to make SQL requests
@@ -78,6 +124,12 @@ public class SQLRealEstateData implements RealEstateData {
 
     public Connection connectToDB() throws Exception {
         try {
+            Properties secretStorage = new Properties();
+            // must be cd'd into the root project directory
+            FileInputStream secretFile = new FileInputStream("./src/models/.env");
+            secretStorage.load(secretFile);
+            secretFile.close();
+
             // Puts the driver in a string
             String driver = "com.mysql.cj.jdbc.Driver";
 
@@ -88,8 +140,8 @@ public class SQLRealEstateData implements RealEstateData {
             // defaults to root
             String user = "root";
 
-            // This is the password, depends on what you set it to, so fill it in
-            String pass = "";
+            // This is the password, depends on what you set it to
+            String pass = secretStorage.getProperty("PASSWORD");
 
             // Loads the driver
             Class.forName(driver);
