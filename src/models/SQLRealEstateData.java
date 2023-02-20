@@ -125,7 +125,11 @@ public class SQLRealEstateData implements RealEstateData {
     public Connection connectToDB() throws Exception {
         try {
             Properties secretStorage = new Properties();
-            // must be cd'd into the root project directory
+            /* 
+             * Make sure you're in the eecs3311-project-bravo directory
+             * Create a .env file in the models directory
+             * Add this the .env file: PASSWORD=password_here
+             */
             FileInputStream secretFile = new FileInputStream("./src/models/.env");
             secretStorage.load(secretFile);
             secretFile.close();
