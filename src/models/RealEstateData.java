@@ -7,5 +7,5 @@ public interface RealEstateData {
 
     public Object connectToDB() throws Exception;
 
-    public ArrayList<QueryResult> returnData(String location, String inDate1, String inDate2);
+    public ArrayList<QueryResult> returnData(String location, String dateA, String dateB);
 }

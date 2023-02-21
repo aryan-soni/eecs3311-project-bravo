@@ -1,14 +1,14 @@
 package models;
 
 public class QueryResult {
-    String location;
-    Double NHPIIndexValue;
-    String dataDate;
+    public String location;
+    public Double NHPIIndexValue;
+    public String date;
 
     // Stores the query results
-    public QueryResult(String inLocation, Double inNHPIIndexValue, String dataDate) {
-        this.location = inLocation;
-        this.NHPIIndexValue = inNHPIIndexValue;
-        this.dataDate = dataDate;
+    public QueryResult(String location, Double NHPIIndexValue, String date) {
+        this.location = location;
+        this.NHPIIndexValue = NHPIIndexValue;
+        this.date = date;
     }
 }
