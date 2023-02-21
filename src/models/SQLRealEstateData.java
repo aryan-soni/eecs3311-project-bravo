@@ -20,7 +20,7 @@ public class SQLRealEstateData implements RealEstateData {
     public Connection connectToDB() throws Exception {
         try {
             Properties secretStorage = new Properties();
-            /* 
+            /*
              * Make sure you're in the eecs3311-project-bravo directory
              * Create a .env file in the models directory
              * Add this the .env file: PASSWORD=password_here
@@ -61,10 +61,7 @@ public class SQLRealEstateData implements RealEstateData {
         return null;
     }
 
-    /* TODO: Add code that returns the appropiate set of queries based on granularity 
-     * Pass in Form object for simplicity if that's easier
-    */
-    public ArrayList<QueryResult> returnData(String location, String dateA, String dateB) {
+    public ArrayList<QueryResult> returnData(String location, String dateA, String dateB, Boolean goingByMonths) {
         // Creates an arraylist of query result objects used to store our queryresuts
         ArrayList<QueryResult> queryResults = new ArrayList<QueryResult>();
 
@@ -88,13 +85,65 @@ public class SQLRealEstateData implements RealEstateData {
             // Exectues query and then stores the results in the result set object
             ResultSet result = preppedSQLQuery.executeQuery();
 
-            // Goes through the SQL query and adds it to our QueryResult object, then adds
-            // the object to the list
-            while (result.next()) {
-                QueryResult queryResultObject = new QueryResult(result.getString("Geo"),
-                        result.getDouble("NHPIValue"), result.getString("Ref_Date"));
-                queryResults.add(queryResultObject);
+            // If going by months enter this body
+            if (goingByMonths) {
+                // Goes through the SQL query and adds it to our QueryResult object, then adds
+                // the object to the list
+                while (result.next()) {
+                    QueryResult queryResultObject = new QueryResult(result.getString("Geo"),
+                            result.getDouble("NHPIValue"), result.getString("Ref_Date"));
+                    queryResults.add(queryResultObject);
+                }
+            } else {
+                // So on your end if we are going by years make sure that the start date has
+                // January as the month and the end date has December
+
+                // Creates a double that will be used to store the yearly value
+                Double yearlyIndexVal = 0.0;
+
+                // Goes through the our SQL query and calcualtes the yearly index values and
+                // then adds them to the list
+                while (result.next()) {
+                    // Takes the month off our date string in order to help with calculating yearly
+                    // indexes
+                    String currentMonth = result.getString("Ref_Date").substring(5, 7);
+
+                    // Conditional statement that handles the cases in which the current month is
+                    // Jan, Dec and the rest of the months
+                    if (currentMonth.equals("01")) {
+
+                        // When the current month is January, set the index value to what January is, it
+                        // "resets" the count for the year
+                        yearlyIndexVal = result.getDouble("NHPIValue");
+
+                    } else if (currentMonth.equals("12")) {
+
+                        // If the month is December, then we would have all the values needed to
+                        // calculate the yearly index value, so we add deceembers index and then divide
+                        // it by 12 to get the yearly index value
+                        yearlyIndexVal = (yearlyIndexVal + result.getDouble("NHPIValue")) / 12;
+
+                        // Uses math.round to round our yearly index value to 1 decimal place
+                        Double roundedYearlyIndexVal = Math.round(yearlyIndexVal * 10.0) / 10.0;
+
+                        // Gets the current year from the date string
+                        String getCurrentYear = result.getString("Ref_Date").substring(0, 4);
+
+                        // Creates the query result object for the year and adds it to our array list
+                        QueryResult queryResultObject = new QueryResult(result.getString("Geo"), roundedYearlyIndexVal,
+                                getCurrentYear);
+
+                        // Add the query result object to our array list
+                        queryResults.add(queryResultObject);
+
+                    } else {
+                        // Just adds the index value to the yearly index value, as we do not have to do
+                        // any other specfic behvaiours in the months that are not Jan or Dec
+                        yearlyIndexVal = yearlyIndexVal + result.getDouble("NHPIValue");
+                    }
+                }
             }
+
             // Returns the arraylist of our query results
             return queryResults;
         } catch (Exception nameOfException) {
@@ -129,22 +178,27 @@ public class SQLRealEstateData implements RealEstateData {
         // accordingly
         if (testForm.inputLocation.isGeoACity) {
             String locationOne = (testForm.inputLocation.cityA + ", " + testForm.inputLocation.provinceA);
-            databaseResultOne = caller.returnData(locationOne, convertedDateA, convertedDateB);
+            databaseResultOne = caller.returnData(locationOne, convertedDateA, convertedDateB,
+                    testForm.tSeries.isGranularByMonths);
         } else {
             String locationOne = testForm.inputLocation.provinceA;
-            databaseResultOne = caller.returnData(locationOne, convertedDateA, convertedDateB);
+            databaseResultOne = caller.returnData(locationOne, convertedDateA, convertedDateB,
+                    testForm.tSeries.isGranularByMonths);
         }
 
-        // Handles if location 1 is a city or a province and then calls the method
+        // Handles if location 2 is a city or a province and then calls the method
         // accordingly
         if (testForm.inputLocation.isGeoBCity) {
             String locationTwo = (testForm.inputLocation.cityB + ", " + testForm.inputLocation.provinceB);
-            databaseResultTwo = caller.returnData(locationTwo, convertedDateA, convertedDateB);
+            databaseResultTwo = caller.returnData(locationTwo, convertedDateA, convertedDateB,
+                    testForm.tSeries.isGranularByMonths);
         } else {
             String locationTwo = testForm.inputLocation.provinceB;
-            databaseResultTwo = caller.returnData(locationTwo, convertedDateA, convertedDateB);
+            databaseResultTwo = caller.returnData(locationTwo, convertedDateA, convertedDateB,
+                    testForm.tSeries.isGranularByMonths);
         }
 
+        System.out.println("\n------------First Test Prints:---------------");
         // Prints the results of the first location
         for (int i = 0; i < databaseResultOne.size(); i++) {
             System.out.println(databaseResultOne.get(i).location);
@@ -153,7 +207,7 @@ public class SQLRealEstateData implements RealEstateData {
         }
 
         // Prints the results of the second location
-        System.out.println("This is the second line");
+        System.out.println("\n----------------This is the second line----------------\n");
 
         for (int i = 0; i < databaseResultTwo.size(); i++) {
             System.out.println(databaseResultTwo.get(i).location);
@@ -172,22 +226,28 @@ public class SQLRealEstateData implements RealEstateData {
         // Handles if location 1 is a city or a province and then calls the method
         // accordingly
         if (testForm2.inputLocation.isGeoACity == true) {
-            String locationOne = (testForm2.inputLocation.cityA + ", " + testForm2.inputLocation.cityB);
-            databaseResultThree = caller.returnData(locationOne, convertedDateA, convertedDateB);
+            String locationOne = (testForm2.inputLocation.cityA + ", " + testForm2.inputLocation.provinceA);
+            databaseResultThree = caller.returnData(locationOne, convertedDateA, convertedDateB,
+                    testForm2.tSeries.isGranularByMonths);
         } else {
-            String locationOne = testForm.inputLocation.cityB;
-            databaseResultThree = caller.returnData(locationOne, convertedDateA, convertedDateB);
+            String locationOne = testForm.inputLocation.provinceA;
+            databaseResultThree = caller.returnData(locationOne, convertedDateA, convertedDateB,
+                    testForm2.tSeries.isGranularByMonths);
         }
 
-        // Handles if location 1 is a city or a province and then calls the method
+        // Handles if location 2 is a city or a province and then calls the method
         // accordingly
         if (testForm2.inputLocation.isGeoBCity == true) {
             String locationTwo = (testForm2.inputLocation.cityB + ", " + testForm2.inputLocation.provinceB);
-            databaseResultFour = caller.returnData(locationTwo, convertedDateA, convertedDateB);
+            databaseResultFour = caller.returnData(locationTwo, convertedDateA, convertedDateB,
+                    testForm2.tSeries.isGranularByMonths);
         } else {
             String locationTwo = testForm2.inputLocation.provinceB;
-            databaseResultFour = caller.returnData(locationTwo, convertedDateA, convertedDateB);
+            databaseResultFour = caller.returnData(locationTwo, convertedDateA, convertedDateB,
+                    testForm2.tSeries.isGranularByMonths);
         }
+
+        System.out.println("\n------------Second Test Prints:---------------\n");
 
         // Prints the results of the first location
         for (int i = 0; i < databaseResultThree.size(); i++) {
@@ -197,12 +257,62 @@ public class SQLRealEstateData implements RealEstateData {
         }
 
         // Prints the results of the second location
-        System.out.println("This is the second line");
+        System.out.println("\n----------------This is the second line----------------\n");
 
         for (int i = 0; i < databaseResultFour.size(); i++) {
             System.out.println(databaseResultFour.get(i).location);
             System.out.println(databaseResultFour.get(i).NHPIIndexValue);
             System.out.println(databaseResultFour.get(i).date);
+        }
+
+        // Creates a form object to test the program
+        Form testForm3 = new Form(false, false, "Alberta", "Ontario", "", "", false, dateA,
+                dateB);
+
+        // Creates two arraylists to store the results from the database
+        ArrayList<QueryResult> databaseResultFive = new ArrayList<QueryResult>();
+        ArrayList<QueryResult> databaseResultSix = new ArrayList<QueryResult>();
+
+        // Handles if location 1 is a city or a province and then calls the method
+        // accordingly
+        if (testForm3.inputLocation.isGeoACity == true) {
+            String locationOne = (testForm3.inputLocation.cityA + ", " + testForm3.inputLocation.provinceA);
+            databaseResultFive = caller.returnData(locationOne, convertedDateA, convertedDateB,
+                    testForm3.tSeries.isGranularByMonths);
+        } else {
+            String locationOne = testForm.inputLocation.provinceA;
+            databaseResultFive = caller.returnData(locationOne, convertedDateA, convertedDateB,
+                    testForm3.tSeries.isGranularByMonths);
+        }
+
+        // Handles if location 2 is a city or a province and then calls the method
+        // accordingly
+        if (testForm3.inputLocation.isGeoBCity == true) {
+            String locationTwo = (testForm3.inputLocation.cityB + ", " + testForm3.inputLocation.provinceB);
+            databaseResultSix = caller.returnData(locationTwo, convertedDateA, convertedDateB,
+                    testForm3.tSeries.isGranularByMonths);
+        } else {
+            String locationTwo = testForm3.inputLocation.provinceB;
+            databaseResultSix = caller.returnData(locationTwo, convertedDateA, convertedDateB,
+                    testForm3.tSeries.isGranularByMonths);
+        }
+
+        System.out.println("\n------------Third Test Prints:---------------\n");
+
+        // Prints the results of the first location
+        for (int i = 0; i < databaseResultFive.size(); i++) {
+            System.out.println(databaseResultFive.get(i).location);
+            System.out.println(databaseResultFive.get(i).NHPIIndexValue);
+            System.out.println(databaseResultFive.get(i).date);
+        }
+
+        // Prints the results of the second location
+        System.out.println("\n----------------This is the second line----------------\n");
+
+        for (int i = 0; i < databaseResultSix.size(); i++) {
+            System.out.println(databaseResultSix.get(i).location);
+            System.out.println(databaseResultSix.get(i).NHPIIndexValue);
+            System.out.println(databaseResultSix.get(i).date);
         }
 
     }
