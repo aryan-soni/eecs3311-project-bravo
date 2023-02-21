@@ -100,6 +100,7 @@ public class SQLRealEstateData implements RealEstateData {
 
                 // Creates a double that will be used to store the yearly value
                 Double yearlyIndexVal = 0.0;
+                int valuesInAYear = 0;
 
                 // Goes through the our SQL query and calcualtes the yearly index values and
                 // then adds them to the list
@@ -114,14 +115,21 @@ public class SQLRealEstateData implements RealEstateData {
 
                         // When the current month is January, set the index value to what January is, it
                         // "resets" the count for the year
-                        yearlyIndexVal = result.getDouble("NHPIValue");
-
+                        yearlyIndexVal = 0.0;
+                        valuesInAYear = 0;
+                        if (result.getDouble("NHPIValue") > 0.0) {
+                            valuesInAYear = valuesInAYear + 1;
+                            yearlyIndexVal = result.getDouble("NHPIValue");
+                        }
                     } else if (currentMonth.equals("12")) {
 
                         // If the month is December, then we would have all the values needed to
                         // calculate the yearly index value, so we add deceembers index and then divide
-                        // it by 12 to get the yearly index value
-                        yearlyIndexVal = (yearlyIndexVal + result.getDouble("NHPIValue")) / 12;
+                        // it by the amount of values to get the yearly index value
+                        if (result.getDouble("NHPIValue") > 0.0) {
+                            valuesInAYear = valuesInAYear + 1;
+                            yearlyIndexVal = (yearlyIndexVal + result.getDouble("NHPIValue")) / valuesInAYear;
+                        }
 
                         // Uses math.round to round our yearly index value to 1 decimal place
                         Double roundedYearlyIndexVal = Math.round(yearlyIndexVal * 10.0) / 10.0;
@@ -139,7 +147,10 @@ public class SQLRealEstateData implements RealEstateData {
                     } else {
                         // Just adds the index value to the yearly index value, as we do not have to do
                         // any other specfic behvaiours in the months that are not Jan or Dec
-                        yearlyIndexVal = yearlyIndexVal + result.getDouble("NHPIValue");
+                        if (result.getDouble("NHPIValue") > 0.0) {
+                            valuesInAYear = valuesInAYear + 1;
+                            yearlyIndexVal = yearlyIndexVal + result.getDouble("NHPIValue");
+                        }
                     }
                 }
             }
