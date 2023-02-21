@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public abstract class Table {
 
     ArrayList<QueryResult> entries;
-    ArrayList<ArrayList<String>> table;
+    public ArrayList<ArrayList<String>> table;
 
     public Table(ArrayList<QueryResult> entries) {
         this.entries = entries;
