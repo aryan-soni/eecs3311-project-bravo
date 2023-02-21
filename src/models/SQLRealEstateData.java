@@ -72,7 +72,7 @@ public class SQLRealEstateData implements RealEstateData {
 
             // Sets up the SQL query string
             String sqlQuery = "SELECT Ref_Date, NHPIValue, Geo " + "FROM Data " + "WHERE Geo = ? "
-                    + "AND Ref_Date BETWEEN ? AND ? " + "AND New_House_Pricing_Indexes = ?";
+                    + "AND Ref_Date >= ?" + "AND Ref_Date <= ? " + "AND New_House_Pricing_Indexes = ?";
 
             // Prepares our SQL query before making it
             PreparedStatement preppedSQLQuery = connectionToDB.prepareStatement(sqlQuery);
@@ -95,12 +95,16 @@ public class SQLRealEstateData implements RealEstateData {
                     queryResults.add(queryResultObject);
                 }
             } else {
-                // So on your end if we are going by years make sure that the start date has
-                // January as the month and the end date has December
-
                 // Creates a double that will be used to store the yearly value
                 Double yearlyIndexVal = 0.0;
+                // Creates an int that is used to track the number of indexes added in a year
                 int valuesInAYear = 0;
+                // Creates an int that tracks the months, when it is 11, we know that a year has
+                // passed
+                int count = 0;
+
+                // Gets the month of our start date, which is used to track years
+                String startDateMonth = dateA.substring(5, 7);
 
                 // Goes through the our SQL query and calcualtes the yearly index values and
                 // then adds them to the list
@@ -109,23 +113,27 @@ public class SQLRealEstateData implements RealEstateData {
                     // indexes
                     String currentMonth = result.getString("Ref_Date").substring(5, 7);
 
-                    // Conditional statement that handles the cases in which the current month is
-                    // Jan, Dec and the rest of the months
-                    if (currentMonth.equals("01")) {
-
-                        // When the current month is January, set the index value to what January is, it
-                        // "resets" the count for the year
+                    if (currentMonth.equals(startDateMonth)) {
+                        // When the month is the same as our start month, we set the yearlyIndexVal and
+                        // valuesInAYear to 0
                         yearlyIndexVal = 0.0;
                         valuesInAYear = 0;
+                        // If the current index value is greater than zerom we add it to the yearly
+                        // index value
                         if (result.getDouble("NHPIValue") > 0.0) {
                             valuesInAYear = valuesInAYear + 1;
                             yearlyIndexVal = result.getDouble("NHPIValue");
                         }
-                    } else if (currentMonth.equals("12")) {
+                        // Increments the count
+                        count = 1;
+                    } else if (startDateMonth.equals(dateB) || count == 11) { // If the month is equal to our end date,
+                                                                              // or a year has gone by
 
-                        // If the month is December, then we would have all the values needed to
-                        // calculate the yearly index value, so we add deceembers index and then divide
-                        // it by the amount of values to get the yearly index value
+                        // If the month is our end date or a year has gone by, then we would have all
+                        // the values needed to
+                        // calculate the yearly index value, so we add the current numbers index and
+                        // then divide
+                        // it by the amount of index values to get the yearly index value
                         if (result.getDouble("NHPIValue") > 0.0) {
                             valuesInAYear = valuesInAYear + 1;
                             yearlyIndexVal = (yearlyIndexVal + result.getDouble("NHPIValue")) / valuesInAYear;
@@ -146,11 +154,12 @@ public class SQLRealEstateData implements RealEstateData {
 
                     } else {
                         // Just adds the index value to the yearly index value, as we do not have to do
-                        // any other specfic behvaiours in the months that are not Jan or Dec
+                        // any other specfic behvaiours
                         if (result.getDouble("NHPIValue") > 0.0) {
                             valuesInAYear = valuesInAYear + 1;
                             yearlyIndexVal = yearlyIndexVal + result.getDouble("NHPIValue");
                         }
+                        count = count + 1;
                     }
                 }
             }
@@ -276,9 +285,14 @@ public class SQLRealEstateData implements RealEstateData {
             System.out.println(databaseResultFour.get(i).date);
         }
 
+        LocalDate dateC = LocalDate.of(1999, 1, 5);
+        LocalDate dateD = LocalDate.of(2001, 12, 7);
         // Creates a form object to test the program
-        Form testForm3 = new Form(false, false, "Alberta", "Ontario", "", "", false, dateA,
-                dateB);
+        Form testForm3 = new Form(false, false, "Alberta", "Ontario", "", "", false, dateC,
+                dateD);
+
+        String convertedDateC = csvDateConverter(dateC);
+        String convertedDateD = csvDateConverter(dateD);
 
         // Creates two arraylists to store the results from the database
         ArrayList<QueryResult> databaseResultFive = new ArrayList<QueryResult>();
@@ -288,11 +302,11 @@ public class SQLRealEstateData implements RealEstateData {
         // accordingly
         if (testForm3.inputLocation.isGeoACity == true) {
             String locationOne = (testForm3.inputLocation.cityA + ", " + testForm3.inputLocation.provinceA);
-            databaseResultFive = caller.returnData(locationOne, convertedDateA, convertedDateB,
+            databaseResultFive = caller.returnData(locationOne, convertedDateC, convertedDateD,
                     testForm3.tSeries.isGranularByMonths);
         } else {
             String locationOne = testForm.inputLocation.provinceA;
-            databaseResultFive = caller.returnData(locationOne, convertedDateA, convertedDateB,
+            databaseResultFive = caller.returnData(locationOne, convertedDateC, convertedDateD,
                     testForm3.tSeries.isGranularByMonths);
         }
 
@@ -300,11 +314,11 @@ public class SQLRealEstateData implements RealEstateData {
         // accordingly
         if (testForm3.inputLocation.isGeoBCity == true) {
             String locationTwo = (testForm3.inputLocation.cityB + ", " + testForm3.inputLocation.provinceB);
-            databaseResultSix = caller.returnData(locationTwo, convertedDateA, convertedDateB,
+            databaseResultSix = caller.returnData(locationTwo, convertedDateC, convertedDateD,
                     testForm3.tSeries.isGranularByMonths);
         } else {
             String locationTwo = testForm3.inputLocation.provinceB;
-            databaseResultSix = caller.returnData(locationTwo, convertedDateA, convertedDateB,
+            databaseResultSix = caller.returnData(locationTwo, convertedDateC, convertedDateD,
                     testForm3.tSeries.isGranularByMonths);
         }
 
