@@ -200,17 +200,22 @@ public class SQLRealEstateData implements RealEstateData {
         // Creates a form object to test the program
         Form testForm3 = new Form(false, false, "Alberta", "Ontario", "", "", false, dateList2);
         testingMethod(testForm3);
-
     }
 
     public static void testingMethod(Form testForm) {
-        for (int i = 0; i < testForm.tSeries.size(); i = i + 2) {
-            String convertedDateA = csvDateConverter(testForm.tSeries.get(i).start);
-            String convertedDateB = csvDateConverter(testForm.tSeries.get(i).end);
+            String convertedDateA;
+            String convertedDateB;
 
-            // Creates two arraylists to store the results from the database
             ArrayList<QueryResult> databaseResultOne = new ArrayList<QueryResult>();
             ArrayList<QueryResult> databaseResultTwo = new ArrayList<QueryResult>();
+
+        for (int i = 0; i < testForm.tSeries.size(); i = i + 2) {
+            convertedDateA = csvDateConverter(testForm.tSeries.get(i).start);
+            convertedDateB = csvDateConverter(testForm.tSeries.get(i).end);
+
+            // Creates two arraylists to store the results from the database
+            databaseResultOne = new ArrayList<QueryResult>();
+            databaseResultTwo = new ArrayList<QueryResult>();
 
             // Creates a SQLRealEstateDate object so we can call the method
             SQLRealEstateData caller = new SQLRealEstateData();
