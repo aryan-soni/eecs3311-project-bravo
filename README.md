@@ -15,13 +15,13 @@ The following screenshots demonstrate our progress in Deliverable 1. Please refe
 
 ### Data Tabulation
 
-This portion of our deliverable revolved around extracting the values from the CSV file, feeding them into a local SQL database, then querying the local SQL database and tabulating the values into a raw table.
+This portion of our deliverable revolved around extracting the values from the CSV file, feeding them into a local SQL database, then querying the local SQL database and tabulating the values into a raw table. Note that the rightmost column name in the below screenshot should be NHPI, not NRPI (minor typo).
 
 ![Data Tabulation](imgs/deliverable-1/raw_table.png)
 
 ### Visualization
 
-This visualization demonstrates how we can visually compare NHPI values. The example here shows the NHPI values from Ontario and Alberta from 1999 to 2015 being compared. Note that the rightmost column name in the below screenshot should be NHPI, not NRPI (minor typo).
+This visualization demonstrates how we can visually compare NHPI values. The example here shows the NHPI values from Ontario and Alberta from 1999 to 2015 being compared.
 
 ![Visualization](imgs/deliverable-1/visualization.png)
 
