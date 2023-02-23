@@ -21,7 +21,7 @@ This portion of our deliverable revolved around extracting the values from the C
 
 ### Visualization
 
-This visualization demonstrates how we can visually compare NHPI values. The example here shows the NHPI values from Ontario and Alberta from 1999 to 2015 being compared.
+This visualization demonstrates how we can visually compare NHPI values. The example here shows the NHPI values from Ontario and Alberta from 1999 to 2015 being compared. Note that the rightmost column name in the below screenshot should be NHPI, not NRPI (minor typo).
 
 ![Visualization](imgs/deliverable-1/visualization.png)
 
