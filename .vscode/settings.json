@@ -29,6 +29,8 @@
     "dependencies/commons-math3-3.6.1-sources.jar",
     "dependencies/commons-math3-3.6.1-tests.jar",
     "dependencies/commons-math3-3.6.1-test-sources.jar",
-    "dependencies/commons-math3-3.6.1-tools.jar"
+    "dependencies/commons-math3-3.6.1-tools.jar",
+    "dependencies/Backuop/**/*.jar",
+    "dependencies/backup/**/*.jar"
   ]
 }
