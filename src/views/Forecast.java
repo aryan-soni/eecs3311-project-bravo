@@ -1,3 +1,5 @@
+package views;
+
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -16,19 +18,18 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.Vector;
 
-public class Forecast implements ActionListener {
-    private JFrame frame = new JFrame();
+public class Forecast {
+    public JFrame frame = new JFrame();
     private JPanel north = new JPanel();
     private JPanel mid = new JPanel(new GridLayout(4, 0));
     private JPanel south = new JPanel();
-    private JButton forecastButton = new  JButton("Generate Forecast");
-    private JButton tableButton = new  JButton("Table View");
+    public JButton forecastButton = new JButton("Generate Forecast");
+    public JButton tableButton = new JButton("Table View");
 
     public Forecast() {
         frame.setTitle("Forecast");
 
-        forecastButton.addActionListener(this);
-
+        forecastButton.addActionListener(new controllers.Forecast(this));
 
         JLabel chooseTimeSeriesLabel = new JLabel("Choose a time-series: ");
         Vector<String> timeSeries = new Vector<String>();
@@ -61,13 +62,8 @@ public class Forecast implements ActionListener {
         mid.add(convergenceText);
         mid.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 20));
 
-        tableButton.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                frame.setVisible(false);
-                frame.dispose();
-                new Table();
-            }
-        } );
+        tableButton.addActionListener(new controllers.Forecast(this));
+
         south.add(tableButton);
 
         frame.add(north, BorderLayout.NORTH);
@@ -80,7 +76,8 @@ public class Forecast implements ActionListener {
     }
 
     public ChartPanel forecastGraph() {
-        // THIS WAS SOURCED FROM THE PROFESSORS DEMO WITH PERMISSION. THIS IS SIMPLY A PLACEHOLDER AND WILL NOT BE USED IN THE FINAL APPLICATION
+        // THIS WAS SOURCED FROM THE PROFESSORS DEMO WITH PERMISSION. THIS IS SIMPLY A
+        // PLACEHOLDER AND WILL NOT BE USED IN THE FINAL APPLICATION
 
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
 
@@ -98,20 +95,6 @@ public class Forecast implements ActionListener {
         chartPanel.setBackground(Color.white);
 
         return chartPanel;
-    }
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        JFrame newFrame = new JFrame();
-        JPanel newPanel = new JPanel();
-
-        newPanel.add(forecastGraph());
-
-        newFrame.setTitle("Generated Graph");
-        newFrame.add(newPanel);
-        newFrame.pack();
-        newFrame.setLocationRelativeTo(null);
-        newFrame.setVisible(true);
     }
 
     public static void main(String[] args) {
