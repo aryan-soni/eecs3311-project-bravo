@@ -1,20 +1,23 @@
+package views;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.Vector;
 
-public class Form implements ActionListener {
+public class Form {
     private int rowNum = 9;
     private Font defaultFont = new Font("Arial", Font.PLAIN, 12);
-    private JFrame frame = new JFrame();
-    private JPanel panel = new JPanel(new GridLayout(rowNum, 2));
-    private JButton addButton = new JButton("Add Time-Series");
-    private JButton loadButton = new JButton("Load Data");
-    private JRadioButton provinceOne = new JRadioButton("Province");
-    private JRadioButton cityOne = new JRadioButton("City");
-    private JRadioButton provinceTwo = new JRadioButton("Province");
-    private JRadioButton cityTwo = new JRadioButton("City");
+    public JFrame frame = new JFrame();
+    public JPanel panel = new JPanel(new GridLayout(rowNum, 2));
 
+    public JButton addButton = new JButton("Add Time-Series");
+
+    public JButton loadButton = new JButton("Load Data");
+    public JRadioButton provinceOne = new JRadioButton("Province");
+    public JRadioButton cityOne = new JRadioButton("City");
+    public JRadioButton provinceTwo = new JRadioButton("Province");
+    public JRadioButton cityTwo = new JRadioButton("City");
 
     public Form() {
         frame.setTitle("Input Form");
@@ -27,15 +30,9 @@ public class Form implements ActionListener {
         panel.add(introLabel1);
         panel.add(introLabel2);
 
-        addButton.addActionListener(this);
-        loadButton.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                // TODO: disallow the ability to move on when there is no data present
-                frame.setVisible(false);
-                frame.dispose();
-                new Table();
-            }
-        } );
+        addButton.addActionListener(new controllers.Form(this));
+        loadButton.addActionListener(new controllers.Form(this));
+
         panel.add(addButton);
         panel.add(loadButton);
 
@@ -55,21 +52,9 @@ public class Form implements ActionListener {
 
         panel.add(locationPanelOne);
 
-        provinceOne.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                locationPanelOne.remove(0);
-                locationPanelOne.add(provinces());
-                panel.updateUI();
-            }
-        });
+        provinceOne.addActionListener(new controllers.Form(this, locationPanelOne));
 
-        cityOne.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                locationPanelOne.remove(0);
-                locationPanelOne.add(cities());
-                panel.updateUI();
-            }
-        });
+        cityOne.addActionListener(new controllers.Form(this, locationPanelOne));
 
         ButtonGroup groupTwo = new ButtonGroup();
         groupTwo.add(provinceTwo);
@@ -87,21 +72,8 @@ public class Form implements ActionListener {
 
         panel.add(locationPanelTwo);
 
-        provinceTwo.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                locationPanelTwo.remove(0);
-                locationPanelTwo.add(provinces());
-                panel.updateUI();
-            }
-        });
-
-        cityTwo.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                locationPanelTwo.remove(0);
-                locationPanelTwo.add(cities());
-                panel.updateUI();
-            }
-        });
+        provinceTwo.addActionListener(new controllers.Form(this, locationPanelTwo));
+        cityTwo.addActionListener(new controllers.Form(this, locationPanelTwo));
 
         timeSeriesPanel();
 
@@ -112,15 +84,11 @@ public class Form implements ActionListener {
         frame.setVisible(true);
     }
 
-    public void actionPerformed(ActionEvent e) {
-        timeSeriesPanel();
-        addButton.setEnabled(false);
-    }
-
     public JComboBox<String> provinces() {
         Vector<String> provinces = new Vector<String>();
 
-        // Chosen by grouping the GEO column in the dataset and picking the existing provinces
+        // Chosen by grouping the GEO column in the dataset and picking the existing
+        // provinces
         provinces.add("Alberta");
         provinces.add("British Columbia");
         provinces.add("Manitoba");
@@ -138,7 +106,8 @@ public class Form implements ActionListener {
     public JComboBox<String> cities() {
         Vector<String> cities = new Vector<String>();
 
-        // Chosen by grouping the GEO column in the dataset and picking the existing cities
+        // Chosen by grouping the GEO column in the dataset and picking the existing
+        // cities
         cities.add("Calgary");
         cities.add("Charlottetown");
         cities.add("Edmonton");
@@ -209,4 +178,3 @@ public class Form implements ActionListener {
         new Form();
     }
 }
-

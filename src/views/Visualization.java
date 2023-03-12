@@ -1,3 +1,5 @@
+package views;
+
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -20,21 +22,21 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Visualization implements ActionListener {
-    private JFrame frame = new JFrame();
+public class Visualization {
+    public JFrame frame = new JFrame();
     private JPanel north = new JPanel();
-    private JPanel mid = new JPanel(new GridLayout(1, 0));
+    public JPanel mid = new JPanel(new GridLayout(1, 0));
     private JPanel south = new JPanel();
-    private JButton configureButton = new  JButton("Configure");
-    private JButton tableButton = new  JButton("Table View");
-    private JRadioButton vis1 = new JRadioButton("Visualization One");
+    public JButton configureButton = new JButton("Configure");
+    public JButton tableButton = new JButton("Table View");
+    public JRadioButton vis1 = new JRadioButton("Visualization One");
     private JRadioButton vis2 = new JRadioButton("Visualization Two");
 
     public Visualization() {
         frame.setTitle("Visualizations");
 
-        vis1.addActionListener(this);
-        vis2.addActionListener(this);
+        vis1.addActionListener(new controllers.Visualization(this));
+        vis2.addActionListener(new controllers.Visualization(this));
         vis1.setActionCommand("1");
         vis2.setActionCommand("2");
 
@@ -47,31 +49,10 @@ public class Visualization implements ActionListener {
 
         mid.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 20));
 
-        tableButton.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                frame.setVisible(false);
-                frame.dispose();
-                new Table();
-            }
-        } );
+        tableButton.addActionListener(new controllers.Visualization(this));
 
-        configureButton.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                // configure tab will only show up if there is a visualization selected
-                if (vis1.isSelected() || vis2.isSelected()) {
-                    JFrame newFrame = new JFrame();
-                    JPanel newPanel = new JPanel();
+        configureButton.addActionListener(new controllers.Visualization(this));
 
-                    // TODO: IF NEEDED: add params related to the visualizations chosen
-
-                    newFrame.setTitle("Configure");
-                    newFrame.add(newPanel);
-                    newFrame.pack();
-                    newFrame.setLocationRelativeTo(null);
-                    newFrame.setVisible(true);
-                }
-            }
-        } );
         south.add(configureButton);
         south.add(tableButton);
 
@@ -85,9 +66,11 @@ public class Visualization implements ActionListener {
     }
 
     public void visualizationOne() {
-        // TODO: determine which visualizations we want to show and what the best graph is to do so
+        // TODO: determine which visualizations we want to show and what the best graph
+        // is to do so
 
-        // THIS WAS SOURCED FROM THE PROFESSORS DEMO WITH PERMISSION. THIS IS SIMPLY A PLACEHOLDER AND WILL NOT BE USED IN THE FINAL APPLICATION
+        // THIS WAS SOURCED FROM THE PROFESSORS DEMO WITH PERMISSION. THIS IS SIMPLY A
+        // PLACEHOLDER AND WILL NOT BE USED IN THE FINAL APPLICATION
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
         dataset.setValue(5.6, "Mortality/1000 births", "2018");
         dataset.setValue(5.7, "Mortality/1000 births", "2017");
@@ -149,9 +132,11 @@ public class Visualization implements ActionListener {
     }
 
     public void visualizationTwo() {
-        // TODO: determine which visualizations we want to show and what the best graph is to do so
+        // TODO: determine which visualizations we want to show and what the best graph
+        // is to do so
 
-        // THIS WAS SOURCED FROM THE PROFESSORS DEMO WITH PERMISSION. THIS IS SIMPLY A PLACEHOLDER AND WILL NOT BE USED IN THE FINAL APPLICATION
+        // THIS WAS SOURCED FROM THE PROFESSORS DEMO WITH PERMISSION. THIS IS SIMPLY A
+        // PLACEHOLDER AND WILL NOT BE USED IN THE FINAL APPLICATION
         TimeSeries series1 = new TimeSeries("Mortality/1000 births");
         series1.add(new Year(2018), 5.6);
         series1.add(new Year(2017), 5.7);
@@ -217,31 +202,6 @@ public class Visualization implements ActionListener {
         chartPanel.setBackground(Color.WHITE);
 
         mid.add(chartPanel);
-    }
-
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        if (e.getActionCommand().equals("1")) {
-            try {
-                mid.remove(0);
-                visualizationOne();
-                frame.pack();
-            } catch(IndexOutOfBoundsException x) {
-                visualizationOne();
-                frame.pack();
-            }
-        }
-        else {
-            try {
-                mid.remove(0);
-                visualizationTwo();
-                frame.pack();
-            } catch(IndexOutOfBoundsException x) {
-                visualizationTwo();
-                frame.pack();
-            }
-        }
     }
 
     public static void main(String[] args) {

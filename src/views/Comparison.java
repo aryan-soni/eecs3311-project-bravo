@@ -1,3 +1,5 @@
+package views;
+
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -14,18 +16,19 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.Vector;
 
-public class Comparison implements ActionListener {
-    private JFrame frame = new JFrame();
+public class Comparison {
+    public JFrame frame = new JFrame();
     private JPanel north = new JPanel();
     private JPanel mid = new JPanel(new GridLayout(1, 0));
     private JPanel south = new JPanel();
-    private JButton comparisonButton = new  JButton("Generate Comparison");
-    private JButton tableButton = new  JButton("Table View");
+    public JButton comparisonButton = new JButton("Generate Comparison");
+    public JButton tableButton = new JButton("Table View");
 
     public Comparison() {
         frame.setTitle("Comparison");
 
-        // TODO: add functionality that disallows comparison when there is only 1 time series
+        // TODO: add functionality that disallows comparison when there is only 1 time
+        // series
         JLabel chooseComparisonLabel = new JLabel("Choose a comparison: ");
         Vector<String> comparisons = new Vector<String>();
 
@@ -37,18 +40,13 @@ public class Comparison implements ActionListener {
         north.add(chooseComparisonLabel);
         north.add(comparisonList);
 
-        comparisonButton.addActionListener(this);
+        comparisonButton.addActionListener(new controllers.Comparison(this));
         north.add(comparisonButton);
 
         mid.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 20));
 
-        tableButton.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                frame.setVisible(false);
-                frame.dispose();
-                new Table();
-            }
-        } );
+        tableButton.addActionListener(new controllers.Comparison(this));
+
         south.add(tableButton);
 
         frame.add(north, BorderLayout.NORTH);
@@ -63,7 +61,8 @@ public class Comparison implements ActionListener {
     public void comparisonGraph() {
         // TODO: after determining which comparisons we are querying, display them
 
-        // THIS WAS SOURCED FROM THE PROFESSORS DEMO WITH PERMISSION. THIS IS SIMPLY A PLACEHOLDER AND WILL NOT BE USED IN THE FINAL APPLICATION
+        // THIS WAS SOURCED FROM THE PROFESSORS DEMO WITH PERMISSION. THIS IS SIMPLY A
+        // PLACEHOLDER AND WILL NOT BE USED IN THE FINAL APPLICATION
         XYSeries series1 = new XYSeries("Mortality/1000 births");
         series1.add(2018, 5.6);
         series1.add(2017, 5.7);
@@ -133,14 +132,6 @@ public class Comparison implements ActionListener {
         if (mid.getComponentCount() == 0) {
             mid.add(chartPanel);
         }
-    }
-
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        // TODO: after comparisons are made, this action listener should pick which one to display
-        comparisonGraph();
-        frame.pack();
     }
 
     public static void main(String[] args) {
