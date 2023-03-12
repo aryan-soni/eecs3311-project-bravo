@@ -1,13 +1,16 @@
 package models;
+
 import weka.classifiers.evaluation.NumericPrediction;
 import weka.classifiers.functions.GaussianProcesses;
-
 import weka.classifiers.timeseries.WekaForecaster;
 import weka.core.Instances;
 import weka.core.converters.ArffSaver;
 import weka.core.converters.CSVLoader;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.PrintStream;
 import java.util.List;
 
 // Notes: Size limit on the dataset, possibly filter this with IO
