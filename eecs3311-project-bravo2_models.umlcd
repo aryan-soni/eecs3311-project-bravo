@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_1oWukLLqEe2b884QLJWpAA">
+  <modelElement href="eecs3311-project-bravo2.uml#_1EMRkLLqEe2b884QLJWpAA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_18tN8LLqEe2b884QLJWpAA" source="_18ucGrLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JOikLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_19qQMbLqEe2b884QLJWpAA" position="310.0,310.0"/>
+    <stereotypes xmi:id="_18t1A7LqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JOikrLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_18t1ALLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_18t1AbLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JOikbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_18t1BbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_18t1BLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_18t1ArLqEe2b884QLJWpAA" aggregationKind="NONE" name="tSeries" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IvaYbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_18t1B7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_18t1BrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_18ucEbLqEe2b884QLJWpAA" sourceAnchor="469.0,0.0" targetAnchor="0.0,87.0" target="_18ytgLLqEe2b884QLJWpAA" source="_18ucGrLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JNUcLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_19qQMLLqEe2b884QLJWpAA" position="290.0,290.0"/>
+    <bendpoints xmi:id="_J6z7ILLrEe2b884QLJWpAA" sourceY="-142" targetX="-539"/>
+    <stereotypes xmi:id="_18ucErLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JN7gLLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_18ucE7LqEe2b884QLJWpAA" text="">
+      <visualProperties xmi:id="_2IdK8LLqEe2b884QLJWpAA" position="231.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_18ucFLLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JNUcbLqEe2b884QLJWpAA"/>
+      <visualProperties xmi:id="_2Icj47LqEe2b884QLJWpAA" position="-18.0,-46.0"/>
+      <visibility xmi:id="_18ucFbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_18ucFrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_18ucF7LqEe2b884QLJWpAA" aggregationKind="NONE" name="inputLocation" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IuzULLqEe2b884QLJWpAA"/>
+      <visualProperties xmi:id="_2IdK8bLqEe2b884QLJWpAA" position="-90.0,0.9999999999999432"/>
+      <visibility xmi:id="_18ucGLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_18ucGbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_19U5ALLqEe2b884QLJWpAA" sourceAnchor="0.0,65.0" targetAnchor="299.0,90.0" dashed="true" superClass="_19ScwLLqEe2b884QLJWpAA" subClass="_19WHILLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1IAakbLqEe2b884QLJWpAA"/>
+    <bendpoints xmi:id="_J60iNLLrEe2b884QLJWpAA" sourceX="-481" targetY="201"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_19c00LLqEe2b884QLJWpAA" sourceAnchor="0.0,46.0" targetAnchor="113.0,119.0" superClass="_19eqALLqEe2b884QLJWpAA" subClass="_19QAgLLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1H8wMLLqEe2b884QLJWpAA"/>
+    <bendpoints xmi:id="_J60iMrLrEe2b884QLJWpAA" sourceX="-194" sourceY="-1" targetX="1" targetY="99"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_19c00bLqEe2b884QLJWpAA" source="_19eqALLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JOik7LqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_19q3QLLqEe2b884QLJWpAA" position="330.0,330.0"/>
+    <stereotypes xmi:id="_19eC8rLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JPJoLLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_19db4bLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_19eC8LLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JOilLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19eC-LLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19eC97LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_19eC8bLqEe2b884QLJWpAA" aggregationKind="NONE" name="entries" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IxPlbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19eC-rLqEe2b884QLJWpAA" label="~"/>
+      <cardinality xmi:id="_19eC-bLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_19db4LLqEe2b884QLJWpAA" source="_19eqALLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JPJobLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_19q3QbLqEe2b884QLJWpAA" position="350.0,350.0"/>
+    <stereotypes xmi:id="_19eC9rLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JPJo7LqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_19eC87LqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_19eC9LLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JPJorLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19eC_rLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19eC_bLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_19eC9bLqEe2b884QLJWpAA" aggregationKind="NONE" name="table" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Ix2orLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19eDALLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19eC_7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_19hGQLLqEe2b884QLJWpAA" source="_19i7cLLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JPJpLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_19q3QrLqEe2b884QLJWpAA" position="370.0,370.0"/>
+    <stereotypes xmi:id="_19iUYLLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JPJprLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_19htUbLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_19htUrLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JPJpbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19iUZrLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19iUZbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_19htU7LqEe2b884QLJWpAA" aggregationKind="NONE" name="start" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IydsrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19iUaLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19iUZ7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_19htULLqEe2b884QLJWpAA" source="_19i7cLLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JPwsLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_19q3Q7LqEe2b884QLJWpAA" position="390.0,390.0"/>
+    <stereotypes xmi:id="_19iUZLLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JPwsrLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_19iUYbLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_19iUYrLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JPwsbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19iUa7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19iUarLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_19iUY7LqEe2b884QLJWpAA" aggregationKind="NONE" name="end" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IydtLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19iUbbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19iUbLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_19kJkLLqEe2b884QLJWpAA" sourceAnchor="251.0,0.0" targetAnchor="239.0,71.0" dashed="true" superClass="_19kwoLLqEe2b884QLJWpAA" subClass="_19J54LLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1H7iELLqEe2b884QLJWpAA"/>
+    <bendpoints xmi:id="_J60iMLLrEe2b884QLJWpAA" sourceY="-20" targetX="-780" targetY="34"/>
+    <bendpoints xmi:id="_J60iMbLrEe2b884QLJWpAA" sourceX="780" sourceY="-19" targetY="35"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_19l-wLLqEe2b884QLJWpAA" sourceAnchor="361.0,76.0" targetAnchor="190.0,71.0" dashed="true" superClass="_18pjkLLqEe2b884QLJWpAA" subClass="_19nM4LLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1IF6ILLqEe2b884QLJWpAA"/>
+    <bendpoints xmi:id="_J60iM7LrEe2b884QLJWpAA" sourceX="441" targetX="1" targetY="131"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_18pjkLLqEe2b884QLJWpAA" name="Comparison" subclassedBy="_19l-wLLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FDNMbLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_18pjkbLqEe2b884QLJWpAA" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_18pjkrLqEe2b884QLJWpAA" label="+"/>
+    <operations xmi:id="_18pjk7LqEe2b884QLJWpAA" name="compare">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IY1EbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_18pjlLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_18pjlbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_18pjlrLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IY1FLLqEe2b884QLJWpAA"/>
+        <type xmi:id="_18pjl7LqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_18pjmLLqEe2b884QLJWpAA" name="geoAnhpi">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IY1ErLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_18pjmbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_18pjmrLqEe2b884QLJWpAA" name="ArrayList">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_18pjm7LqEe2b884QLJWpAA" name="geoBnhpi">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IY1E7LqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_18pjnLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_18pjnbLqEe2b884QLJWpAA" name="ArrayList">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_18ucGrLqEe2b884QLJWpAA" name="Form" associationsOut="_18tN8LLqEe2b884QLJWpAA _18ucEbLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FD0QLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_18ucG7LqEe2b884QLJWpAA" position="-1383.0,-193.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_18ucHLLqEe2b884QLJWpAA" label="+"/>
+    <attributes xmi:id="_18ucHbLqEe2b884QLJWpAA" name="inputLocation">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IuzULLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_18ucHrLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IvaYLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_18ucH7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_18ucILLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_18ucIbLqEe2b884QLJWpAA" name="Location">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FFCYLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_18ucIrLqEe2b884QLJWpAA" name="tSeries">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IvaYbLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_18ucI7LqEe2b884QLJWpAA" name="Generics">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IvaYrLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_18ucJLLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IvaY7LqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_18ucJbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_18ucJrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_18ucJ7LqEe2b884QLJWpAA" name="ArrayList">
+        <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_18ucKLLqEe2b884QLJWpAA" name="Form">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IaDMLLqEe2b884QLJWpAA"/>
+      <keywords xmi:id="_18ucKbLqEe2b884QLJWpAA" keyword="create"/>
+      <visibility xmi:id="_18ucKrLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_18ucK7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_18vDILLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IaDO7LqEe2b884QLJWpAA"/>
+        <type xmi:id="_18vDIbLqEe2b884QLJWpAA" name="Form">
+          <modelElement href="eecs3311-project-bravo2.uml#_1FD0QLLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_18vDIrLqEe2b884QLJWpAA" name="isGeoACity">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IaDMbLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_18vDI7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_18vDJLLqEe2b884QLJWpAA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_18vDJbLqEe2b884QLJWpAA" name="isGeoBCity">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IaDMrLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_18vDJrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_18vDJ7LqEe2b884QLJWpAA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_18vDKLLqEe2b884QLJWpAA" name="provinceA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IaDM7LqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_18vDKbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_18vDKrLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_18vDK7LqEe2b884QLJWpAA" name="provinceB">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IaDNLLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_18vDLLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_18vDLbLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_18vDLrLqEe2b884QLJWpAA" name="cityA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IaDNbLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_18vDL7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_18vDMLLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_18vDMbLqEe2b884QLJWpAA" name="cityB">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IaDNrLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_18vDMrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_18vDM7LqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_18vDNLLqEe2b884QLJWpAA" name="isMonths">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IaDN7LqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_18vDNbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_18vDNrLqEe2b884QLJWpAA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_18vDN7LqEe2b884QLJWpAA" name="dateList">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IaDOLLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_18vDOLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_18vDObLqEe2b884QLJWpAA" name="ArrayList">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_18ytgLLqEe2b884QLJWpAA" name="Location" associationsIn="_18ucEbLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FFCYLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_18ytgbLqEe2b884QLJWpAA" position="-374.0,-423.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_18ytgrLqEe2b884QLJWpAA" label="+"/>
+    <attributes xmi:id="_18ytg7LqEe2b884QLJWpAA" name="isGeoACity">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IwBcLLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_18ythLLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IwBcbLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_18ythbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_18ythrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_18yth7LqEe2b884QLJWpAA" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_18ytiLLqEe2b884QLJWpAA" name="isGeoBCity">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IwBcrLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_18ytibLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IwBc7LqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_18ytirLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_18yti7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_18ytjLLqEe2b884QLJWpAA" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_18ytjbLqEe2b884QLJWpAA" name="cityA">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IwBdLLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_18ytjrLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IwBdbLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_18ytj7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_18ytkLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_18ytkbLqEe2b884QLJWpAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_18ytkrLqEe2b884QLJWpAA" name="provinceA">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IwBdrLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_18ytk7LqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IwogLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_18ytlLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_18ytlbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_18ytlrLqEe2b884QLJWpAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_18ytl7LqEe2b884QLJWpAA" name="cityB">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IwogbLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_18ytmLLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IwogrLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_18ytmbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_18ytmrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_18ytm7LqEe2b884QLJWpAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_18ytnLLqEe2b884QLJWpAA" name="provinceB">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Iwog7LqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_18ytnbLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IwohLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_18ytnrLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_18ytn7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_18ytoLLqEe2b884QLJWpAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_18ytobLqEe2b884QLJWpAA" name="Location">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FGQgLLqEe2b884QLJWpAA"/>
+      <keywords xmi:id="_18ytorLqEe2b884QLJWpAA" keyword="create"/>
+      <visibility xmi:id="_18yto7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_18ytpLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_18ytpbLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FGQibLqEe2b884QLJWpAA"/>
+        <type xmi:id="_18ytprLqEe2b884QLJWpAA" name="Location">
+          <modelElement href="eecs3311-project-bravo2.uml#_1FFCYLLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_18ytp7LqEe2b884QLJWpAA" name="isGeoACity">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FGQgbLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_18ytqLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_18ytqbLqEe2b884QLJWpAA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_18ytqrLqEe2b884QLJWpAA" name="isGeoBCity">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FGQgrLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_18ytq7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_18ytrLLqEe2b884QLJWpAA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_18ytrbLqEe2b884QLJWpAA" name="provinceA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FGQg7LqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_18ytrrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_18ytr7LqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_18ytsLLqEe2b884QLJWpAA" name="provinceB">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FGQhLLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_18ytsbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_18ytsrLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_18yts7LqEe2b884QLJWpAA" name="cityA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FGQhbLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_18yttLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_18yttbLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_18yttrLqEe2b884QLJWpAA" name="cityB">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FGQhrLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_18ytt7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_18ytuLLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_19J54LLqEe2b884QLJWpAA" name="PlotVisualization" generalizations="_19kJkLLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FG3kLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_19J54bLqEe2b884QLJWpAA" position="-1165.0,-29.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_19J54rLqEe2b884QLJWpAA" label="+"/>
+    <operations xmi:id="_19J547LqEe2b884QLJWpAA" name="main" staticOperation="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FIFsLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19J55LLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19J55bLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_19J55rLqEe2b884QLJWpAA" name="args">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FIFsbLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19J557LqEe2b884QLJWpAA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_19J56LLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_19J56bLqEe2b884QLJWpAA" name="prepVisuals">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IaqQbLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_19J56rLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IbRVLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_19J567LqEe2b884QLJWpAA" name="Annotations">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IcfcLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_19J57LLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19J57bLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_19J57rLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IbRU7LqEe2b884QLJWpAA"/>
+        <type xmi:id="_19J577LqEe2b884QLJWpAA" name="ChartPanel">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H5s5LLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_19J58LLqEe2b884QLJWpAA" name="dataA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IbRULLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19J58bLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19J58rLqEe2b884QLJWpAA" name="ArrayList">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_19J587LqEe2b884QLJWpAA" name="dataB">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IbRUbLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19J59LLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19J59bLqEe2b884QLJWpAA" name="ArrayList">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_19J59rLqEe2b884QLJWpAA" name="Month">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IbRUrLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19J597LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19J5-LLqEe2b884QLJWpAA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_19MWILLqEe2b884QLJWpAA" name="QueryResult">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FIswLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_19MWIbLqEe2b884QLJWpAA" position="-1168.0,124.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_19MWIrLqEe2b884QLJWpAA" label="+"/>
+    <attributes xmi:id="_19MWI7LqEe2b884QLJWpAA" name="location">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IwohbLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_19MWJLLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IxPkLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_19MWJbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19MWJrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_19MWJ7LqEe2b884QLJWpAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_19MWKLLqEe2b884QLJWpAA" name="NHPIIndexValue">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IxPkbLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_19MWKbLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IxPkrLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_19MWKrLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19MWK7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_19MWLLLqEe2b884QLJWpAA" name="Double">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Icfc7LqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_19MWLbLqEe2b884QLJWpAA" name="date">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IxPk7LqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_19MWLrLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IxPlLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_19MWL7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19MWMLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_19MWMbLqEe2b884QLJWpAA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_19MWMrLqEe2b884QLJWpAA" name="QueryResult">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IdGgbLqEe2b884QLJWpAA"/>
+      <keywords xmi:id="_19MWM7LqEe2b884QLJWpAA" keyword="create"/>
+      <visibility xmi:id="_19MWNLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19MWNbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_19MWNrLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IdGh7LqEe2b884QLJWpAA"/>
+        <type xmi:id="_19MWN7LqEe2b884QLJWpAA" name="QueryResult">
+          <modelElement href="eecs3311-project-bravo2.uml#_1FIswLLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_19MWOLLqEe2b884QLJWpAA" name="location">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IdGgrLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19MWObLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19MWOrLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_19MWO7LqEe2b884QLJWpAA" name="NHPIIndexValue">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IdGg7LqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19MWPLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19MWPbLqEe2b884QLJWpAA" name="Double">
+          <modelElement href="eecs3311-project-bravo2.uml#_1Icfc7LqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_19MWPrLqEe2b884QLJWpAA" name="date">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IdGhLLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19MWP7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19MWQLLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_19QAgLLqEe2b884QLJWpAA" name="RawTable" generalizations="_19c00LLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FJ64LLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_19QAgbLqEe2b884QLJWpAA" position="-1512.0,-34.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_19QAgrLqEe2b884QLJWpAA" label="+"/>
+    <operations xmi:id="_19QAg7LqEe2b884QLJWpAA" name="populateTable">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FKh8LLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_19QAhLLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FKh8bLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_19QAhbLqEe2b884QLJWpAA" name="Annotations">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FLJALLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_19QAhrLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19QAh7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_19QAiLLqEe2b884QLJWpAA" name="main" staticOperation="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FLJArLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19QAibLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19QAirLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_19QAi7LqEe2b884QLJWpAA" name="args">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FLJA7LqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19QAjLLqEe2b884QLJWpAA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_19QAjbLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_19QAjrLqEe2b884QLJWpAA" name="RawTable">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IdtkLLqEe2b884QLJWpAA"/>
+      <keywords xmi:id="_19QAj7LqEe2b884QLJWpAA" keyword="create"/>
+      <visibility xmi:id="_19QAkLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19QAkbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_19QAkrLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IdtlLLqEe2b884QLJWpAA"/>
+        <type xmi:id="_19QAk7LqEe2b884QLJWpAA" name="RawTable">
+          <modelElement href="eecs3311-project-bravo2.uml#_1FJ64LLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_19QAlLLqEe2b884QLJWpAA" name="entries">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IdtkbLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19QAlbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19QAlrLqEe2b884QLJWpAA" name="ArrayList">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_19ScwLLqEe2b884QLJWpAA" name="RealEstateData" subclassedBy="_19U5ALLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FLwELLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_19ScwbLqEe2b884QLJWpAA" position="-1905.0,168.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_19ScwrLqEe2b884QLJWpAA" label="+"/>
+    <operations xmi:id="_19Scw7LqEe2b884QLJWpAA" name="connectToDB">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FLwEbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19ScxLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19ScxbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_19ScxrLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IeUo7LqEe2b884QLJWpAA"/>
+        <type xmi:id="_19Scx7LqEe2b884QLJWpAA" name="Object">
+          <modelElement href="eecs3311-project-bravo2.uml#_1IeUobLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_19ScyLLqEe2b884QLJWpAA" name="returnData">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FMXILLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_19ScybLqEe2b884QLJWpAA" name="Generics">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FM-MLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_19ScyrLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19Scy7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_19SczLLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ie7sbLqEe2b884QLJWpAA"/>
+        <type xmi:id="_19SczbLqEe2b884QLJWpAA" name="ArrayList">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_19SczrLqEe2b884QLJWpAA" name="location">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FMXIbLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19Scz7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19Sc0LLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_19Sc0bLqEe2b884QLJWpAA" name="dateA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FMXIrLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19Sc0rLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19Sc07LqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_19Sc1LLqEe2b884QLJWpAA" name="dateB">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FMXI7LqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19Sc1bLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19Sc1rLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_19Sc17LqEe2b884QLJWpAA" name="goingByMonths">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FMXJLLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19Sc2LLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19Sc2bLqEe2b884QLJWpAA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_19eqALLqEe2b884QLJWpAA" name="Table" abstractClass="true" associationsOut="_19c00bLqEe2b884QLJWpAA _19db4LLqEe2b884QLJWpAA" subclassedBy="_19c00LLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FQBgLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_19eqAbLqEe2b884QLJWpAA" position="-1820.0,-207.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_19eqArLqEe2b884QLJWpAA" label="+"/>
+    <attributes xmi:id="_19eqA7LqEe2b884QLJWpAA" name="entries">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IxPlbLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_19eqBLLqEe2b884QLJWpAA" name="Generics">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ix2oLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_19eqBbLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ix2obLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_19eqBrLqEe2b884QLJWpAA" label="~"/>
+      <cardinality xmi:id="_19eqB7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_19eqCLLqEe2b884QLJWpAA" name="ArrayList">
+        <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_19eqCbLqEe2b884QLJWpAA" name="table">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Ix2orLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_19eqCrLqEe2b884QLJWpAA" name="Generics">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ix2o7LqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_19eqC7LqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ix2pLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_19eqDLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19eqDbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_19eqDrLqEe2b884QLJWpAA" name="ArrayList">
+        <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_19eqD7LqEe2b884QLJWpAA" abstractOperation="true" name="populateTable">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FQokLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19eqELLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19eqEbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_19eqErLqEe2b884QLJWpAA" name="Table">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IgJ0LLqEe2b884QLJWpAA"/>
+      <keywords xmi:id="_19eqE7LqEe2b884QLJWpAA" keyword="create"/>
+      <visibility xmi:id="_19eqFLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19eqFbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_19eqFrLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IgJ1LLqEe2b884QLJWpAA"/>
+        <type xmi:id="_19eqF7LqEe2b884QLJWpAA" name="Table">
+          <modelElement href="eecs3311-project-bravo2.uml#_1FQBgLLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_19eqGLLqEe2b884QLJWpAA" name="entries">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IgJ0bLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19eqGbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19eqGrLqEe2b884QLJWpAA" name="ArrayList">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_19i7cLLqEe2b884QLJWpAA" name="TimeSeries" associationsOut="_19hGQLLqEe2b884QLJWpAA _19htULLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FRPoLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_19i7cbLqEe2b884QLJWpAA" position="-563.0,-19.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_19i7crLqEe2b884QLJWpAA" label="+"/>
+    <attributes xmi:id="_19i7c7LqEe2b884QLJWpAA" name="isGranularByMonths">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IydsLLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_19i7dLLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IydsbLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_19i7dbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19i7drLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_19i7d7LqEe2b884QLJWpAA" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_19i7eLLqEe2b884QLJWpAA" name="start">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IydsrLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_19i7ebLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Iyds7LqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_19i7erLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19i7e7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_19i7fLLqEe2b884QLJWpAA" name="LocalDate">
+        <modelElement href="eecs3311-project-bravo2.uml#_1H00YbLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_19i7fbLqEe2b884QLJWpAA" name="end">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IydtLLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_19i7frLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IydtbLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_19i7f7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19i7gLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_19i7gbLqEe2b884QLJWpAA" name="LocalDate">
+        <modelElement href="eecs3311-project-bravo2.uml#_1H00YbLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_19i7grLqEe2b884QLJWpAA" name="TimeSeries">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Igw4bLqEe2b884QLJWpAA"/>
+      <keywords xmi:id="_19i7g7LqEe2b884QLJWpAA" keyword="create"/>
+      <visibility xmi:id="_19i7hLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19i7hbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_19i7hrLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IhX9bLqEe2b884QLJWpAA"/>
+        <type xmi:id="_19i7h7LqEe2b884QLJWpAA" name="TimeSeries">
+          <modelElement href="eecs3311-project-bravo2.uml#_1FRPoLLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_19i7iLLqEe2b884QLJWpAA" name="isGranularByMonths">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IhX8LLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19i7ibLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19i7irLqEe2b884QLJWpAA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_19i7i7LqEe2b884QLJWpAA" name="start">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IhX8bLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19i7jLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19i7jbLqEe2b884QLJWpAA" name="LocalDate">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H00YbLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_19i7jrLqEe2b884QLJWpAA" name="end">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IhX8rLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19i7j7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19i7kLLqEe2b884QLJWpAA" name="LocalDate">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H00YbLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_19kwoLLqEe2b884QLJWpAA" name="Visualization" subclassedBy="_19kJkLLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FSdwLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_19kwobLqEe2b884QLJWpAA" position="-373.0,-155.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_19kworLqEe2b884QLJWpAA" label="+"/>
+    <operations xmi:id="_19kwo7LqEe2b884QLJWpAA" name="prepVisuals">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IhX9rLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19kwpLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19kwpbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_19kwprLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ih_ArLqEe2b884QLJWpAA"/>
+        <type xmi:id="_19kwp7LqEe2b884QLJWpAA" name="ChartPanel">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H5s5LLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_19kwqLLqEe2b884QLJWpAA" name="dataA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IhX97LqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19kwqbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19kwqrLqEe2b884QLJWpAA" name="ArrayList">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_19kwq7LqEe2b884QLJWpAA" name="dataB">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ih_ALLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19kwrLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19kwrbLqEe2b884QLJWpAA" name="ArrayList">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_19kwrrLqEe2b884QLJWpAA" name="Month">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ih_AbLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19kwr7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19kwsLLqEe2b884QLJWpAA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_19nM4LLqEe2b884QLJWpAA" name="nhpiComparison" generalizations="_19l-wLLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FTE0LLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_19nM4bLqEe2b884QLJWpAA" position="-561.0,176.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_19nM4rLqEe2b884QLJWpAA" name="Patch">
+      <modelElement href="eecs3311-project-bravo2.uml#_1n4NcLLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <visibility xmi:id="_19nM47LqEe2b884QLJWpAA" label="+"/>
+    <attributes xmi:id="_19nM5LLqEe2b884QLJWpAA" defaultValue="0.5" name="ALPHA">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IydtrLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_19nM5bLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IzEwbLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_19nM5rLqEe2b884QLJWpAA" label="~"/>
+      <cardinality xmi:id="_19nM57LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_19nM6LLqEe2b884QLJWpAA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_19nM6bLqEe2b884QLJWpAA" name="nhpiComparison">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FTr4LLqEe2b884QLJWpAA"/>
+      <keywords xmi:id="_19nM6rLqEe2b884QLJWpAA" keyword="create"/>
+      <stereotypes xmi:id="_19nM67LqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FTr47LqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_19nM7LLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19nM7bLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_19nM7rLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FTr5LLqEe2b884QLJWpAA"/>
+        <type xmi:id="_19nM77LqEe2b884QLJWpAA" name="nhpiComparison">
+          <modelElement href="eecs3311-project-bravo2.uml#_1FTE0LLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_19nM8LLqEe2b884QLJWpAA" name="main" staticOperation="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FUS8LLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19nM8bLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19nM8rLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_19nM87LqEe2b884QLJWpAA" name="args">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FUS8bLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19nM9LLqEe2b884QLJWpAA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_19nM9bLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_19nM9rLqEe2b884QLJWpAA" name="compare">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IimELLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_19nM97LqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IimFLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_19nM-LLqEe2b884QLJWpAA" name="Annotations">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ij0MLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_19nM-bLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19nM-rLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_19nM-7LqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IimE7LqEe2b884QLJWpAA"/>
+        <type xmi:id="_19nM_LLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_19nM_bLqEe2b884QLJWpAA" name="geoA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IimEbLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19nM_rLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19nM_7LqEe2b884QLJWpAA" name="ArrayList">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_19nNALLqEe2b884QLJWpAA" name="geoB">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IimErLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19nNAbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19nNArLqEe2b884QLJWpAA" name="ArrayList">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_19nNA7LqEe2b884QLJWpAA" name="convert">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Ij0MrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19nNBLLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_19nNBbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_19nNBrLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ij0NLLqEe2b884QLJWpAA"/>
+        <type xmi:id="_19nNB7LqEe2b884QLJWpAA" name="SummaryStatistics">
+          <modelElement href="eecs3311-project-bravo2.uml#_1IFTEbLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_19nNCLLqEe2b884QLJWpAA" name="x">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ij0M7LqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19nNCbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19nNCrLqEe2b884QLJWpAA" name="ArrayList">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_19WHILLqEe2b884QLJWpAA" name="SQLRealEstateData" generalizations="_19U5ALLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FNlQLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_19WHIbLqEe2b884QLJWpAA" position="-1125.0,394.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_19WHIrLqEe2b884QLJWpAA" label="+"/>
+    <operations xmi:id="_19WHI7LqEe2b884QLJWpAA" name="connectToDB">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FNlQbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19WHJLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19WHJbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_19WHJrLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IfiwLLqEe2b884QLJWpAA"/>
+        <type xmi:id="_19WHJ7LqEe2b884QLJWpAA" name="Connection">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H9XQLLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_19WHKLLqEe2b884QLJWpAA" name="returnData">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FOMULLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_19WHKbLqEe2b884QLJWpAA" name="Generics">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FOzYLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_19WHKrLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19WHK7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_19WHLLLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IfiwbLqEe2b884QLJWpAA"/>
+        <type xmi:id="_19WHLbLqEe2b884QLJWpAA" name="ArrayList">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_19WHLrLqEe2b884QLJWpAA" name="location">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FOMUbLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19WHL7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19WHMLLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_19WHMbLqEe2b884QLJWpAA" name="dateA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FOMUrLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19WHMrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19WHM7LqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_19WHNLLqEe2b884QLJWpAA" name="dateB">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FOMU7LqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19WHNbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19WHNrLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_19WHN7LqEe2b884QLJWpAA" name="goingByMonths">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FOMVLLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19WHOLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19WHObLqEe2b884QLJWpAA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_19WHOrLqEe2b884QLJWpAA" name="main" staticOperation="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FOzYbLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_19WHO7LqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FOzY7LqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_19WHPLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19WHPbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_19WHPrLqEe2b884QLJWpAA" name="args">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FOzYrLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19WHP7LqEe2b884QLJWpAA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_19WHQLLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_19WHQbLqEe2b884QLJWpAA" name="testingMethod" staticOperation="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IBBoLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19WHQrLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19WHQ7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_19WHRLLqEe2b884QLJWpAA" name="testForm">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IBBobLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19WHRbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19WHRrLqEe2b884QLJWpAA" name="Form">
+          <modelElement href="eecs3311-project-bravo2.uml#_1FD0QLLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_19WHR7LqEe2b884QLJWpAA" name="csvDateConverter" staticOperation="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Ie7srLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_19WHSLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_19WHSbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_19WHSrLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ie7tLLqEe2b884QLJWpAA"/>
+        <type xmi:id="_19WHS7LqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_19WHTLLqEe2b884QLJWpAA" name="date">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ie7s7LqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_19WHTbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_19WHTrLqEe2b884QLJWpAA" name="LocalDate">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H00YbLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

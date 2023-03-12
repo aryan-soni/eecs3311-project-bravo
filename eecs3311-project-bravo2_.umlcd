@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_1n7QwLLqEe2b884QLJWpAA">
+  <modelElement href="eecs3311-project-bravo2.uml#_0-YkgLLqEe2b884QLJWpAA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1s2NALLqEe2b884QLJWpAA" source="_1s5QULLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JPws7LqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t7LELLqEe2b884QLJWpAA" position="150.0,150.0"/>
+    <stereotypes xmi:id="_1s2NAbLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JPwtbLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1s2NArLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1s2NA7LqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JPwtLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1s2NBLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1s2NBbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1s2NBrLqEe2b884QLJWpAA" aggregationKind="NONE" name="frame" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IzEwrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1s2NB7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1s2NCLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1s20ELLqEe2b884QLJWpAA" source="_1s5QULLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JPwtrLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t7LEbLqEe2b884QLJWpAA" position="170.0,170.0"/>
+    <stereotypes xmi:id="_1s20EbLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JQXwLLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1s20ErLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1s20E7LqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JPwt7LqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1s20FLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1s20FbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1s20FrLqEe2b884QLJWpAA" aggregationKind="NONE" name="north" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IzExbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1s20F7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1s20GLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1s3bILLqEe2b884QLJWpAA" source="_1s5QULLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JQXwbLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t7LErLqEe2b884QLJWpAA" position="190.0,190.0"/>
+    <stereotypes xmi:id="_1s3bIbLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JQXw7LqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1s3bIrLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1s3bI7LqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JQXwrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1s3bJLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1s3bJbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1s3bJrLqEe2b884QLJWpAA" aggregationKind="NONE" name="mid" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Izr0bLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1s3bJ7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1s3bKLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1s4CMLLqEe2b884QLJWpAA" source="_1s5QULLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JQXxLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t7LE7LqEe2b884QLJWpAA" position="210.0,210.0"/>
+    <stereotypes xmi:id="_1s4CMbLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JQXxrLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1s4CMrLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1s4CM7LqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JQXxbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1s4CNLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1s4CNbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1s4CNrLqEe2b884QLJWpAA" aggregationKind="NONE" name="south" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Izr1LLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1s4CN7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1s4COLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1s4pQLLqEe2b884QLJWpAA" source="_1s5QULLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JQXx7LqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t7yILLqEe2b884QLJWpAA" position="230.0,230.0"/>
+    <stereotypes xmi:id="_1s4pQbLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JQ-0LLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1s4pQrLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1s4pQ7LqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JQXyLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1s4pRLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1s4pRbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1s4pRrLqEe2b884QLJWpAA" aggregationKind="NONE" name="comparisonButton" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Izr17LqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1s4pR7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1s4pSLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1s4pSbLqEe2b884QLJWpAA" source="_1s5QULLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JQ-0bLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t7yIbLqEe2b884QLJWpAA" position="250.0,250.0"/>
+    <stereotypes xmi:id="_1s4pSrLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JQ-07LqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1s4pS7LqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1s4pTLLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JQ-0rLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1s4pTbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1s4pTrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1s4pT7LqEe2b884QLJWpAA" aggregationKind="NONE" name="tableButton" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I0S4rLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1s4pULLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1s4pUbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tLkMLLqEe2b884QLJWpAA" source="_1tQcsLLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JQ-1LLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t7yIrLqEe2b884QLJWpAA" position="270.0,270.0"/>
+    <stereotypes xmi:id="_1tNZYbLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JQ-1rLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tMyULLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tMyUbLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JQ-1bLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tOngbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tOngLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tNZYLLqEe2b884QLJWpAA" aggregationKind="NONE" name="frame" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I0S5bLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tOng7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tOngrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tLkMbLqEe2b884QLJWpAA" source="_1tQcsLLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JQ-17LqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t7yI7LqEe2b884QLJWpAA" position="290.0,290.0"/>
+    <stereotypes xmi:id="_1tNZZbLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JRl4LLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tNZYrLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tNZY7LqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JQ-2LLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tOnhrLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tOnhbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tNZZLLqEe2b884QLJWpAA" aggregationKind="NONE" name="north" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I058LLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tOniLLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tOnh7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tLkMrLqEe2b884QLJWpAA" source="_1tQcsLLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JRl4bLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t7yJLLqEe2b884QLJWpAA" position="310.0,310.0"/>
+    <stereotypes xmi:id="_1tNZabLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JRl47LqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tNZZrLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tNZZ7LqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JRl4rLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tOni7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tOnirLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tNZaLLqEe2b884QLJWpAA" aggregationKind="NONE" name="mid" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I0587LqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tOnjbLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tOnjLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tLkM7LqEe2b884QLJWpAA" source="_1tQcsLLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JRl5LLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t7yJbLqEe2b884QLJWpAA" position="330.0,330.0"/>
+    <stereotypes xmi:id="_1tOAcrLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JSM8LLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tNZarLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tOAcLLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JRl5bLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tOnkLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tOnj7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tOAcbLqEe2b884QLJWpAA" aggregationKind="NONE" name="south" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I059rLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tPOkbLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tPOkLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tLkNLLqEe2b884QLJWpAA" source="_1tQcsLLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JSM8bLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t7yJrLqEe2b884QLJWpAA" position="350.0,350.0"/>
+    <stereotypes xmi:id="_1tOAdrLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JSM87LqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tOAc7LqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tOAdLLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JSM8rLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tPOlLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tPOk7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tOAdbLqEe2b884QLJWpAA" aggregationKind="NONE" name="forecastButton" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I1hALLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tPOlrLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tPOlbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tLkNbLqEe2b884QLJWpAA" source="_1tQcsLLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JSM9LLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t8ZMLLqEe2b884QLJWpAA" position="370.0,370.0"/>
+    <stereotypes xmi:id="_1tOAerLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JSM9rLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tOAd7LqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tOAeLLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JSM9bLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tPOmbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tPOmLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tOAebLqEe2b884QLJWpAA" aggregationKind="NONE" name="tableButton" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I1hA7LqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tPOm7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tPOmrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tVVMLLqEe2b884QLJWpAA" source="_1ta00rLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JS0ArLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t8ZMrLqEe2b884QLJWpAA" position="410.0,410.0"/>
+    <stereotypes xmi:id="_1tXKY7LqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JS0BLLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tXKYLLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tXKYbLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JS0A7LqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tXxerLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tXxebLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tXKYrLqEe2b884QLJWpAA" aggregationKind="NONE" name="frame" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I2IFLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tYYgLLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tXxe7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tVVMbLqEe2b884QLJWpAA" source="_1ta00rLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JS0BbLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t8ZM7LqEe2b884QLJWpAA" position="430.0,430.0"/>
+    <stereotypes xmi:id="_1tXxcLLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JTbELLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tXKZLLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tXKZbLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JS0BrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tYYg7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tYYgrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tXKZrLqEe2b884QLJWpAA" aggregationKind="NONE" name="panel" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I2IF7LqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tYYhbLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tYYhLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tV8QLLqEe2b884QLJWpAA" source="_1ta00rLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JTbEbLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t8ZNLLqEe2b884QLJWpAA" position="450.0,450.0"/>
+    <stereotypes xmi:id="_1tXxdLLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JTbE7LqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tXxcbLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tXxcrLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JTbErLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tYYiLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tYYh7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tXxc7LqEe2b884QLJWpAA" aggregationKind="NONE" name="addButton" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I2IGrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tYYirLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tYYibLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tV8QbLqEe2b884QLJWpAA" source="_1ta00rLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JTbFLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t8ZNbLqEe2b884QLJWpAA" position="470.0,470.0"/>
+    <stereotypes xmi:id="_1tXxeLLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JUCILLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tXxdbLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tXxdrLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JTbFbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tYYjbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tYYjLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tXxd7LqEe2b884QLJWpAA" aggregationKind="NONE" name="loadButton" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I2vIrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tYYj7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tYYjrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tZmoLLqEe2b884QLJWpAA" source="_1ta00rLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JSM97LqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t8ZMbLqEe2b884QLJWpAA" position="390.0,390.0"/>
+    <stereotypes xmi:id="_1tZmobLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JS0AbLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tZmorLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tZmo7LqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JS0ALLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tZmpLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tZmpbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tZmprLqEe2b884QLJWpAA" aggregationKind="NONE" name="defaultFont" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I2IEbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tZmp7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tZmqLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1taNsLLqEe2b884QLJWpAA" source="_1ta00rLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JUCIbLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t8ZNrLqEe2b884QLJWpAA" position="490.0,490.0"/>
+    <stereotypes xmi:id="_1taNsbLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JUCI7LqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1taNsrLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1taNs7LqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JUCIrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1taNtLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1taNtbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1taNtrLqEe2b884QLJWpAA" aggregationKind="NONE" name="provinceOne" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I2vJbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1taNt7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1taNuLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1taNubLqEe2b884QLJWpAA" source="_1ta00rLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JUCJLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t8ZN7LqEe2b884QLJWpAA" position="510.0,510.0"/>
+    <stereotypes xmi:id="_1taNurLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JUCJrLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1taNu7LqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1taNvLLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JUCJbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1taNvbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1taNvrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1taNv7LqEe2b884QLJWpAA" aggregationKind="NONE" name="cityOne" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I3WMLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1taNwLLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1taNwbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1ta0wLLqEe2b884QLJWpAA" source="_1ta00rLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JUpMLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t8ZOLLqEe2b884QLJWpAA" position="530.0,530.0"/>
+    <stereotypes xmi:id="_1ta0wbLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JUpMrLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1ta0wrLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1ta0w7LqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JUpMbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1ta0xLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1ta0xbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1ta0xrLqEe2b884QLJWpAA" aggregationKind="NONE" name="provinceTwo" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I3WM7LqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1ta0x7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1ta0yLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1ta0ybLqEe2b884QLJWpAA" source="_1ta00rLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JUpM7LqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9AQLLqEe2b884QLJWpAA" position="550.0,550.0"/>
+    <stereotypes xmi:id="_1ta0yrLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JUpNbLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1ta0y7LqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1ta0zLLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JUpNLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1ta0zbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1ta0zrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1ta0z7LqEe2b884QLJWpAA" aggregationKind="NONE" name="cityTwo" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I3WNrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1ta00LLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1ta00bLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tiJgLLqEe2b884QLJWpAA" source="_1tnpELLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JUpNrLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9AQbLqEe2b884QLJWpAA" position="570.0,570.0"/>
+    <stereotypes xmi:id="_1tklwLLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JVQQLLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tj-sLLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tj-sbLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JUpN7LqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tlM2rLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tlM2bLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tj-srLqEe2b884QLJWpAA" aggregationKind="NONE" name="frame" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I39QLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tlM3LLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tlM27LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tiJgbLqEe2b884QLJWpAA" source="_1tnpELLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JVQQbLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9AQrLqEe2b884QLJWpAA" position="590.0,590.0"/>
+    <stereotypes xmi:id="_1tklxLLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JVQQ7LqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tklwbLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tklwrLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JVQQrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tlz4rLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tlz4bLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tklw7LqEe2b884QLJWpAA" aggregationKind="NONE" name="north" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I39Q7LqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tlz5LLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tlz47LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tiJgrLqEe2b884QLJWpAA" source="_1tnpELLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JVQRLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9AQ7LqEe2b884QLJWpAA" position="610.0,610.0"/>
+    <stereotypes xmi:id="_1tklyLLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JVQRrLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tklxbLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tklxrLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JVQRbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tlz57LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tlz5rLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tklx7LqEe2b884QLJWpAA" aggregationKind="NONE" name="mid" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I4kULLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tlz6bLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tlz6LLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tiJg7LqEe2b884QLJWpAA" source="_1tnpELLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JVQR7LqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9ARLLqEe2b884QLJWpAA" position="630.0,630.0"/>
+    <stereotypes xmi:id="_1tklzLLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JV3ULLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tklybLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tklyrLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JVQSLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tlz7LLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tlz67LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tkly7LqEe2b884QLJWpAA" aggregationKind="NONE" name="south" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I4kU7LqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tlz7rLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tlz7bLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tiJhLLqEe2b884QLJWpAA" source="_1tnpELLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JV3UbLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9ARbLqEe2b884QLJWpAA" position="650.0,650.0"/>
+    <stereotypes xmi:id="_1tkl0LLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JV3U7LqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tklzbLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tklzrLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JV3UrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tlz8bLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tlz8LLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tklz7LqEe2b884QLJWpAA" aggregationKind="NONE" name="switchButton" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I4kVrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tlz87LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tlz8rLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tiwkLLqEe2b884QLJWpAA" source="_1tnpELLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JV3VLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9ARrLqEe2b884QLJWpAA" position="670.0,670.0"/>
+    <stereotypes xmi:id="_1tkl1LLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JWeYLLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tkl0bLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tkl0rLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JV3VbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tma8bLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tma8LLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tkl07LqEe2b884QLJWpAA" aggregationKind="NONE" name="visualizationButton" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I5LYbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tma87LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tma8rLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tiwkbLqEe2b884QLJWpAA" source="_1tnpELLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JWeYbLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9AR7LqEe2b884QLJWpAA" position="690.0,690.0"/>
+    <stereotypes xmi:id="_1tlM0LLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JWeY7LqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tkl1bLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tkl1rLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JWeYrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tma9rLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tma9bLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tkl17LqEe2b884QLJWpAA" aggregationKind="NONE" name="comparisonButton" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I5LZLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tma-LLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tma97LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tiwkrLqEe2b884QLJWpAA" source="_1tnpELLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JWeZLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9nULLqEe2b884QLJWpAA" position="710.0,710.0"/>
+    <stereotypes xmi:id="_1tlM1LLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JWeZrLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tlM0bLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tlM0rLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JWeZbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tma-7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tma-rLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tlM07LqEe2b884QLJWpAA" aggregationKind="NONE" name="forecastButton" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I5LZ7LqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tma_bLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tma_LLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tiwk7LqEe2b884QLJWpAA" source="_1tnpELLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JXFcLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9nUbLqEe2b884QLJWpAA" position="730.0,730.0"/>
+    <stereotypes xmi:id="_1tlM2LLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JXFcrLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tlM1bLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tlM1rLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JXFcbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tmbALLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tma_7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tlM17LqEe2b884QLJWpAA" aggregationKind="NONE" name="resetButton" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I5ycbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tmbArLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tmbAbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1ttvsLLqEe2b884QLJWpAA" source="_1tz2ULLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JXFc7LqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9nUrLqEe2b884QLJWpAA" position="750.0,750.0"/>
+    <stereotypes xmi:id="_1tvk47LqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JXFdbLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tvk4LLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tvk4bLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JXFdLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1twzAbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1twzALLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tvk4rLqEe2b884QLJWpAA" aggregationKind="NONE" name="frame" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I5ydLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1twzA7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1twzArLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tuWwLLqEe2b884QLJWpAA" source="_1tz2ULLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JXFdrLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9nU7LqEe2b884QLJWpAA" position="770.0,770.0"/>
+    <stereotypes xmi:id="_1tvk57LqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JXsgLLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tvk5LLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tvk5bLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JXFd7LqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1twzBrLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1twzBbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tvk5rLqEe2b884QLJWpAA" aggregationKind="NONE" name="north" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I6ZgbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1twzCLLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1twzB7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tuWwbLqEe2b884QLJWpAA" source="_1tz2ULLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JXsgbLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9nVLLqEe2b884QLJWpAA" position="790.0,790.0"/>
+    <stereotypes xmi:id="_1tvk67LqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JXsg7LqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tvk6LLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tvk6bLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JXsgrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1twzC7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1twzCrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1tvk6rLqEe2b884QLJWpAA" aggregationKind="NONE" name="mid" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I6ZhLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1twzDbLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1twzDLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tuWwrLqEe2b884QLJWpAA" source="_1tz2ULLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JXshLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9nVbLqEe2b884QLJWpAA" position="810.0,810.0"/>
+    <stereotypes xmi:id="_1twL8bLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JXshrLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1tvk7LLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1tvk7bLqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JXshbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1txaErLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1txaEbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1twL8LLqEe2b884QLJWpAA" aggregationKind="NONE" name="south" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I6Zh7LqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1txaFLLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1txaE7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tuWw7LqEe2b884QLJWpAA" source="_1tz2ULLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JXsh7LqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9nVrLqEe2b884QLJWpAA" position="830.0,830.0"/>
+    <stereotypes xmi:id="_1twL9bLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JYTkLLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1twL8rLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1twL87LqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JXsiLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1txaF7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1txaFrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1twL9LLqEe2b884QLJWpAA" aggregationKind="NONE" name="configureButton" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I7AkrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1txaGbLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1txaGLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tuWxLLqEe2b884QLJWpAA" source="_1tz2ULLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JYTkbLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9nV7LqEe2b884QLJWpAA" position="850.0,850.0"/>
+    <stereotypes xmi:id="_1twL-bLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JYTk7LqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1twL9rLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1twL97LqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JYTkrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1txaHLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1txaG7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1twL-LLqEe2b884QLJWpAA" aggregationKind="NONE" name="tableButton" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I7AlbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tyBIbLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tyBILLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tuWxbLqEe2b884QLJWpAA" source="_1tz2ULLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JYTlLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t9nWLLqEe2b884QLJWpAA" position="870.0,870.0"/>
+    <stereotypes xmi:id="_1twL_bLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JY6oLLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1twL-rLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1twL-7LqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JYTlbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tyBJLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tyBI7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1twL_LLqEe2b884QLJWpAA" aggregationKind="NONE" name="vis1" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I7nobLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tyBJrLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tyBJbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1tuWxrLqEe2b884QLJWpAA" source="_1tz2ULLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1JY6obLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t-OYLLqEe2b884QLJWpAA" position="890.0,890.0"/>
+    <stereotypes xmi:id="_1twMAbLqEe2b884QLJWpAA" name="Reference">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JY6o7LqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1twL_rLqEe2b884QLJWpAA" text=""/>
+    <sourceRole xmi:id="_1twL_7LqEe2b884QLJWpAA" aggregationKind="NONE" name="">
+      <modelElement href="eecs3311-project-bravo2.uml#_1JY6orLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tyBKbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tyBKLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1twMALLqEe2b884QLJWpAA" aggregationKind="NONE" name="vis2" navigable="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I7npLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tyBK7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tyBKrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1s5QULLqEe2b884QLJWpAA" name="Comparison" associationsOut="_1s2NALLqEe2b884QLJWpAA _1s20ELLqEe2b884QLJWpAA _1s3bILLqEe2b884QLJWpAA _1s4CMLLqEe2b884QLJWpAA _1s4pQLLqEe2b884QLJWpAA _1s4pSbLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FU6ALLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1s5QUbLqEe2b884QLJWpAA" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1s5QUrLqEe2b884QLJWpAA" label="+"/>
+    <attributes xmi:id="_1s5QU7LqEe2b884QLJWpAA" defaultValue="new JFrame()" name="frame">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IzEwrLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1s5QVLLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IzExLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1s5QVbLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1s5QVrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1s5QV7LqEe2b884QLJWpAA" name="JFrame">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IkbQrLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1s5QWLLqEe2b884QLJWpAA" defaultValue="new JPanel()" name="north">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IzExbLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1s5QWbLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Izr0LLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1s5QWrLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1s5QW7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1s5QXLLqEe2b884QLJWpAA" name="JPanel">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IlCUbLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1s5QXbLqEe2b884QLJWpAA" defaultValue="new JPanel(new GridLayout(1, 0))" name="mid">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Izr0bLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1s5QXrLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Izr07LqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1s5QX7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1s5QYLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1s5QYbLqEe2b884QLJWpAA" name="JPanel">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IlCUbLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1s5QYrLqEe2b884QLJWpAA" defaultValue="new JPanel()" name="south">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Izr1LLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1s5QY7LqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Izr1rLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1s5QZLLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1s5QZbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1s5QZrLqEe2b884QLJWpAA" name="JPanel">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IlCUbLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1s5QZ7LqEe2b884QLJWpAA" defaultValue="new  JButton(&quot;Generate Comparison&quot;)" name="comparisonButton">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Izr17LqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1s5QaLLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I0S4bLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1s5QabLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1s5QarLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1s5Qa7LqEe2b884QLJWpAA" name="JButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1ImQcLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1s5QbLLqEe2b884QLJWpAA" defaultValue="new  JButton(&quot;Table View&quot;)" name="tableButton">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I0S4rLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1s5QbbLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I0S5LLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1s5QbrLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1s5Qb7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1s5QcLLqEe2b884QLJWpAA" name="JButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1ImQcLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1s5QcbLqEe2b884QLJWpAA" name="Comparison">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FVhELLqEe2b884QLJWpAA"/>
+      <keywords xmi:id="_1s5QcrLqEe2b884QLJWpAA" keyword="create"/>
+      <visibility xmi:id="_1s5Qc7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1s5QdLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1s5QdbLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FVhE7LqEe2b884QLJWpAA"/>
+        <type xmi:id="_1s5QdrLqEe2b884QLJWpAA" name="Comparison">
+          <modelElement href="eecs3311-project-bravo2.uml#_1FU6ALLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1s5Qd7LqEe2b884QLJWpAA" name="comparisonGraph">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FWIILLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1s5QeLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1s5QebLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1s5QerLqEe2b884QLJWpAA" name="main" staticOperation="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FWIIbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1s5Qe7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1s5QfLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1s5QfbLqEe2b884QLJWpAA" name="args">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FWIIrLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_1s5QfrLqEe2b884QLJWpAA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_1s5Qf7LqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1s5QgLLqEe2b884QLJWpAA" name="actionPerformed">
+      <modelElement href="eecs3311-project-bravo2.uml#_1ImQcrLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1s5QgbLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Im3gbLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1s5QgrLqEe2b884QLJWpAA" name="Annotations">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Im3grLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1s5Qg7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1s5QhLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1s5QhbLqEe2b884QLJWpAA" name="e">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Im3gLLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_1s5QhrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1s5Qh7LqEe2b884QLJWpAA" name="ActionEvent">
+          <modelElement href="eecs3311-project-bravo2.uml#_1ISHY7LqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1tQcsLLqEe2b884QLJWpAA" name="Forecast" associationsOut="_1tLkMLLqEe2b884QLJWpAA _1tLkMbLqEe2b884QLJWpAA _1tLkMrLqEe2b884QLJWpAA _1tLkM7LqEe2b884QLJWpAA _1tLkNLLqEe2b884QLJWpAA _1tLkNbLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FXWQLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1tQcsbLqEe2b884QLJWpAA" position="477.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1tQcsrLqEe2b884QLJWpAA" label="+"/>
+    <attributes xmi:id="_1tQcs7LqEe2b884QLJWpAA" defaultValue="new JFrame()" name="frame">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I0S5bLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tQctLLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I0S57LqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tQctbLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tQctrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tQct7LqEe2b884QLJWpAA" name="JFrame">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IkbQrLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tQcuLLqEe2b884QLJWpAA" defaultValue="new JPanel()" name="north">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I058LLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tQcubLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I058rLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tQcurLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tQcu7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tQcvLLqEe2b884QLJWpAA" name="JPanel">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IlCUbLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tQcvbLqEe2b884QLJWpAA" defaultValue="new JPanel(new GridLayout(4, 0))" name="mid">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I0587LqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tQcvrLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I059bLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tQcv7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tQcwLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tQcwbLqEe2b884QLJWpAA" name="JPanel">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IlCUbLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tQcwrLqEe2b884QLJWpAA" defaultValue="new JPanel()" name="south">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I059rLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tQcw7LqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I05-LLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tQcxLLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tQcxbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tQcxrLqEe2b884QLJWpAA" name="JPanel">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IlCUbLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tQcx7LqEe2b884QLJWpAA" defaultValue="new  JButton(&quot;Generate Forecast&quot;)" name="forecastButton">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I1hALLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tQcyLLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I1hArLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tQcybLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tQcyrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tQcy7LqEe2b884QLJWpAA" name="JButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1ImQcLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tQczLLqEe2b884QLJWpAA" defaultValue="new  JButton(&quot;Table View&quot;)" name="tableButton">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I1hA7LqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tQczbLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I1hBbLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tQczrLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tQcz7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tQc0LLqEe2b884QLJWpAA" name="JButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1ImQcLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1tQc0bLqEe2b884QLJWpAA" name="Forecast">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FX9ULLqEe2b884QLJWpAA"/>
+      <keywords xmi:id="_1tQc0rLqEe2b884QLJWpAA" keyword="create"/>
+      <visibility xmi:id="_1tQc07LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tQc1LLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1tQc1bLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FX9U7LqEe2b884QLJWpAA"/>
+        <type xmi:id="_1tQc1rLqEe2b884QLJWpAA" name="Forecast">
+          <modelElement href="eecs3311-project-bravo2.uml#_1FXWQLLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1tQc17LqEe2b884QLJWpAA" name="forecastGraph">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FYkYLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tQc2LLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tQc2bLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1tQc2rLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IoFoLLqEe2b884QLJWpAA"/>
+        <type xmi:id="_1tQc27LqEe2b884QLJWpAA" name="ChartPanel">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H5s5LLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1tQc3LLqEe2b884QLJWpAA" name="main" staticOperation="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FYkYbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tQc3bLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tQc3rLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1tQc37LqEe2b884QLJWpAA" name="args">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FYkYrLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_1tQc4LLqEe2b884QLJWpAA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_1tQc4bLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1tQc4rLqEe2b884QLJWpAA" name="actionPerformed">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IoFobLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tQc47LqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IossLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1tQc5LLqEe2b884QLJWpAA" name="Annotations">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IossbLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tQc5bLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tQc5rLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1tQc57LqEe2b884QLJWpAA" name="e">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IoForLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_1tQc6LLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1tQc6bLqEe2b884QLJWpAA" name="ActionEvent">
+          <modelElement href="eecs3311-project-bravo2.uml#_1ISHY7LqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1ta00rLqEe2b884QLJWpAA" name="Form" associationsOut="_1tVVMLLqEe2b884QLJWpAA _1tVVMbLqEe2b884QLJWpAA _1tV8QLLqEe2b884QLJWpAA _1tV8QbLqEe2b884QLJWpAA _1tZmoLLqEe2b884QLJWpAA _1taNsLLqEe2b884QLJWpAA _1taNubLqEe2b884QLJWpAA _1ta0wLLqEe2b884QLJWpAA _1ta0ybLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FaZkLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1ta007LqEe2b884QLJWpAA" position="-406.0,-64.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1ta01LLqEe2b884QLJWpAA" label="+"/>
+    <attributes xmi:id="_1ta01bLqEe2b884QLJWpAA" defaultValue="9" name="rowNum">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I1hBrLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1ta01rLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I2IELLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1ta017LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1ta02LLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1ta02bLqEe2b884QLJWpAA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1ta02rLqEe2b884QLJWpAA" defaultValue="new Font(&quot;Arial&quot;, Font.PLAIN, 12)" name="defaultFont">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I2IEbLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1ta027LqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I2IE7LqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tbb0LLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tbb0bLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tbb0rLqEe2b884QLJWpAA" name="Font">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IpTwLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tbb07LqEe2b884QLJWpAA" defaultValue="new JFrame()" name="frame">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I2IFLLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tbb1LLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I2IFrLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tbb1bLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tbb1rLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tbb17LqEe2b884QLJWpAA" name="JFrame">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IkbQrLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tbb2LLqEe2b884QLJWpAA" defaultValue="new JPanel(new GridLayout(rowNum, 2))" name="panel">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I2IF7LqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tbb2bLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I2IGbLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tbb2rLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tbb27LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tbb3LLqEe2b884QLJWpAA" name="JPanel">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IlCUbLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tbb3bLqEe2b884QLJWpAA" defaultValue="new JButton(&quot;Add Time-Series&quot;)" name="addButton">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I2IGrLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tbb3rLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I2vIbLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tbb37LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tbb4LLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tbb4bLqEe2b884QLJWpAA" name="JButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1ImQcLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tbb4rLqEe2b884QLJWpAA" defaultValue="new JButton(&quot;Load Data&quot;)" name="loadButton">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I2vIrLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tbb47LqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I2vJLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tbb5LLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tbb5bLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tbb5rLqEe2b884QLJWpAA" name="JButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1ImQcLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tbb57LqEe2b884QLJWpAA" defaultValue="new JRadioButton(&quot;Province&quot;)" name="provinceOne">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I2vJbLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tbb6LLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I2vJ7LqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tbb6bLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tbb6rLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tbb67LqEe2b884QLJWpAA" name="JRadioButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ip60LLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tbb7LLqEe2b884QLJWpAA" defaultValue="new JRadioButton(&quot;City&quot;)" name="cityOne">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I3WMLLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tbb7bLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I3WMrLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tbb7rLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tbb77LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tbb8LLqEe2b884QLJWpAA" name="JRadioButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ip60LLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tbb8bLqEe2b884QLJWpAA" defaultValue="new JRadioButton(&quot;Province&quot;)" name="provinceTwo">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I3WM7LqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tbb8rLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I3WNbLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tbb87LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tbb9LLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tbb9bLqEe2b884QLJWpAA" name="JRadioButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ip60LLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tbb9rLqEe2b884QLJWpAA" defaultValue="new JRadioButton(&quot;City&quot;)" name="cityTwo">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I3WNrLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tbb97LqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I3WOLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tbb-LLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tbb-bLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tbb-rLqEe2b884QLJWpAA" name="JRadioButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ip60LLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1tbb-7LqEe2b884QLJWpAA" name="Form">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FbnsLLqEe2b884QLJWpAA"/>
+      <keywords xmi:id="_1tbb_LLqEe2b884QLJWpAA" keyword="create"/>
+      <visibility xmi:id="_1tbb_bLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tbb_rLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1tbb_7LqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Fbns7LqEe2b884QLJWpAA"/>
+        <type xmi:id="_1tbcALLqEe2b884QLJWpAA" name="Form">
+          <modelElement href="eecs3311-project-bravo2.uml#_1FaZkLLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1tbcAbLqEe2b884QLJWpAA" name="provinces">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FbntLLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tbcArLqEe2b884QLJWpAA" name="Generics">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FcOwLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tbcA7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tbcBLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1tbcBbLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IrI8bLqEe2b884QLJWpAA"/>
+        <type xmi:id="_1tbcBrLqEe2b884QLJWpAA" name="JComboBox">
+          <modelElement href="eecs3311-project-bravo2.uml#_1Iqh4rLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1tbcB7LqEe2b884QLJWpAA" name="cities">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FcOwbLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tbcCLLqEe2b884QLJWpAA" name="Generics">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Fc10LLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tbcCbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tbcCrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1tbcC7LqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IrI8rLqEe2b884QLJWpAA"/>
+        <type xmi:id="_1tbcDLLqEe2b884QLJWpAA" name="JComboBox">
+          <modelElement href="eecs3311-project-bravo2.uml#_1Iqh4rLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1tbcDbLqEe2b884QLJWpAA" name="timeSeriesPanel">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Fc10bLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tbcDrLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tbcD7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1tbcELLqEe2b884QLJWpAA" name="main" staticOperation="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Fdc4LLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tbcEbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tbcErLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1tbcE7LqEe2b884QLJWpAA" name="args">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Fdc4bLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_1tbcFLLqEe2b884QLJWpAA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_1tbcFbLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1tbcFrLqEe2b884QLJWpAA" name="actionPerformed">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Iqh4LLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tbcF7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tbcGLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1tbcGbLqEe2b884QLJWpAA" name="e">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Iqh4bLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_1tbcGrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1tbcG7LqEe2b884QLJWpAA" name="ActionEvent">
+          <modelElement href="eecs3311-project-bravo2.uml#_1ISHY7LqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1tnpELLqEe2b884QLJWpAA" name="Table" associationsOut="_1tiJgLLqEe2b884QLJWpAA _1tiJgbLqEe2b884QLJWpAA _1tiJgrLqEe2b884QLJWpAA _1tiJg7LqEe2b884QLJWpAA _1tiJhLLqEe2b884QLJWpAA _1tiwkLLqEe2b884QLJWpAA _1tiwkbLqEe2b884QLJWpAA _1tiwkrLqEe2b884QLJWpAA _1tiwk7LqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FggMLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1tnpEbLqEe2b884QLJWpAA" position="-851.0,-26.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1tnpErLqEe2b884QLJWpAA" label="+"/>
+    <attributes xmi:id="_1tnpE7LqEe2b884QLJWpAA" defaultValue="new JFrame()" name="frame">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I39QLLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tnpFLLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I39QrLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tnpFbLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tnpFrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tnpF7LqEe2b884QLJWpAA" name="JFrame">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IkbQrLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tnpGLLqEe2b884QLJWpAA" defaultValue="new JPanel()" name="north">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I39Q7LqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tnpGbLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I39RbLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tnpGrLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tnpG7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tnpHLLqEe2b884QLJWpAA" name="JPanel">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IlCUbLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tnpHbLqEe2b884QLJWpAA" defaultValue="new JPanel()" name="mid">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I4kULLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tnpHrLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I4kUrLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tnpH7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tnpILLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tnpIbLqEe2b884QLJWpAA" name="JPanel">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IlCUbLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tnpIrLqEe2b884QLJWpAA" defaultValue="new JPanel()" name="south">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I4kU7LqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tnpI7LqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I4kVbLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tnpJLLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tnpJbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tnpJrLqEe2b884QLJWpAA" name="JPanel">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IlCUbLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tnpJ7LqEe2b884QLJWpAA" defaultValue="new  JButton(&quot;Switch to Summary&quot;)" name="switchButton">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I4kVrLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tnpKLLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I5LYLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tnpKbLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tnpKrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tnpK7LqEe2b884QLJWpAA" name="JButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1ImQcLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tnpLLLqEe2b884QLJWpAA" defaultValue="new  JButton(&quot;Visualization View&quot;)" name="visualizationButton">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I5LYbLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tnpLbLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I5LY7LqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tnpLrLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tnpL7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tnpMLLqEe2b884QLJWpAA" name="JButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1ImQcLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tnpMbLqEe2b884QLJWpAA" defaultValue="new  JButton(&quot;Comparison View&quot;)" name="comparisonButton">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I5LZLLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tnpMrLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I5LZrLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tnpM7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tnpNLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tnpNbLqEe2b884QLJWpAA" name="JButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1ImQcLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tnpNrLqEe2b884QLJWpAA" defaultValue="new  JButton(&quot;Forecast View&quot;)" name="forecastButton">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I5LZ7LqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tnpN7LqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I5ycLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tnpOLLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tnpObLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tnpOrLqEe2b884QLJWpAA" name="JButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1ImQcLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tnpO7LqEe2b884QLJWpAA" defaultValue="new  JButton(&quot;Reset App&quot;)" name="resetButton">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I5ycbLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tnpPLLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I5yc7LqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tnpPbLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tnpPrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tnpP7LqEe2b884QLJWpAA" name="JButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1ImQcLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1tnpQLLqEe2b884QLJWpAA" name="Table">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FhuULLqEe2b884QLJWpAA"/>
+      <keywords xmi:id="_1tnpQbLqEe2b884QLJWpAA" keyword="create"/>
+      <visibility xmi:id="_1tnpQrLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tnpQ7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1tnpRLLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FhuU7LqEe2b884QLJWpAA"/>
+        <type xmi:id="_1tnpRbLqEe2b884QLJWpAA" name="Table">
+          <modelElement href="eecs3311-project-bravo2.uml#_1FggMLLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1tnpRrLqEe2b884QLJWpAA" name="rawDataTable">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FhuVLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tnpR7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tnpSLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1tnpSbLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IsXEbLqEe2b884QLJWpAA"/>
+        <type xmi:id="_1tnpSrLqEe2b884QLJWpAA" name="JTable">
+          <modelElement href="eecs3311-project-bravo2.uml#_1IrwALLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1tnpS7LqEe2b884QLJWpAA" name="summaryTable">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FhuVbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tnpTLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tnpTbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1tnpTrLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IsXErLqEe2b884QLJWpAA"/>
+        <type xmi:id="_1tnpT7LqEe2b884QLJWpAA" name="JTable">
+          <modelElement href="eecs3311-project-bravo2.uml#_1IrwALLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1tnpULLqEe2b884QLJWpAA" name="main" staticOperation="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FiVYLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tnpUbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tnpUrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1tnpU7LqEe2b884QLJWpAA" name="args">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FiVYbLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_1tnpVLLqEe2b884QLJWpAA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_1tnpVbLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1tnpVrLqEe2b884QLJWpAA" name="actionPerformed">
+      <modelElement href="eecs3311-project-bravo2.uml#_1IsXE7LqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tnpV7LqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IsXFbLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1tnpWLLqEe2b884QLJWpAA" name="Annotations">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IsXFrLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tnpWbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tnpWrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1tnpW7LqEe2b884QLJWpAA" name="e">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IsXFLLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_1tnpXLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1tnpXbLqEe2b884QLJWpAA" name="ActionEvent">
+          <modelElement href="eecs3311-project-bravo2.uml#_1ISHY7LqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1tz2ULLqEe2b884QLJWpAA" name="Visualization" associationsOut="_1ttvsLLqEe2b884QLJWpAA _1tuWwLLqEe2b884QLJWpAA _1tuWwbLqEe2b884QLJWpAA _1tuWwrLqEe2b884QLJWpAA _1tuWw7LqEe2b884QLJWpAA _1tuWxLLqEe2b884QLJWpAA _1tuWxbLqEe2b884QLJWpAA _1tuWxrLqEe2b884QLJWpAA">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FkxoLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1tz2UbLqEe2b884QLJWpAA" position="878.0,-7.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1tz2UrLqEe2b884QLJWpAA" label="+"/>
+    <attributes xmi:id="_1tz2U7LqEe2b884QLJWpAA" defaultValue="new JFrame()" name="frame">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I5ydLLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tz2VLLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I6ZgLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tz2VbLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tz2VrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tz2V7LqEe2b884QLJWpAA" name="JFrame">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IkbQrLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tz2WLLqEe2b884QLJWpAA" defaultValue="new JPanel()" name="north">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I6ZgbLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tz2WbLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I6Zg7LqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tz2WrLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tz2W7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tz2XLLqEe2b884QLJWpAA" name="JPanel">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IlCUbLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tz2XbLqEe2b884QLJWpAA" defaultValue="new JPanel(new GridLayout(1, 0))" name="mid">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I6ZhLLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tz2XrLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I6ZhrLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tz2X7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tz2YLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tz2YbLqEe2b884QLJWpAA" name="JPanel">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IlCUbLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tz2YrLqEe2b884QLJWpAA" defaultValue="new JPanel()" name="south">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I6Zh7LqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tz2Y7LqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I7AkbLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tz2ZLLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tz2ZbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tz2ZrLqEe2b884QLJWpAA" name="JPanel">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IlCUbLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tz2Z7LqEe2b884QLJWpAA" defaultValue="new  JButton(&quot;Configure&quot;)" name="configureButton">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I7AkrLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tz2aLLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I7AlLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tz2abLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tz2arLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tz2a7LqEe2b884QLJWpAA" name="JButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1ImQcLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tz2bLLqEe2b884QLJWpAA" defaultValue="new  JButton(&quot;Table View&quot;)" name="tableButton">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I7AlbLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tz2bbLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I7noLLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tz2brLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tz2b7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tz2cLLqEe2b884QLJWpAA" name="JButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1ImQcLLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tz2cbLqEe2b884QLJWpAA" defaultValue="new JRadioButton(&quot;Visualization One&quot;)" name="vis1">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I7nobLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tz2crLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I7no7LqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tz2c7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tz2dLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tz2dbLqEe2b884QLJWpAA" name="JRadioButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ip60LLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1tz2drLqEe2b884QLJWpAA" defaultValue="new JRadioButton(&quot;Visualization Two&quot;)" name="vis2">
+      <modelElement href="eecs3311-project-bravo2.uml#_1I7npLLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tz2d7LqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1I7nprLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tz2eLLqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_1tz2ebLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <type xmi:id="_1tz2erLqEe2b884QLJWpAA" name="JRadioButton">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Ip60LLqEe2b884QLJWpAA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1tz2e7LqEe2b884QLJWpAA" name="Visualization">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Fl_wLLqEe2b884QLJWpAA"/>
+      <keywords xmi:id="_1tz2fLLqEe2b884QLJWpAA" keyword="create"/>
+      <visibility xmi:id="_1tz2fbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tz2frLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1tz2f7LqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Fl_w7LqEe2b884QLJWpAA"/>
+        <type xmi:id="_1tz2gLLqEe2b884QLJWpAA" name="Visualization">
+          <modelElement href="eecs3311-project-bravo2.uml#_1FkxoLLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1tz2gbLqEe2b884QLJWpAA" name="visualizationOne">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Fl_xLLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tz2grLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tz2g7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1tz2hLLqEe2b884QLJWpAA" name="visualizationTwo">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Fl_xbLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tz2hbLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tz2hrLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1tz2h7LqEe2b884QLJWpAA" name="main" staticOperation="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1Fmm0LLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_1tz2iLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tz2ibLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1tz2irLqEe2b884QLJWpAA" name="args">
+        <modelElement href="eecs3311-project-bravo2.uml#_1Fmm0bLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_1tz2i7LqEe2b884QLJWpAA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_1tz2jLLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1tz2jbLqEe2b884QLJWpAA" name="actionPerformed">
+      <modelElement href="eecs3311-project-bravo2.uml#_1ItlMLLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_1tz2jrLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1ItlMrLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1tz2j7LqEe2b884QLJWpAA" name="Annotations">
+        <modelElement href="eecs3311-project-bravo2.uml#_1ItlM7LqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_1tz2kLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_1tz2kbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1tz2krLqEe2b884QLJWpAA" name="e">
+        <modelElement href="eecs3311-project-bravo2.uml#_1ItlMbLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_1tz2k7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_1tz2lLLqEe2b884QLJWpAA" name="ActionEvent">
+          <modelElement href="eecs3311-project-bravo2.uml#_1ISHY7LqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_1t_cgLLqEe2b884QLJWpAA" name="models">
+    <modelElement href="eecs3311-project-bravo2.uml#_1EMRkLLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1t_cgbLqEe2b884QLJWpAA" position="1282.0,224.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_1uDt8LLqEe2b884QLJWpAA" name="java">
+    <modelElement href="eecs3311-project-bravo2.uml#_1EMRkbLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1uDt8bLqEe2b884QLJWpAA" position="-1013.0,224.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_1uEVALLqEe2b884QLJWpAA" name="controllers">
+    <modelElement href="eecs3311-project-bravo2.uml#_1EM4obLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1uEVAbLqEe2b884QLJWpAA" position="1432.0,224.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_1uE8ELLqEe2b884QLJWpAA" name="javax">
+    <modelElement href="eecs3311-project-bravo2.uml#_1EP78LLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1uE8EbLqEe2b884QLJWpAA" position="-1178.0,224.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_1uFjILLqEe2b884QLJWpAA" name="org">
+    <modelElement href="eecs3311-project-bravo2.uml#_1EP787LqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_1uFjIbLqEe2b884QLJWpAA" position="1582.0,224.0" size="-1.0,-1.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

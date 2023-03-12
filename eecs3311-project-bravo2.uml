@@ -1,0 +1,2496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_0-YkgLLqEe2b884QLJWpAA" name="eecs3311_project_bravo2">
+    <eAnnotations xmi:id="_0_FIELLqEe2b884QLJWpAA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_0_FIEbLqEe2b884QLJWpAA" source="codegen">
+        <details xmi:id="_0_FIErLqEe2b884QLJWpAA" key="codegenDirectory" value="/eecs3311-project-bravo/src"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_1ELDcLLqEe2b884QLJWpAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_1ELqgLLqEe2b884QLJWpAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_1ELqgbLqEe2b884QLJWpAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_1ELqgrLqEe2b884QLJWpAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_1ELqg7LqEe2b884QLJWpAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_1ELqhLLqEe2b884QLJWpAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_1ELqhbLqEe2b884QLJWpAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_1ELqhrLqEe2b884QLJWpAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_1ELqh7LqEe2b884QLJWpAA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1EMRkLLqEe2b884QLJWpAA" name="models">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_1FDNMbLqEe2b884QLJWpAA" name="Comparison">
+        <ownedOperation xmi:id="_1IY1EbLqEe2b884QLJWpAA" name="compare">
+          <ownedParameter xmi:id="_1IY1ErLqEe2b884QLJWpAA" name="geoAnhpi" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1IY1E7LqEe2b884QLJWpAA" name="geoBnhpi" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1IY1FLLqEe2b884QLJWpAA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1FD0QLLqEe2b884QLJWpAA" name="Form">
+        <ownedAttribute xmi:id="_1IuzULLqEe2b884QLJWpAA" name="inputLocation" type="_1FFCYLLqEe2b884QLJWpAA" association="_1JNUcLLqEe2b884QLJWpAA"/>
+        <ownedAttribute xmi:id="_1IvaYbLqEe2b884QLJWpAA" name="tSeries" type="_1H1bcLLqEe2b884QLJWpAA" association="_1JOikLLqEe2b884QLJWpAA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I81x7LqEe2b884QLJWpAA" name="Form" specification="_1IaDMLLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I81yLLqEe2b884QLJWpAA" name="isGeoACity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I81ybLqEe2b884QLJWpAA" name="isGeoBCity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I81yrLqEe2b884QLJWpAA" name="provinceA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I81y7LqEe2b884QLJWpAA" name="provinceB">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I81zLLqEe2b884QLJWpAA" name="cityA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I81zbLqEe2b884QLJWpAA" name="cityB">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I81zrLqEe2b884QLJWpAA" name="isMonths">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I81z7LqEe2b884QLJWpAA" name="dateList" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1I810LLqEe2b884QLJWpAA" type="_1FD0QLLqEe2b884QLJWpAA" direction="return"/>
+          <language>java</language>
+          <body>// Constructs a location object and sets it to the forms input location field&#xD;
+     this.inputLocation = new Location(isGeoACity, isGeoBCity, provinceA, provinceB, cityA, cityB);&#xD;
+&#xD;
+     // Creates the arraylist that stores our time series objects&#xD;
+     ArrayList&lt;TimeSeries> tempList = new ArrayList&lt;TimeSeries>();&#xD;
+     // Constructs a timeseries object and sets it to the forms tseries field&#xD;
+     if (dateList.size() == 2) {&#xD;
+         TimeSeries setOfDates = new TimeSeries(isMonths, dateList.get(0), dateList.get(1));&#xD;
+         tempList.add(setOfDates);&#xD;
+         this.tSeries = tempList;&#xD;
+     } else if (dateList.size() == 4) {&#xD;
+         TimeSeries setOfDates1 = new TimeSeries(isMonths, dateList.get(0), dateList.get(1));&#xD;
+         TimeSeries setOfDates2 = new TimeSeries(isMonths, dateList.get(2), dateList.get(3));&#xD;
+         tempList.add(setOfDates1);&#xD;
+         tempList.add(setOfDates2);&#xD;
+         this.tSeries = tempList;&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_1IaDMLLqEe2b884QLJWpAA" name="Form" method="_1I81x7LqEe2b884QLJWpAA">
+          <eAnnotations xmi:id="_1IaDObLqEe2b884QLJWpAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_1IaDOrLqEe2b884QLJWpAA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_1IaDMbLqEe2b884QLJWpAA" name="isGeoACity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1IaDMrLqEe2b884QLJWpAA" name="isGeoBCity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1IaDM7LqEe2b884QLJWpAA" name="provinceA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1IaDNLLqEe2b884QLJWpAA" name="provinceB">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1IaDNbLqEe2b884QLJWpAA" name="cityA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1IaDNrLqEe2b884QLJWpAA" name="cityB">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1IaDN7LqEe2b884QLJWpAA" name="isMonths">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1IaDOLLqEe2b884QLJWpAA" name="dateList" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1IaDO7LqEe2b884QLJWpAA" type="_1FD0QLLqEe2b884QLJWpAA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1FFCYLLqEe2b884QLJWpAA" name="Location">
+        <ownedAttribute xmi:id="_1IwBcLLqEe2b884QLJWpAA" name="isGeoACity">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_1IwBcrLqEe2b884QLJWpAA" name="isGeoBCity">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_1IwBdLLqEe2b884QLJWpAA" name="cityA">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_1IwBdrLqEe2b884QLJWpAA" name="provinceA">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_1IwogbLqEe2b884QLJWpAA" name="cityB">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_1Iwog7LqEe2b884QLJWpAA" name="provinceB">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I9c0LLqEe2b884QLJWpAA" name="Location" specification="_1FGQgLLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I9c0bLqEe2b884QLJWpAA" name="isGeoACity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I9c0rLqEe2b884QLJWpAA" name="isGeoBCity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I9c07LqEe2b884QLJWpAA" name="provinceA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I9c1LLqEe2b884QLJWpAA" name="provinceB">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I9c1bLqEe2b884QLJWpAA" name="cityA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I9c1rLqEe2b884QLJWpAA" name="cityB">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I9c17LqEe2b884QLJWpAA" type="_1FFCYLLqEe2b884QLJWpAA" direction="return"/>
+          <language>java</language>
+          <body>this.isGeoACity = isGeoACity;&#xD;
+     this.isGeoBCity = isGeoBCity;&#xD;
+     this.provinceA = provinceA;&#xD;
+     this.provinceB = provinceB;&#xD;
+     this.cityA = cityA;&#xD;
+     this.cityB = cityB;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_1FGQgLLqEe2b884QLJWpAA" name="Location" method="_1I9c0LLqEe2b884QLJWpAA">
+          <eAnnotations xmi:id="_1FGQh7LqEe2b884QLJWpAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_1FGQiLLqEe2b884QLJWpAA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_1FGQgbLqEe2b884QLJWpAA" name="isGeoACity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1FGQgrLqEe2b884QLJWpAA" name="isGeoBCity">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1FGQg7LqEe2b884QLJWpAA" name="provinceA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1FGQhLLqEe2b884QLJWpAA" name="provinceB">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1FGQhbLqEe2b884QLJWpAA" name="cityA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1FGQhrLqEe2b884QLJWpAA" name="cityB">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1FGQibLqEe2b884QLJWpAA" type="_1FFCYLLqEe2b884QLJWpAA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1FG3kLLqEe2b884QLJWpAA" name="PlotVisualization">
+        <interfaceRealization xmi:id="_1H7iELLqEe2b884QLJWpAA" client="_1FG3kLLqEe2b884QLJWpAA" supplier="_1FSdwLLqEe2b884QLJWpAA" contract="_1FSdwLLqEe2b884QLJWpAA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I9c2LLqEe2b884QLJWpAA" name="prepVisuals" specification="_1IaqQbLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I9c2bLqEe2b884QLJWpAA" name="dataA" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1I9c2rLqEe2b884QLJWpAA" name="dataB" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1I9c27LqEe2b884QLJWpAA" name="Month">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I9c3LLqEe2b884QLJWpAA" type="_1H5s5LLqEe2b884QLJWpAA" direction="return"/>
+          <language>java</language>
+          <body>TimeSeries seriesA = new TimeSeries(dataA.get(0).location);&#xD;
+     TimeSeries seriesB = new TimeSeries(dataB.get(0).location);&#xD;
+&#xD;
+     if(Month){&#xD;
+         for(int i = 0 ; i &lt; dataA.size(); i++){&#xD;
+             seriesA.add(new Month(&#xD;
+                 Integer.parseInt(dataA.get(i).date.substring(4)), //month&#xD;
+                 Integer.parseInt(dataA.get(i).date.substring(0, 4))), //year&#xD;
+                 dataA.get(i).NHPIIndexValue); //associated nhpi val&#xD;
+         }&#xD;
+&#xD;
+         for(int i = 0 ; i &lt; dataB.size(); i++){&#xD;
+             seriesB.add(new Month(&#xD;
+                 Integer.parseInt(dataB.get(i).date.substring(4)), //month&#xD;
+                 Integer.parseInt(dataB.get(i).date.substring(0, 4))), //year&#xD;
+                 dataB.get(i).NHPIIndexValue); //associated nhpi val&#xD;
+         }&#xD;
+     }&#xD;
+     else{&#xD;
+         for(int i = 0 ; i &lt; dataA.size(); i++){&#xD;
+             seriesA.add(new Year(&#xD;
+                 Integer.parseInt(dataA.get(i).date.substring(0, 4))), //year&#xD;
+                 dataA.get(i).NHPIIndexValue);&#xD;
+         }&#xD;
+&#xD;
+         for(int i = 0 ; i &lt; dataB.size(); i++){&#xD;
+             seriesB.add(new Year(&#xD;
+                 Integer.parseInt(dataB.get(i).date.substring(0, 4))), //year&#xD;
+                 dataB.get(i).NHPIIndexValue);&#xD;
+         }&#xD;
+     }&#xD;
+     &#xD;
+     TimeSeriesCollection datasetA = new TimeSeriesCollection(seriesA);&#xD;
+     TimeSeriesCollection datasetB = new TimeSeriesCollection(seriesB);&#xD;
+&#xD;
+     XYPlot plot = new XYPlot();&#xD;
+&#xD;
+     XYItemRenderer itemrendererA = new XYLineAndShapeRenderer(true, true);&#xD;
+     XYItemRenderer itemrendererB = new XYLineAndShapeRenderer(true, true);&#xD;
+&#xD;
+     plot.setDataset(0, datasetA);&#xD;
+     plot.setRenderer(0, itemrendererA);&#xD;
+&#xD;
+     DateAxis domainAxis;&#xD;
+&#xD;
+     if(Month)&#xD;
+         domainAxis = new DateAxis(&quot;Month&quot;);&#xD;
+     else&#xD;
+         domainAxis = new DateAxis(&quot;Year&quot;);&#xD;
+&#xD;
+     plot.setDomainAxis(domainAxis);&#xD;
+     plot.setRangeAxis(new NumberAxis(dataA.get(0).location));&#xD;
+&#xD;
+     plot.setDataset(1, datasetB);&#xD;
+     plot.setRenderer(1, itemrendererB);&#xD;
+     plot.setRangeAxis(1, new NumberAxis(dataB.get(0).location));&#xD;
+&#xD;
+     plot.mapDatasetToRangeAxis(0, 0);// 1st dataset to 1st y-axis&#xD;
+     plot.mapDatasetToRangeAxis(1, 1); // 2nd dataset to 2nd y-axis&#xD;
+&#xD;
+     JFreeChart scatterChart = new JFreeChart(&quot;Yearly/Monthly NHPI Index&quot;,&#xD;
+             new Font(&quot;Serif&quot;, java.awt.Font.BOLD, 18), plot, true);&#xD;
+&#xD;
+     ChartPanel chartPanel = new ChartPanel(scatterChart);&#xD;
+             chartPanel.setPreferredSize(new Dimension(400, 300));&#xD;
+             chartPanel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));&#xD;
+             chartPanel.setBackground(Color.WHITE);&#xD;
+&#xD;
+     return chartPanel;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I9c3bLqEe2b884QLJWpAA" name="main" specification="_1FIFsLLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I9c3rLqEe2b884QLJWpAA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1I9c37LqEe2b884QLJWpAA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>JFrame frame = new JFrame();&#xD;
+     frame.setVisible(true);&#xD;
+     &#xD;
+     JPanel mid = new JPanel(new GridLayout(1, 0));&#xD;
+&#xD;
+     LocalDate date1 = LocalDate.of(1999, 1, 5);&#xD;
+     LocalDate date2 = LocalDate.of(2015, 1, 5);&#xD;
+&#xD;
+     SQLRealEstateData caller = new SQLRealEstateData();&#xD;
+&#xD;
+     String dateA = SQLRealEstateData.csvDateConverter(date1);&#xD;
+     String dateB = SQLRealEstateData.csvDateConverter(date2);&#xD;
+     &#xD;
+     ArrayList&lt;QueryResult> A = caller.returnData(&quot;Ontario&quot;, dateA, dateB, false);&#xD;
+     ArrayList&lt;QueryResult> B = caller.returnData(&quot;Alberta&quot;, dateA, dateB, false);&#xD;
+&#xD;
+     frame.add(mid);&#xD;
+&#xD;
+     mid.add(new PlotVisualization().prepVisuals(A, B, false));&#xD;
+     &#xD;
+     frame.pack();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_1FIFsLLqEe2b884QLJWpAA" name="main" isStatic="true" method="_1I9c3bLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1FIFsbLqEe2b884QLJWpAA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1FIFsrLqEe2b884QLJWpAA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1IaqQbLqEe2b884QLJWpAA" name="prepVisuals" method="_1I9c2LLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1IbRULLqEe2b884QLJWpAA" name="dataA" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1IbRUbLqEe2b884QLJWpAA" name="dataB" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1IbRUrLqEe2b884QLJWpAA" name="Month">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1IbRU7LqEe2b884QLJWpAA" type="_1H5s5LLqEe2b884QLJWpAA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1FIswLLqEe2b884QLJWpAA" name="QueryResult">
+        <ownedAttribute xmi:id="_1IwohbLqEe2b884QLJWpAA" name="location">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_1IxPkbLqEe2b884QLJWpAA" name="NHPIIndexValue" type="_1Icfc7LqEe2b884QLJWpAA"/>
+        <ownedAttribute xmi:id="_1IxPk7LqEe2b884QLJWpAA" name="date">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I-D4LLqEe2b884QLJWpAA" name="QueryResult" specification="_1IdGgbLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I-D4bLqEe2b884QLJWpAA" name="location">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I-D4rLqEe2b884QLJWpAA" name="NHPIIndexValue" type="_1Icfc7LqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1I-D47LqEe2b884QLJWpAA" name="date">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I-D5LLqEe2b884QLJWpAA" type="_1FIswLLqEe2b884QLJWpAA" direction="return"/>
+          <language>java</language>
+          <body>this.location = location;&#xD;
+     this.NHPIIndexValue = NHPIIndexValue;&#xD;
+     this.date = date;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_1IdGgbLqEe2b884QLJWpAA" name="QueryResult" method="_1I-D4LLqEe2b884QLJWpAA">
+          <eAnnotations xmi:id="_1IdGhbLqEe2b884QLJWpAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_1IdGhrLqEe2b884QLJWpAA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_1IdGgrLqEe2b884QLJWpAA" name="location">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1IdGg7LqEe2b884QLJWpAA" name="NHPIIndexValue" type="_1Icfc7LqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1IdGhLLqEe2b884QLJWpAA" name="date">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1IdGh7LqEe2b884QLJWpAA" type="_1FIswLLqEe2b884QLJWpAA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1FJ64LLqEe2b884QLJWpAA" name="RawTable">
+        <generalization xmi:id="_1H8wMLLqEe2b884QLJWpAA" general="_1FQBgLLqEe2b884QLJWpAA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I-D5bLqEe2b884QLJWpAA" name="RawTable" specification="_1IdtkLLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I-D5rLqEe2b884QLJWpAA" name="entries" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1I-D57LqEe2b884QLJWpAA" type="_1FJ64LLqEe2b884QLJWpAA" direction="return"/>
+          <language>java</language>
+          <body>super(entries);&#xD;
+     this.populateTable();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I-D6LLqEe2b884QLJWpAA" name="populateTable" specification="_1FKh8LLqEe2b884QLJWpAA">
+          <language>java</language>
+          <body>ArrayList&lt;String> columnNames = new ArrayList&lt;String>();&#xD;
+     columnNames.add(&quot;GEO&quot;);&#xD;
+     columnNames.add(&quot;PERIOD OF TIME&quot;);&#xD;
+     columnNames.add(&quot;NRPI&quot;);&#xD;
+&#xD;
+     super.table.add(columnNames);&#xD;
+&#xD;
+     for(QueryResult entry: super.entries) {&#xD;
+         ArrayList&lt;String> row = new ArrayList&lt;String>();&#xD;
+         row.add(entry.location);&#xD;
+         row.add(entry.date);&#xD;
+         row.add(entry.NHPIIndexValue.toString());&#xD;
+         super.table.add(row);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I-D6bLqEe2b884QLJWpAA" name="main" specification="_1FLJArLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I-D6rLqEe2b884QLJWpAA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1I-D67LqEe2b884QLJWpAA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// extract QueryResult's from the database, and consolidate them&#xD;
+     ArrayList&lt;QueryResult> testEntries = new ArrayList&lt;QueryResult>();&#xD;
+     SQLRealEstateData db = new SQLRealEstateData();&#xD;
+     ArrayList&lt;QueryResult> geoA = db.returnData(&quot;Ontario&quot;, &quot;2002-01&quot;, &quot;2003-02&quot;, true);&#xD;
+     ArrayList&lt;QueryResult> geoB = db.returnData(&quot;Alberta&quot;, &quot;2002-01&quot;, &quot;2003-02&quot;, true);&#xD;
+     testEntries.addAll(geoA);&#xD;
+     testEntries.addAll(geoB);&#xD;
+&#xD;
+     RawTable rawTable = new RawTable(testEntries);&#xD;
+&#xD;
+     System.out.println(&quot;\nRaw Table:\n&quot;);&#xD;
+&#xD;
+     for(ArrayList&lt;String> row: rawTable.table) {&#xD;
+         for(String column: row) {&#xD;
+             System.out.print(column + &quot; | &quot;);&#xD;
+         }&#xD;
+         System.out.println();&#xD;
+     }    &#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_1FKh8LLqEe2b884QLJWpAA" name="populateTable" method="_1I-D6LLqEe2b884QLJWpAA"/>
+        <ownedOperation xmi:id="_1FLJArLqEe2b884QLJWpAA" name="main" isStatic="true" method="_1I-D6bLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1FLJA7LqEe2b884QLJWpAA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1FLJBLLqEe2b884QLJWpAA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1IdtkLLqEe2b884QLJWpAA" name="RawTable" method="_1I-D5bLqEe2b884QLJWpAA">
+          <eAnnotations xmi:id="_1IdtkrLqEe2b884QLJWpAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_1Idtk7LqEe2b884QLJWpAA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_1IdtkbLqEe2b884QLJWpAA" name="entries" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1IdtlLLqEe2b884QLJWpAA" type="_1FJ64LLqEe2b884QLJWpAA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_1FLwELLqEe2b884QLJWpAA" name="RealEstateData">
+        <ownedOperation xmi:id="_1FLwEbLqEe2b884QLJWpAA" name="connectToDB" raisedException="_1IeUpLLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1IeUo7LqEe2b884QLJWpAA" type="_1IeUobLqEe2b884QLJWpAA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1FMXILLqEe2b884QLJWpAA" name="returnData">
+          <ownedParameter xmi:id="_1FMXIbLqEe2b884QLJWpAA" name="location">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1FMXIrLqEe2b884QLJWpAA" name="dateA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1FMXI7LqEe2b884QLJWpAA" name="dateB">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1FMXJLLqEe2b884QLJWpAA" name="goingByMonths">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1Ie7sbLqEe2b884QLJWpAA" type="_1H1bcLLqEe2b884QLJWpAA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1FNlQLLqEe2b884QLJWpAA" name="SQLRealEstateData">
+        <interfaceRealization xmi:id="_1IAakbLqEe2b884QLJWpAA" client="_1FNlQLLqEe2b884QLJWpAA" supplier="_1FLwELLqEe2b884QLJWpAA" contract="_1FLwELLqEe2b884QLJWpAA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I-D7LLqEe2b884QLJWpAA" name="csvDateConverter" specification="_1Ie7srLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I-D7bLqEe2b884QLJWpAA" name="date" type="_1H00YbLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1I-D7rLqEe2b884QLJWpAA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return date.format(DateTimeFormatter.ofPattern(&quot;yyyy-MM&quot;));&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I-q8LLqEe2b884QLJWpAA" name="connectToDB" specification="_1FNlQbLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I-q8bLqEe2b884QLJWpAA" type="_1H9XQLLqEe2b884QLJWpAA" direction="return"/>
+          <language>java</language>
+          <body>try {&#xD;
+         Properties secretStorage = new Properties();&#xD;
+         /*&#xD;
+          * Make sure you're in the eecs3311-project-bravo directory&#xD;
+          * Create a .env file in the models directory&#xD;
+          * Add this the .env file: PASSWORD=password_here&#xD;
+          */&#xD;
+         FileInputStream secretFile = new FileInputStream(&quot;./src/models/.env&quot;);&#xD;
+         secretStorage.load(secretFile);&#xD;
+         secretFile.close();&#xD;
+&#xD;
+         // Puts the driver in a string&#xD;
+         String driver = &quot;com.mysql.cj.jdbc.Driver&quot;;&#xD;
+&#xD;
+         // Puts the location of the database in a string&#xD;
+         String DBLocation = &quot;jdbc:mysql://localhost:3306/realestatedatabase&quot;;&#xD;
+&#xD;
+         String user = &quot;root&quot;;&#xD;
+&#xD;
+         // This is the password, depends on what you set it to&#xD;
+         String pass = secretStorage.getProperty(&quot;PASSWORD&quot;);&#xD;
+&#xD;
+         // Loads the driver&#xD;
+         Class.forName(driver);&#xD;
+&#xD;
+         // Makes the connection to the database by taking in the location, username and&#xD;
+         // password&#xD;
+         Connection connectionToDB = DriverManager.getConnection(DBLocation, user, pass);&#xD;
+&#xD;
+         return connectionToDB;&#xD;
+&#xD;
+     } catch (Exception nameOfException) {&#xD;
+         System.out.println(&quot;Something went wrong, exception: &quot; + nameOfException);&#xD;
+     }&#xD;
+&#xD;
+     // So if a connection is established successfully we already return the&#xD;
+     // connection object, however if there is an error in connection then we return&#xD;
+     // null, and handle the situation from the method call location&#xD;
+     return null;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I-q8rLqEe2b884QLJWpAA" name="returnData" specification="_1FOMULLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I-q87LqEe2b884QLJWpAA" name="location">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I-q9LLqEe2b884QLJWpAA" name="dateA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I-q9bLqEe2b884QLJWpAA" name="dateB">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I-q9rLqEe2b884QLJWpAA" name="goingByMonths">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I-q97LqEe2b884QLJWpAA" type="_1H1bcLLqEe2b884QLJWpAA" direction="return"/>
+          <language>java</language>
+          <body>// Creates an arraylist of query result objects used to store our queryresuts&#xD;
+     ArrayList&lt;QueryResult> queryResults = new ArrayList&lt;QueryResult>();&#xD;
+&#xD;
+     // Makes a request if the user look at a city&#xD;
+     try {&#xD;
+         // Calls the connectToDB method to make a connection to the database&#xD;
+         Connection connectionToDB = connectToDB();&#xD;
+&#xD;
+         // Sets up the SQL query string&#xD;
+         String sqlQuery = &quot;SELECT Ref_Date, NHPIValue, Geo &quot; + &quot;FROM Data &quot; + &quot;WHERE Geo = ? &quot;&#xD;
+                 + &quot;AND Ref_Date >= ?&quot; + &quot;AND Ref_Date &lt;= ? &quot; + &quot;AND New_House_Pricing_Indexes = ?&quot;;&#xD;
+&#xD;
+         // Prepares our SQL query before making it&#xD;
+         PreparedStatement preppedSQLQuery = connectionToDB.prepareStatement(sqlQuery);&#xD;
+         // Fills in the question marks in our SQL query with the values needed&#xD;
+         preppedSQLQuery.setString(1, location);&#xD;
+         preppedSQLQuery.setString(2, dateA);&#xD;
+         preppedSQLQuery.setString(3, dateB);&#xD;
+         preppedSQLQuery.setString(4, &quot;House only&quot;);&#xD;
+&#xD;
+         // Exectues query and then stores the results in the result set object&#xD;
+         ResultSet result = preppedSQLQuery.executeQuery();&#xD;
+&#xD;
+         // If going by months enter this body&#xD;
+         if (goingByMonths) {&#xD;
+             // Goes through the SQL query and adds it to our QueryResult object, then adds&#xD;
+             // the object to the list&#xD;
+             while (result.next()) {&#xD;
+                 QueryResult queryResultObject = new QueryResult(result.getString(&quot;Geo&quot;),&#xD;
+                         result.getDouble(&quot;NHPIValue&quot;), result.getString(&quot;Ref_Date&quot;));&#xD;
+                 queryResults.add(queryResultObject);&#xD;
+             }&#xD;
+         } else {&#xD;
+             // Creates a double that will be used to store the yearly value&#xD;
+             Double yearlyIndexVal = 0.0;&#xD;
+             // Creates an int that is used to track the number of indexes added in a year&#xD;
+             int valuesInAYear = 0;&#xD;
+             // Creates an int that tracks the months, when it is 11, we know that a year has&#xD;
+             // passed&#xD;
+             int count = 0;&#xD;
+&#xD;
+             // Gets the month of our start date, which is used to track years&#xD;
+             String startDateMonth = dateA.substring(5, 7);&#xD;
+&#xD;
+             // Goes through the our SQL query and calcualtes the yearly index values and&#xD;
+             // then adds them to the list&#xD;
+             while (result.next()) {&#xD;
+                 // Takes the month off our date string in order to help with calculating yearly&#xD;
+                 // indexes&#xD;
+                 String currentMonth = result.getString(&quot;Ref_Date&quot;).substring(5, 7);&#xD;
+&#xD;
+                 if (currentMonth.equals(startDateMonth)) {&#xD;
+                     // When the month is the same as our start month, we set the yearlyIndexVal and&#xD;
+                     // valuesInAYear to 0&#xD;
+                     yearlyIndexVal = 0.0;&#xD;
+                     valuesInAYear = 0;&#xD;
+                     // If the current index value is greater than zerom we add it to the yearly&#xD;
+                     // index value&#xD;
+                     if (result.getDouble(&quot;NHPIValue&quot;) > 0.0) {&#xD;
+                         valuesInAYear = valuesInAYear + 1;&#xD;
+                         yearlyIndexVal = result.getDouble(&quot;NHPIValue&quot;);&#xD;
+                     }&#xD;
+                     // Increments the count&#xD;
+                     count = 1;&#xD;
+                 } else if (startDateMonth.equals(dateB) || count == 11) { // If the month is equal to our end date,&#xD;
+                                                                           // or a year has gone by&#xD;
+&#xD;
+                     // If the month is our end date or a year has gone by, then we would have all&#xD;
+                     // the values needed to&#xD;
+                     // calculate the yearly index value, so we add the current numbers index and&#xD;
+                     // then divide&#xD;
+                     // it by the amount of index values to get the yearly index value&#xD;
+                     if (result.getDouble(&quot;NHPIValue&quot;) > 0.0) {&#xD;
+                         valuesInAYear = valuesInAYear + 1;&#xD;
+                         yearlyIndexVal = (yearlyIndexVal + result.getDouble(&quot;NHPIValue&quot;)) / valuesInAYear;&#xD;
+                     }&#xD;
+&#xD;
+                     // Uses math.round to round our yearly index value to 1 decimal place&#xD;
+                     Double roundedYearlyIndexVal = Math.round(yearlyIndexVal * 10.0) / 10.0;&#xD;
+&#xD;
+                     // Gets the current year from the date string&#xD;
+                     String getCurrentYear = result.getString(&quot;Ref_Date&quot;).substring(0, 4);&#xD;
+&#xD;
+                     // Creates the query result object for the year and adds it to our array list&#xD;
+                     QueryResult queryResultObject = new QueryResult(result.getString(&quot;Geo&quot;), roundedYearlyIndexVal,&#xD;
+                             getCurrentYear);&#xD;
+&#xD;
+                     // Add the query result object to our array list&#xD;
+                     queryResults.add(queryResultObject);&#xD;
+&#xD;
+                 } else {&#xD;
+                     // Just adds the index value to the yearly index value, as we do not have to do&#xD;
+                     // any other specfic behvaiours&#xD;
+                     if (result.getDouble(&quot;NHPIValue&quot;) > 0.0) {&#xD;
+                         valuesInAYear = valuesInAYear + 1;&#xD;
+                         yearlyIndexVal = yearlyIndexVal + result.getDouble(&quot;NHPIValue&quot;);&#xD;
+                     }&#xD;
+                     count = count + 1;&#xD;
+                 }&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         // Returns the arraylist of our query results&#xD;
+         return queryResults;&#xD;
+     } catch (Exception nameOfException) {&#xD;
+         System.out.println(&quot;Something went wrong, exception: &quot; + nameOfException);&#xD;
+     }&#xD;
+     // If there is an error in the query then we return null&#xD;
+     return null;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I-q-LLqEe2b884QLJWpAA" name="main" specification="_1FOzYbLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I-q-bLqEe2b884QLJWpAA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1I-q-rLqEe2b884QLJWpAA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>LocalDate dateA = LocalDate.of(1999, 12, 5);&#xD;
+     LocalDate dateB = LocalDate.of(2001, 6, 7);&#xD;
+     ArrayList&lt;LocalDate> dateList = new ArrayList&lt;LocalDate>();&#xD;
+     dateList.add(dateA);&#xD;
+     dateList.add(dateB);&#xD;
+&#xD;
+     // Creates a form object to test the program&#xD;
+     Form testForm = new Form(true, true, &quot;Alberta&quot;, &quot;Ontario&quot;, &quot;Calgary&quot;, &quot;Toronto&quot;, true, dateList);&#xD;
+     testingMethod(testForm);&#xD;
+&#xD;
+     // Creates a form object to test the program&#xD;
+     Form testForm2 = new Form(false, false, &quot;Alberta&quot;, &quot;Ontario&quot;, &quot;&quot;, &quot;&quot;, true, dateList);&#xD;
+     testingMethod(testForm2);&#xD;
+&#xD;
+     LocalDate dateC = LocalDate.of(1999, 1, 5);&#xD;
+     LocalDate dateD = LocalDate.of(2001, 12, 7);&#xD;
+     ArrayList&lt;LocalDate> dateList2 = new ArrayList&lt;LocalDate>();&#xD;
+     dateList2.add(dateC);&#xD;
+     dateList2.add(dateD);&#xD;
+     // Creates a form object to test the program&#xD;
+     Form testForm3 = new Form(false, false, &quot;Alberta&quot;, &quot;Ontario&quot;, &quot;&quot;, &quot;&quot;, false, dateList2);&#xD;
+     testingMethod(testForm3);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I-q-7LqEe2b884QLJWpAA" name="testingMethod" specification="_1IBBoLLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I-q_LLqEe2b884QLJWpAA" name="testForm" type="_1FD0QLLqEe2b884QLJWpAA"/>
+          <language>java</language>
+          <body>String convertedDateA;&#xD;
+         String convertedDateB;&#xD;
+&#xD;
+         ArrayList&lt;QueryResult> databaseResultOne = new ArrayList&lt;QueryResult>();&#xD;
+         ArrayList&lt;QueryResult> databaseResultTwo = new ArrayList&lt;QueryResult>();&#xD;
+&#xD;
+     for (int i = 0; i &lt; testForm.tSeries.size(); i = i + 2) {&#xD;
+         convertedDateA = csvDateConverter(testForm.tSeries.get(i).start);&#xD;
+         convertedDateB = csvDateConverter(testForm.tSeries.get(i).end);&#xD;
+&#xD;
+         // Creates two arraylists to store the results from the database&#xD;
+         databaseResultOne = new ArrayList&lt;QueryResult>();&#xD;
+         databaseResultTwo = new ArrayList&lt;QueryResult>();&#xD;
+&#xD;
+         // Creates a SQLRealEstateDate object so we can call the method&#xD;
+         SQLRealEstateData caller = new SQLRealEstateData();&#xD;
+&#xD;
+         // Handles if location 1 is a city or a province and then calls the method&#xD;
+         // accordingly&#xD;
+         if (testForm.inputLocation.isGeoACity) {&#xD;
+             String locationOne = (testForm.inputLocation.cityA + &quot;, &quot; + testForm.inputLocation.provinceA);&#xD;
+             databaseResultOne = caller.returnData(locationOne, convertedDateA, convertedDateB,&#xD;
+                     testForm.tSeries.get(0).isGranularByMonths);&#xD;
+         } else {&#xD;
+             String locationOne = testForm.inputLocation.provinceA;&#xD;
+             databaseResultOne = caller.returnData(locationOne, convertedDateA, convertedDateB,&#xD;
+                     testForm.tSeries.get(0).isGranularByMonths);&#xD;
+         }&#xD;
+&#xD;
+         // Handles if location 2 is a city or a province and then calls the method&#xD;
+         // accordingly&#xD;
+         if (testForm.inputLocation.isGeoBCity) {&#xD;
+             String locationTwo = (testForm.inputLocation.cityB + &quot;, &quot; + testForm.inputLocation.provinceB);&#xD;
+             databaseResultTwo = caller.returnData(locationTwo, convertedDateA, convertedDateB,&#xD;
+                     testForm.tSeries.get(0).isGranularByMonths);&#xD;
+         } else {&#xD;
+             String locationTwo = testForm.inputLocation.provinceB;&#xD;
+             databaseResultTwo = caller.returnData(locationTwo, convertedDateA, convertedDateB,&#xD;
+                     testForm.tSeries.get(0).isGranularByMonths);&#xD;
+         }&#xD;
+&#xD;
+         System.out.println(&quot;\n------------First Test Prints:---------------&quot;);&#xD;
+         // Prints the results of the first location&#xD;
+         for (int j = 0; j &lt; databaseResultOne.size(); j++) {&#xD;
+             System.out.println(databaseResultOne.get(j).location);&#xD;
+             System.out.println(databaseResultOne.get(j).NHPIIndexValue);&#xD;
+             System.out.println(databaseResultOne.get(j).date);&#xD;
+         }&#xD;
+&#xD;
+         // Prints the results of the second location&#xD;
+         System.out.println(&quot;\n----------------This is the second line----------------\n&quot;);&#xD;
+&#xD;
+         for (int k = 0; k &lt; databaseResultTwo.size(); k++) {&#xD;
+             System.out.println(databaseResultTwo.get(k).location);&#xD;
+             System.out.println(databaseResultTwo.get(k).NHPIIndexValue);&#xD;
+             System.out.println(databaseResultTwo.get(k).date);&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_1FNlQbLqEe2b884QLJWpAA" name="connectToDB" method="_1I-q8LLqEe2b884QLJWpAA" raisedException="_1IeUpLLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1IfiwLLqEe2b884QLJWpAA" type="_1H9XQLLqEe2b884QLJWpAA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1FOMULLqEe2b884QLJWpAA" name="returnData" method="_1I-q8rLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1FOMUbLqEe2b884QLJWpAA" name="location">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1FOMUrLqEe2b884QLJWpAA" name="dateA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1FOMU7LqEe2b884QLJWpAA" name="dateB">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1FOMVLLqEe2b884QLJWpAA" name="goingByMonths">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1IfiwbLqEe2b884QLJWpAA" type="_1H1bcLLqEe2b884QLJWpAA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1FOzYbLqEe2b884QLJWpAA" name="main" isStatic="true" method="_1I-q-LLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1FOzYrLqEe2b884QLJWpAA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1FOzZLLqEe2b884QLJWpAA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1IBBoLLqEe2b884QLJWpAA" name="testingMethod" isStatic="true" method="_1I-q-7LqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1IBBobLqEe2b884QLJWpAA" name="testForm" type="_1FD0QLLqEe2b884QLJWpAA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1Ie7srLqEe2b884QLJWpAA" name="csvDateConverter" isStatic="true" method="_1I-D7LLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1Ie7s7LqEe2b884QLJWpAA" name="date" type="_1H00YbLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1Ie7tLLqEe2b884QLJWpAA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1FQBgLLqEe2b884QLJWpAA" name="Table" isAbstract="true">
+        <ownedAttribute xmi:id="_1IxPlbLqEe2b884QLJWpAA" name="entries" visibility="package" type="_1H1bcLLqEe2b884QLJWpAA" association="_1JOik7LqEe2b884QLJWpAA"/>
+        <ownedAttribute xmi:id="_1Ix2orLqEe2b884QLJWpAA" name="table" type="_1H1bcLLqEe2b884QLJWpAA" association="_1JPJobLqEe2b884QLJWpAA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I-q_bLqEe2b884QLJWpAA" name="Table" specification="_1IgJ0LLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I-q_rLqEe2b884QLJWpAA" name="entries" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1I-q_7LqEe2b884QLJWpAA" type="_1FQBgLLqEe2b884QLJWpAA" direction="return"/>
+          <language>java</language>
+          <body>this.entries = entries;&#xD;
+     this.table = new ArrayList&lt;ArrayList&lt;String>>();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_1FQokLLqEe2b884QLJWpAA" name="populateTable" isAbstract="true"/>
+        <ownedOperation xmi:id="_1IgJ0LLqEe2b884QLJWpAA" name="Table" method="_1I-q_bLqEe2b884QLJWpAA">
+          <eAnnotations xmi:id="_1IgJ0rLqEe2b884QLJWpAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_1IgJ07LqEe2b884QLJWpAA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_1IgJ0bLqEe2b884QLJWpAA" name="entries" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1IgJ1LLqEe2b884QLJWpAA" type="_1FQBgLLqEe2b884QLJWpAA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1FRPoLLqEe2b884QLJWpAA" name="TimeSeries">
+        <ownedAttribute xmi:id="_1IydsLLqEe2b884QLJWpAA" name="isGranularByMonths">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_1IydsrLqEe2b884QLJWpAA" name="start" type="_1H00YbLqEe2b884QLJWpAA" association="_1JPJpLLqEe2b884QLJWpAA"/>
+        <ownedAttribute xmi:id="_1IydtLLqEe2b884QLJWpAA" name="end" type="_1H00YbLqEe2b884QLJWpAA" association="_1JPwsLLqEe2b884QLJWpAA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I_SALLqEe2b884QLJWpAA" name="TimeSeries" specification="_1Igw4bLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I_SAbLqEe2b884QLJWpAA" name="isGranularByMonths">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1I_SArLqEe2b884QLJWpAA" name="start" type="_1H00YbLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1I_SA7LqEe2b884QLJWpAA" name="end" type="_1H00YbLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1I_SBLLqEe2b884QLJWpAA" type="_1FRPoLLqEe2b884QLJWpAA" direction="return"/>
+          <language>java</language>
+          <body>this.isGranularByMonths = isGranularByMonths;&#xD;
+     this.start = start;&#xD;
+     this.end = end;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_1Igw4bLqEe2b884QLJWpAA" name="TimeSeries" method="_1I_SALLqEe2b884QLJWpAA">
+          <eAnnotations xmi:id="_1IhX87LqEe2b884QLJWpAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_1IhX9LLqEe2b884QLJWpAA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_1IhX8LLqEe2b884QLJWpAA" name="isGranularByMonths">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1IhX8bLqEe2b884QLJWpAA" name="start" type="_1H00YbLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1IhX8rLqEe2b884QLJWpAA" name="end" type="_1H00YbLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1IhX9bLqEe2b884QLJWpAA" type="_1FRPoLLqEe2b884QLJWpAA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_1FSdwLLqEe2b884QLJWpAA" name="Visualization">
+        <ownedOperation xmi:id="_1IhX9rLqEe2b884QLJWpAA" name="prepVisuals">
+          <ownedParameter xmi:id="_1IhX97LqEe2b884QLJWpAA" name="dataA" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1Ih_ALLqEe2b884QLJWpAA" name="dataB" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1Ih_AbLqEe2b884QLJWpAA" name="Month">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1Ih_ArLqEe2b884QLJWpAA" type="_1H5s5LLqEe2b884QLJWpAA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1FTE0LLqEe2b884QLJWpAA" name="nhpiComparison">
+        <ownedAttribute xmi:id="_1IydtrLqEe2b884QLJWpAA" name="ALPHA" visibility="package" isLeaf="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1IzEwLLqEe2b884QLJWpAA" value="0.5"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_1IF6ILLqEe2b884QLJWpAA" client="_1FTE0LLqEe2b884QLJWpAA" supplier="_1FDNMbLqEe2b884QLJWpAA" contract="_1FDNMbLqEe2b884QLJWpAA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I_SBbLqEe2b884QLJWpAA" name="compare" specification="_1IimELLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I_SBrLqEe2b884QLJWpAA" name="geoA" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1I_SB7LqEe2b884QLJWpAA" name="geoB" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1I_SCLLqEe2b884QLJWpAA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if(geoA.size() &lt; 2 || geoB.size() &lt; 2){&#xD;
+         return &quot;Not enough data!&quot;;&#xD;
+     }&#xD;
+&#xD;
+     //apache library requires their input.&#xD;
+     SummaryStatistics nhpiA = convert(geoA);&#xD;
+     SummaryStatistics nhpiB = convert(geoB);&#xD;
+&#xD;
+     TTest nhpiTest = new TTest();&#xD;
+     &#xD;
+     nhpiTest.t(nhpiA, nhpiB); //t-stat&#xD;
+     double p = nhpiTest.tTest(nhpiA, nhpiB); //p-stat&#xD;
+     &#xD;
+     if(nhpiTest.tTest(nhpiA, nhpiB, ALPHA)){ //returns true if we can reject&#xD;
+         return &quot;We can reject the null hypothesis (p-value: &quot; + p + &quot;)&quot;;&#xD;
+     }&#xD;
+&#xD;
+     return &quot;We cannot reject the null hypothesis (p-value: &quot; + p + &quot;)&quot;;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I_SCbLqEe2b884QLJWpAA" name="convert" specification="_1Ij0MrLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I_SCrLqEe2b884QLJWpAA" name="x" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1I_SC7LqEe2b884QLJWpAA" type="_1IFTEbLqEe2b884QLJWpAA" direction="return"/>
+          <language>java</language>
+          <body>SummaryStatistics res = new SummaryStatistics();&#xD;
+&#xD;
+     for(int i = 0 ; i &lt; x.size(); i++){&#xD;
+         res.addValue(x.get(i).NHPIIndexValue.doubleValue());&#xD;
+     }&#xD;
+&#xD;
+     return res;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I_SDLLqEe2b884QLJWpAA" name="main" specification="_1FUS8LLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I_SDbLqEe2b884QLJWpAA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1I_SDrLqEe2b884QLJWpAA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>LocalDate date1 = LocalDate.of(1999, 1, 5);&#xD;
+     LocalDate date2 = LocalDate.of(2015, 1, 5);&#xD;
+&#xD;
+     SQLRealEstateData caller = new SQLRealEstateData();&#xD;
+&#xD;
+     String dateA = SQLRealEstateData.csvDateConverter(date1);&#xD;
+     String dateB = SQLRealEstateData.csvDateConverter(date2);&#xD;
+     &#xD;
+     ArrayList&lt;QueryResult> A = caller.returnData(&quot;Ontario&quot;, dateA, dateB, false);&#xD;
+     ArrayList&lt;QueryResult> B = caller.returnData(&quot;Alberta&quot;, dateA, dateB, false);&#xD;
+&#xD;
+     //PSVM test for comparison:&#xD;
+     nhpiComparison test = new nhpiComparison();&#xD;
+     System.out.println(test.compare(A, B));// different &#xD;
+     System.out.println(test.compare(A, A));// same (cannot reject null hyp)&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_1FTr4LLqEe2b884QLJWpAA" name="nhpiComparison">
+          <eAnnotations xmi:id="_1FTr4bLqEe2b884QLJWpAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_1FTr4rLqEe2b884QLJWpAA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_1FTr5LLqEe2b884QLJWpAA" type="_1FTE0LLqEe2b884QLJWpAA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1FUS8LLqEe2b884QLJWpAA" name="main" isStatic="true" method="_1I_SDLLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1FUS8bLqEe2b884QLJWpAA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1FUS8rLqEe2b884QLJWpAA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1IimELLqEe2b884QLJWpAA" name="compare" method="_1I_SBbLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1IimEbLqEe2b884QLJWpAA" name="geoA" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1IimErLqEe2b884QLJWpAA" name="geoB" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1IimE7LqEe2b884QLJWpAA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1Ij0MrLqEe2b884QLJWpAA" name="convert" visibility="private" method="_1I_SCbLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1Ij0M7LqEe2b884QLJWpAA" name="x" type="_1H1bcLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1Ij0NLLqEe2b884QLJWpAA" type="_1IFTEbLqEe2b884QLJWpAA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_1JNUcLLqEe2b884QLJWpAA" name="" memberEnd="_1JNUcbLqEe2b884QLJWpAA _1IuzULLqEe2b884QLJWpAA">
+        <ownedEnd xmi:id="_1JNUcbLqEe2b884QLJWpAA" name="" type="_1FD0QLLqEe2b884QLJWpAA" association="_1JNUcLLqEe2b884QLJWpAA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_1JOikLLqEe2b884QLJWpAA" name="" memberEnd="_1JOikbLqEe2b884QLJWpAA _1IvaYbLqEe2b884QLJWpAA">
+        <ownedEnd xmi:id="_1JOikbLqEe2b884QLJWpAA" name="" type="_1FD0QLLqEe2b884QLJWpAA" association="_1JOikLLqEe2b884QLJWpAA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_1JOik7LqEe2b884QLJWpAA" name="" memberEnd="_1JOilLLqEe2b884QLJWpAA _1IxPlbLqEe2b884QLJWpAA">
+        <ownedEnd xmi:id="_1JOilLLqEe2b884QLJWpAA" name="" type="_1FQBgLLqEe2b884QLJWpAA" association="_1JOik7LqEe2b884QLJWpAA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_1JPJobLqEe2b884QLJWpAA" name="" memberEnd="_1JPJorLqEe2b884QLJWpAA _1Ix2orLqEe2b884QLJWpAA">
+        <ownedEnd xmi:id="_1JPJorLqEe2b884QLJWpAA" name="" type="_1FQBgLLqEe2b884QLJWpAA" association="_1JPJobLqEe2b884QLJWpAA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_1JPJpLLqEe2b884QLJWpAA" name="" memberEnd="_1JPJpbLqEe2b884QLJWpAA _1IydsrLqEe2b884QLJWpAA">
+        <ownedEnd xmi:id="_1JPJpbLqEe2b884QLJWpAA" name="" type="_1FRPoLLqEe2b884QLJWpAA" association="_1JPJpLLqEe2b884QLJWpAA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_1JPwsLLqEe2b884QLJWpAA" name="" memberEnd="_1JPwsbLqEe2b884QLJWpAA _1IydtLLqEe2b884QLJWpAA">
+        <ownedEnd xmi:id="_1JPwsbLqEe2b884QLJWpAA" name="" type="_1FRPoLLqEe2b884QLJWpAA" association="_1JPwsLLqEe2b884QLJWpAA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1EMRkbLqEe2b884QLJWpAA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_1EMRkrLqEe2b884QLJWpAA" name="io">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_1H0NULLqEe2b884QLJWpAA" name="DataInput"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1H_zg7LqEe2b884QLJWpAA" name="FileInputStream"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_1EMRk7LqEe2b884QLJWpAA" name="time">
+        <packagedElement xmi:type="uml:Package" xmi:id="_1EU0cbLqEe2b884QLJWpAA" name="format">
+          <packagedElement xmi:type="uml:Class" xmi:id="_1H_McbLqEe2b884QLJWpAA" name="DateTimeFormatter"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1H00YbLqEe2b884QLJWpAA" name="LocalDate"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_1EM4oLLqEe2b884QLJWpAA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_1H1bcLLqEe2b884QLJWpAA" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1H_zgbLqEe2b884QLJWpAA" name="Properties"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1IJkgbLqEe2b884QLJWpAA" name="Vector"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_1EP78rLqEe2b884QLJWpAA" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_1Ed-YrLqEe2b884QLJWpAA" name="event">
+          <packagedElement xmi:type="uml:Class" xmi:id="_1ISHY7LqEe2b884QLJWpAA" name="ActionEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_1ISucbLqEe2b884QLJWpAA" name="ActionListener"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1IpTwLLqEe2b884QLJWpAA" name="Font"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_1EU0cLLqEe2b884QLJWpAA" name="sql">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_1H9XQLLqEe2b884QLJWpAA" name="Connection"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1H9-UbLqEe2b884QLJWpAA" name="DriverManager"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_1H9-U7LqEe2b884QLJWpAA" name="PreparedStatement"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_1H-lYbLqEe2b884QLJWpAA" name="ResultSet"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_1IcfcrLqEe2b884QLJWpAA" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_1Icfc7LqEe2b884QLJWpAA" name="Double"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1IeUobLqEe2b884QLJWpAA" name="Object"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1IeUpLLqEe2b884QLJWpAA" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1EM4obLqEe2b884QLJWpAA" name="controllers">
+      <packagedElement xmi:type="uml:Class" xmi:id="_1FBYALLqEe2b884QLJWpAA" name="TableController">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I81wLLqEe2b884QLJWpAA" name="getData" specification="_1H1bcrLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I81wbLqEe2b884QLJWpAA" name="form" type="_1FD0QLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1I81wrLqEe2b884QLJWpAA" name="db" type="_1FNlQLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1I81w7LqEe2b884QLJWpAA" type="_1H1bcLLqEe2b884QLJWpAA" direction="return"/>
+          <language>java</language>
+          <body>ArrayList&lt;ArrayList&lt;String>> data = new ArrayList&lt;ArrayList&lt;String>>();&#xD;
+&#xD;
+     // Get the location from the form&#xD;
+     // ArrayList&lt;QueryResult> geoA = db.returnData(&quot;Ontario&quot;, &quot;2002-01&quot;, &quot;2003-02&quot;, true);&#xD;
+&#xD;
+     Location location = form.inputLocation;&#xD;
+&#xD;
+     ArrayList&lt;TimeSeries> timeSeries = form.tSeries;&#xD;
+&#xD;
+     String geoA = &quot;&quot;;&#xD;
+     String geoB = &quot;&quot;;&#xD;
+&#xD;
+     if(location.isGeoACity){&#xD;
+         geoA = location.cityA + &quot;, &quot; + location.provinceA;&#xD;
+     }&#xD;
+     else{&#xD;
+         geoA = location.provinceA;&#xD;
+     }&#xD;
+&#xD;
+     if(location.isGeoBCity){&#xD;
+         geoA = location.cityB + &quot;, &quot; + location.provinceB;&#xD;
+     }&#xD;
+     else{&#xD;
+         geoB = location.provinceB;&#xD;
+     }&#xD;
+&#xD;
+     for(TimeSeries tSeries : timeSeries){&#xD;
+&#xD;
+         ArrayList&lt;QueryResult> queryA = db.returnData(geoA, &#xD;
+         SQLRealEstateData.csvDateConverter(tSeries.start), &#xD;
+         SQLRealEstateData.csvDateConverter(tSeries.end), &#xD;
+         tSeries.isGranularByMonths);&#xD;
+&#xD;
+         ArrayList&lt;QueryResult> queryB = db.returnData(geoB, &#xD;
+         SQLRealEstateData.csvDateConverter(tSeries.start), &#xD;
+         SQLRealEstateData.csvDateConverter(tSeries.end), &#xD;
+         tSeries.isGranularByMonths);&#xD;
+&#xD;
+         RawTable tableA = new RawTable(queryA);&#xD;
+         RawTable tableB = new RawTable(queryB);&#xD;
+&#xD;
+         data.addAll(tableA.table);&#xD;
+         data.addAll(tableB.table);&#xD;
+     }&#xD;
+&#xD;
+     return data;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I81xLLqEe2b884QLJWpAA" name="main" specification="_1FCmIrLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1I81xbLqEe2b884QLJWpAA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1I81xrLqEe2b884QLJWpAA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>SQLRealEstateData db = new SQLRealEstateData();&#xD;
+ &#xD;
+     ArrayList&lt;LocalDate> dateList = new ArrayList&lt;LocalDate>();&#xD;
+     dateList.add(LocalDate.of(2002, 1, 1));&#xD;
+     dateList.add(LocalDate.of(2010, 2, 1));&#xD;
+     dateList.add(LocalDate.of(2005, 1, 1));&#xD;
+     dateList.add(LocalDate.of(2015, 2, 1));&#xD;
+&#xD;
+&#xD;
+     Form form = new Form(false, false, &quot;Ontario&quot;, &quot;Ontario&quot;, &quot;Toronto&quot;, &quot;Ottawa&quot;, true, dateList);&#xD;
+ &#xD;
+     ArrayList&lt;ArrayList&lt;String>> data = TableController.getData(form, db);&#xD;
+&#xD;
+     System.out.println(&quot;\nTable:\n&quot;);&#xD;
+&#xD;
+     for(ArrayList&lt;String> row: data) {&#xD;
+         for(String column: row) {&#xD;
+             System.out.print(column + &quot; | &quot;);&#xD;
+         }&#xD;
+         System.out.println();&#xD;
+     }  &#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_1FB_ELLqEe2b884QLJWpAA" name="TableController" visibility="private">
+          <eAnnotations xmi:id="_1FB_EbLqEe2b884QLJWpAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_1FB_ErLqEe2b884QLJWpAA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_1FCmIbLqEe2b884QLJWpAA" type="_1FBYALLqEe2b884QLJWpAA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1FCmIrLqEe2b884QLJWpAA" name="main" isStatic="true" method="_1I81xLLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1FCmI7LqEe2b884QLJWpAA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1FDNMLLqEe2b884QLJWpAA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1H1bcrLqEe2b884QLJWpAA" name="getData" isStatic="true" method="_1I81wLLqEe2b884QLJWpAA">
+          <ownedParameter xmi:id="_1H1bc7LqEe2b884QLJWpAA" name="form" type="_1FD0QLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1H2CgLLqEe2b884QLJWpAA" name="db" type="_1FNlQLLqEe2b884QLJWpAA"/>
+          <ownedParameter xmi:id="_1IY1ELLqEe2b884QLJWpAA" type="_1H1bcLLqEe2b884QLJWpAA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1EP78LLqEe2b884QLJWpAA" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_1EP78bLqEe2b884QLJWpAA" name="swing">
+        <packagedElement xmi:type="uml:Class" xmi:id="_1IkbQrLqEe2b884QLJWpAA" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1IlCUbLqEe2b884QLJWpAA" name="JPanel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1ImQcLLqEe2b884QLJWpAA" name="JButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1Ip60LLqEe2b884QLJWpAA" name="JRadioButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1Iqh4rLqEe2b884QLJWpAA" name="JComboBox"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1IrwALLqEe2b884QLJWpAA" name="JTable"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1EP787LqEe2b884QLJWpAA" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_1EP79LLqEe2b884QLJWpAA" name="jfree">
+        <packagedElement xmi:type="uml:Package" xmi:id="_1EP79bLqEe2b884QLJWpAA" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_1EQjALLqEe2b884QLJWpAA" name="time">
+            <packagedElement xmi:type="uml:Class" xmi:id="_1H33sLLqEe2b884QLJWpAA" name="TimeSeries"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_1H33srLqEe2b884QLJWpAA" name="TimeSeriesCollection"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_1H4ewbLqEe2b884QLJWpAA" name="Year"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_1H5s4rLqEe2b884QLJWpAA" name="Month"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_1Ed-YbLqEe2b884QLJWpAA" name="xy">
+            <packagedElement xmi:type="uml:Class" xmi:id="_1II9cLLqEe2b884QLJWpAA" name="XYSeries"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_1II9crLqEe2b884QLJWpAA" name="XYSeriesCollection"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_1EhBsbLqEe2b884QLJWpAA" name="category">
+            <packagedElement xmi:type="uml:Class" xmi:id="_1IMAwbLqEe2b884QLJWpAA" name="DefaultCategoryDataset"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_1EQjAbLqEe2b884QLJWpAA" name="chart">
+          <packagedElement xmi:type="uml:Package" xmi:id="_1EQjArLqEe2b884QLJWpAA" name="plot">
+            <packagedElement xmi:type="uml:Class" xmi:id="_1H4ew7LqEe2b884QLJWpAA" name="XYPlot"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_1IIWYLLqEe2b884QLJWpAA" name="PlotOrientation"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_1IRgUrLqEe2b884QLJWpAA" name="CategoryPlot"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_1EQjA7LqEe2b884QLJWpAA" name="renderer">
+            <packagedElement xmi:type="uml:Package" xmi:id="_1EQjBLLqEe2b884QLJWpAA" name="xy">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_1H5F0bLqEe2b884QLJWpAA" name="XYItemRenderer"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_1H5s4LLqEe2b884QLJWpAA" name="XYLineAndShapeRenderer"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_1EqysLLqEe2b884QLJWpAA" name="category">
+              <packagedElement xmi:type="uml:Class" xmi:id="_1ISHYbLqEe2b884QLJWpAA" name="BarRenderer"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_1EQjBbLqEe2b884QLJWpAA" name="axis">
+            <packagedElement xmi:type="uml:Class" xmi:id="_1H6T87LqEe2b884QLJWpAA" name="DateAxis"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_1H67AbLqEe2b884QLJWpAA" name="NumberAxis"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_1IRgULLqEe2b884QLJWpAA" name="CategoryAxis"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_1EdXULLqEe2b884QLJWpAA" name="block">
+            <packagedElement xmi:type="uml:Class" xmi:id="_1IHvUbLqEe2b884QLJWpAA" name="BlockBorder"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_1Ed-YLLqEe2b884QLJWpAA" name="title">
+            <packagedElement xmi:type="uml:Class" xmi:id="_1IIWYrLqEe2b884QLJWpAA" name="TextTitle"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_1EhBsLLqEe2b884QLJWpAA" name="util">
+            <packagedElement xmi:type="uml:Enumeration" xmi:id="_1ILZsLLqEe2b884QLJWpAA" name="TableOrder"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_1H5s5LLqEe2b884QLJWpAA" name="ChartPanel"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_1H6T8bLqEe2b884QLJWpAA" name="JFreeChart"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_1IHIQLLqEe2b884QLJWpAA" name="ChartFactory"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_1EaUALLqEe2b884QLJWpAA" name="apache">
+        <packagedElement xmi:type="uml:Package" xmi:id="_1Ea7ELLqEe2b884QLJWpAA" name="commons">
+          <packagedElement xmi:type="uml:Package" xmi:id="_1Ea7EbLqEe2b884QLJWpAA" name="math3">
+            <packagedElement xmi:type="uml:Package" xmi:id="_1Ea7ErLqEe2b884QLJWpAA" name="stat">
+              <packagedElement xmi:type="uml:Package" xmi:id="_1Ea7E7LqEe2b884QLJWpAA" name="inference">
+                <packagedElement xmi:type="uml:Class" xmi:id="_1IEsALLqEe2b884QLJWpAA" name="TTest"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_1Ea7FLLqEe2b884QLJWpAA" name="descriptive">
+                <packagedElement xmi:type="uml:Class" xmi:id="_1IFTEbLqEe2b884QLJWpAA" name="SummaryStatistics"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1FU6ALLqEe2b884QLJWpAA" name="Comparison">
+      <ownedAttribute xmi:id="_1IzEwrLqEe2b884QLJWpAA" name="frame" visibility="private" type="_1IkbQrLqEe2b884QLJWpAA" association="_1JPws7LqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1IzEw7LqEe2b884QLJWpAA" value="new JFrame()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1IzExbLqEe2b884QLJWpAA" name="north" visibility="private" type="_1IlCUbLqEe2b884QLJWpAA" association="_1JPwtrLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1IzExrLqEe2b884QLJWpAA" value="new JPanel()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1Izr0bLqEe2b884QLJWpAA" name="mid" visibility="private" type="_1IlCUbLqEe2b884QLJWpAA" association="_1JQXwbLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1Izr0rLqEe2b884QLJWpAA" value="new JPanel(new GridLayout(1, 0))"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1Izr1LLqEe2b884QLJWpAA" name="south" visibility="private" type="_1IlCUbLqEe2b884QLJWpAA" association="_1JQXxLLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1Izr1bLqEe2b884QLJWpAA" value="new JPanel()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1Izr17LqEe2b884QLJWpAA" name="comparisonButton" visibility="private" type="_1ImQcLLqEe2b884QLJWpAA" association="_1JQXx7LqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I0S4LLqEe2b884QLJWpAA" value="new  JButton(&quot;Generate Comparison&quot;)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I0S4rLqEe2b884QLJWpAA" name="tableButton" visibility="private" type="_1ImQcLLqEe2b884QLJWpAA" association="_1JQ-0bLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I0S47LqEe2b884QLJWpAA" value="new  JButton(&quot;Table View&quot;)"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_1IkbQbLqEe2b884QLJWpAA" client="_1FU6ALLqEe2b884QLJWpAA" supplier="_1ISucbLqEe2b884QLJWpAA" contract="_1ISucbLqEe2b884QLJWpAA"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I_5ELLqEe2b884QLJWpAA" name="Comparison" specification="_1FVhELLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1I_5EbLqEe2b884QLJWpAA" type="_1FU6ALLqEe2b884QLJWpAA" direction="return"/>
+        <language>java</language>
+        <body>frame.setTitle(&quot;Comparison&quot;);&#xD;
+&#xD;
+     // TODO: add functionality that disallows comparison when there is only 1 time series&#xD;
+     JLabel chooseComparisonLabel = new JLabel(&quot;Choose a comparison: &quot;);&#xD;
+     Vector&lt;String> comparisons = new Vector&lt;String>();&#xD;
+&#xD;
+     // TODO: determine comparisons&#xD;
+     comparisons.add(&quot;Comparison 1&quot;);&#xD;
+     comparisons.add(&quot;Comparison 2&quot;);&#xD;
+&#xD;
+     JComboBox&lt;String> comparisonList = new JComboBox&lt;String>(comparisons);&#xD;
+     north.add(chooseComparisonLabel);&#xD;
+     north.add(comparisonList);&#xD;
+&#xD;
+     comparisonButton.addActionListener(this);&#xD;
+     north.add(comparisonButton);&#xD;
+&#xD;
+     mid.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 20));&#xD;
+&#xD;
+     tableButton.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             frame.setVisible(false);&#xD;
+             frame.dispose();&#xD;
+             new Table();&#xD;
+         }&#xD;
+     } );&#xD;
+     south.add(tableButton);&#xD;
+&#xD;
+     frame.add(north, BorderLayout.NORTH);&#xD;
+     frame.add(mid);&#xD;
+     frame.add(south, BorderLayout.SOUTH);&#xD;
+     frame.pack();&#xD;
+     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+     frame.setLocationRelativeTo(null);&#xD;
+     frame.setVisible(true);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I_5ErLqEe2b884QLJWpAA" name="comparisonGraph" specification="_1FWIILLqEe2b884QLJWpAA">
+        <language>java</language>
+        <body>// TODO: after determining which comparisons we are querying, display them&#xD;
+&#xD;
+     // THIS WAS SOURCED FROM THE PROFESSORS DEMO WITH PERMISSION. THIS IS SIMPLY A PLACEHOLDER AND WILL NOT BE USED IN THE FINAL APPLICATION&#xD;
+     XYSeries series1 = new XYSeries(&quot;Mortality/1000 births&quot;);&#xD;
+     series1.add(2018, 5.6);&#xD;
+     series1.add(2017, 5.7);&#xD;
+     series1.add(2016, 5.8);&#xD;
+     series1.add(2015, 5.8);&#xD;
+     series1.add(2014, 5.9);&#xD;
+     series1.add(2013, 6.0);&#xD;
+     series1.add(2012, 6.1);&#xD;
+     series1.add(2011, 6.2);&#xD;
+     series1.add(2010, 6.4);&#xD;
+&#xD;
+     XYSeries series2 = new XYSeries(&quot;Health Expenditure per Capita&quot;);&#xD;
+     series2.add(2018, 10624);&#xD;
+     series2.add(2017, 10209);&#xD;
+     series2.add(2016, 9877);&#xD;
+     series2.add(2015, 9491);&#xD;
+     series2.add(2014, 9023);&#xD;
+     series2.add(2013, 8599);&#xD;
+     series2.add(2012, 8399);&#xD;
+     series2.add(2011, 8130);&#xD;
+     series2.add(2010, 7930);&#xD;
+&#xD;
+     XYSeries series3 = new XYSeries(&quot;Hospital Beds/1000 people&quot;);&#xD;
+     series3.add(2018, 2.92);&#xD;
+     series3.add(2017, 2.87);&#xD;
+     series3.add(2016, 2.77);&#xD;
+     series3.add(2015, 2.8);&#xD;
+     series3.add(2014, 2.83);&#xD;
+     series3.add(2013, 2.89);&#xD;
+     series3.add(2012, 2.93);&#xD;
+     series3.add(2011, 2.97);&#xD;
+     series3.add(2010, 3.05);&#xD;
+&#xD;
+     XYSeriesCollection dataset = new XYSeriesCollection();&#xD;
+     dataset.addSeries(series1);&#xD;
+     dataset.addSeries(series2);&#xD;
+     dataset.addSeries(series3);&#xD;
+&#xD;
+     JFreeChart chart = ChartFactory.createXYLineChart(&quot;Mortality vs Expenses &amp; Hospital Beds&quot;, &quot;Year&quot;, &quot;&quot;, dataset,&#xD;
+             PlotOrientation.VERTICAL, true, true, false);&#xD;
+&#xD;
+     XYPlot plot = chart.getXYPlot();&#xD;
+&#xD;
+     XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer();&#xD;
+     renderer.setSeriesPaint(0, Color.RED);&#xD;
+     renderer.setSeriesStroke(0, new BasicStroke(2.0f));&#xD;
+&#xD;
+     plot.setRenderer(renderer);&#xD;
+     plot.setBackgroundPaint(Color.white);&#xD;
+&#xD;
+     plot.setRangeGridlinesVisible(true);&#xD;
+     plot.setRangeGridlinePaint(Color.BLACK);&#xD;
+&#xD;
+     plot.setDomainGridlinesVisible(true);&#xD;
+     plot.setDomainGridlinePaint(Color.BLACK);&#xD;
+&#xD;
+     chart.getLegend().setFrame(BlockBorder.NONE);&#xD;
+&#xD;
+     chart.setTitle(&#xD;
+             new TextTitle(&quot;Mortality vs Expenses &amp; Hospital Beds&quot;, new Font(&quot;Serif&quot;, java.awt.Font.BOLD, 18)));&#xD;
+&#xD;
+     ChartPanel chartPanel = new ChartPanel(chart);&#xD;
+     chartPanel.setPreferredSize(new Dimension(400, 300));&#xD;
+     chartPanel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));&#xD;
+     chartPanel.setBackground(Color.white);&#xD;
+&#xD;
+     if (mid.getComponentCount() == 0) {&#xD;
+         mid.add(chartPanel);&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I_5E7LqEe2b884QLJWpAA" name="actionPerformed" specification="_1ImQcrLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1I_5FLLqEe2b884QLJWpAA" name="e" type="_1ISHY7LqEe2b884QLJWpAA"/>
+        <language>java</language>
+        <body>comparisonGraph();&#xD;
+     frame.pack();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1I_5FbLqEe2b884QLJWpAA" name="main" specification="_1FWIIbLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1I_5FrLqEe2b884QLJWpAA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1I_5F7LqEe2b884QLJWpAA" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>new Comparison();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_1FVhELLqEe2b884QLJWpAA" name="Comparison" method="_1I_5ELLqEe2b884QLJWpAA">
+        <eAnnotations xmi:id="_1FVhEbLqEe2b884QLJWpAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_1FVhErLqEe2b884QLJWpAA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_1FVhE7LqEe2b884QLJWpAA" type="_1FU6ALLqEe2b884QLJWpAA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1FWIILLqEe2b884QLJWpAA" name="comparisonGraph" method="_1I_5ErLqEe2b884QLJWpAA"/>
+      <ownedOperation xmi:id="_1FWIIbLqEe2b884QLJWpAA" name="main" isStatic="true" method="_1I_5FbLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1FWIIrLqEe2b884QLJWpAA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1FWII7LqEe2b884QLJWpAA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1ImQcrLqEe2b884QLJWpAA" name="actionPerformed" method="_1I_5E7LqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1Im3gLLqEe2b884QLJWpAA" name="e" type="_1ISHY7LqEe2b884QLJWpAA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1FXWQLLqEe2b884QLJWpAA" name="Forecast">
+      <ownedAttribute xmi:id="_1I0S5bLqEe2b884QLJWpAA" name="frame" visibility="private" type="_1IkbQrLqEe2b884QLJWpAA" association="_1JQ-1LLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I0S5rLqEe2b884QLJWpAA" value="new JFrame()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I058LLqEe2b884QLJWpAA" name="north" visibility="private" type="_1IlCUbLqEe2b884QLJWpAA" association="_1JQ-17LqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I058bLqEe2b884QLJWpAA" value="new JPanel()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I0587LqEe2b884QLJWpAA" name="mid" visibility="private" type="_1IlCUbLqEe2b884QLJWpAA" association="_1JRl4bLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I059LLqEe2b884QLJWpAA" value="new JPanel(new GridLayout(4, 0))"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I059rLqEe2b884QLJWpAA" name="south" visibility="private" type="_1IlCUbLqEe2b884QLJWpAA" association="_1JRl5LLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I0597LqEe2b884QLJWpAA" value="new JPanel()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I1hALLqEe2b884QLJWpAA" name="forecastButton" visibility="private" type="_1ImQcLLqEe2b884QLJWpAA" association="_1JSM8bLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I1hAbLqEe2b884QLJWpAA" value="new  JButton(&quot;Generate Forecast&quot;)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I1hA7LqEe2b884QLJWpAA" name="tableButton" visibility="private" type="_1ImQcLLqEe2b884QLJWpAA" association="_1JSM9LLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I1hBLLqEe2b884QLJWpAA" value="new  JButton(&quot;Table View&quot;)"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_1InekLLqEe2b884QLJWpAA" client="_1FXWQLLqEe2b884QLJWpAA" supplier="_1ISucbLqEe2b884QLJWpAA" contract="_1ISucbLqEe2b884QLJWpAA"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JAgILLqEe2b884QLJWpAA" name="Forecast" specification="_1FX9ULLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JAgIbLqEe2b884QLJWpAA" type="_1FXWQLLqEe2b884QLJWpAA" direction="return"/>
+        <language>java</language>
+        <body>frame.setTitle(&quot;Forecast&quot;);&#xD;
+&#xD;
+     forecastButton.addActionListener(this);&#xD;
+&#xD;
+&#xD;
+     JLabel chooseTimeSeriesLabel = new JLabel(&quot;Choose a time-series: &quot;);&#xD;
+     Vector&lt;String> timeSeries = new Vector&lt;String>();&#xD;
+&#xD;
+     // TODO: determine timeSeries, run them, display them&#xD;
+     timeSeries.add(&quot;temp1&quot;);&#xD;
+     timeSeries.add(&quot;temp2&quot;);&#xD;
+&#xD;
+     JComboBox&lt;String> timeSeriesList = new JComboBox&lt;String>(timeSeries);&#xD;
+     north.add(chooseTimeSeriesLabel);&#xD;
+     north.add(timeSeriesList);&#xD;
+     north.add(forecastButton);&#xD;
+&#xD;
+     JLabel numberLabel = new JLabel(&quot;Number of months:&quot;);&#xD;
+     JTextField numberText = new JTextField(20);&#xD;
+     JLabel iterationLabel = new JLabel(&quot;Number of iterations:&quot;);&#xD;
+     JTextField iterationText = new JTextField(20);&#xD;
+     JLabel epochLabel = new JLabel(&quot;Number of epochs:&quot;);&#xD;
+     JTextField epochText = new JTextField(20);&#xD;
+     JLabel convergenceLabel = new JLabel(&quot;Convergence threshold:&quot;);&#xD;
+     JTextField convergenceText = new JTextField(20);&#xD;
+&#xD;
+     mid.add(numberLabel);&#xD;
+     mid.add(numberText);&#xD;
+     mid.add(iterationLabel);&#xD;
+     mid.add(iterationText);&#xD;
+     mid.add(epochLabel);&#xD;
+     mid.add(epochText);&#xD;
+     mid.add(convergenceLabel);&#xD;
+     mid.add(convergenceText);&#xD;
+     mid.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 20));&#xD;
+&#xD;
+     tableButton.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             frame.setVisible(false);&#xD;
+             frame.dispose();&#xD;
+             new Table();&#xD;
+         }&#xD;
+     } );&#xD;
+     south.add(tableButton);&#xD;
+&#xD;
+     frame.add(north, BorderLayout.NORTH);&#xD;
+     frame.add(mid);&#xD;
+     frame.add(south, BorderLayout.SOUTH);&#xD;
+     frame.pack();&#xD;
+     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+     frame.setLocationRelativeTo(null);&#xD;
+     frame.setVisible(true);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JAgIrLqEe2b884QLJWpAA" name="forecastGraph" specification="_1FYkYLLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JAgI7LqEe2b884QLJWpAA" type="_1H5s5LLqEe2b884QLJWpAA" direction="return"/>
+        <language>java</language>
+        <body>// THIS WAS SOURCED FROM THE PROFESSORS DEMO WITH PERMISSION. THIS IS SIMPLY A PLACEHOLDER AND WILL NOT BE USED IN THE FINAL APPLICATION&#xD;
+&#xD;
+     DefaultCategoryDataset dataset = new DefaultCategoryDataset();&#xD;
+&#xD;
+     dataset.addValue(3.946, &quot;Unemployed&quot;, &quot;Men&quot;);&#xD;
+     dataset.addValue(96.054, &quot;Employed&quot;, &quot;Men&quot;);&#xD;
+     dataset.addValue(3.837, &quot;Unemployed&quot;, &quot;Women&quot;);&#xD;
+     dataset.addValue(96.163, &quot;Employed&quot;, &quot;Women&quot;);&#xD;
+&#xD;
+     JFreeChart pieChart = ChartFactory.createMultiplePieChart(&quot;Unemployment: Men vs Women&quot;, dataset,&#xD;
+             TableOrder.BY_COLUMN, true, true, false);&#xD;
+&#xD;
+     ChartPanel chartPanel = new ChartPanel(pieChart);&#xD;
+     chartPanel.setPreferredSize(new Dimension(400, 300));&#xD;
+     chartPanel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));&#xD;
+     chartPanel.setBackground(Color.white);&#xD;
+&#xD;
+     return chartPanel;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JAgJLLqEe2b884QLJWpAA" name="actionPerformed" specification="_1IoFobLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JAgJbLqEe2b884QLJWpAA" name="e" type="_1ISHY7LqEe2b884QLJWpAA"/>
+        <language>java</language>
+        <body>JFrame newFrame = new JFrame();&#xD;
+     JPanel newPanel = new JPanel();&#xD;
+&#xD;
+     newPanel.add(forecastGraph());&#xD;
+&#xD;
+     newFrame.setTitle(&quot;Generated Graph&quot;);&#xD;
+     newFrame.add(newPanel);&#xD;
+     newFrame.pack();&#xD;
+     newFrame.setLocationRelativeTo(null);&#xD;
+     newFrame.setVisible(true);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JAgJrLqEe2b884QLJWpAA" name="main" specification="_1FYkYbLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JAgJ7LqEe2b884QLJWpAA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1JAgKLLqEe2b884QLJWpAA" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>new Forecast();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_1FX9ULLqEe2b884QLJWpAA" name="Forecast" method="_1JAgILLqEe2b884QLJWpAA">
+        <eAnnotations xmi:id="_1FX9UbLqEe2b884QLJWpAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_1FX9UrLqEe2b884QLJWpAA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_1FX9U7LqEe2b884QLJWpAA" type="_1FXWQLLqEe2b884QLJWpAA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1FYkYLLqEe2b884QLJWpAA" name="forecastGraph" method="_1JAgIrLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1IoFoLLqEe2b884QLJWpAA" type="_1H5s5LLqEe2b884QLJWpAA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1FYkYbLqEe2b884QLJWpAA" name="main" isStatic="true" method="_1JAgJrLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1FYkYrLqEe2b884QLJWpAA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1FYkY7LqEe2b884QLJWpAA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1IoFobLqEe2b884QLJWpAA" name="actionPerformed" method="_1JAgJLLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1IoForLqEe2b884QLJWpAA" name="e" type="_1ISHY7LqEe2b884QLJWpAA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1FaZkLLqEe2b884QLJWpAA" name="Form">
+      <ownedAttribute xmi:id="_1I1hBrLqEe2b884QLJWpAA" name="rowNum" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I1hB7LqEe2b884QLJWpAA" value="9"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I2IEbLqEe2b884QLJWpAA" name="defaultFont" visibility="private" type="_1IpTwLLqEe2b884QLJWpAA" association="_1JSM97LqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I2IErLqEe2b884QLJWpAA" value="new Font(&quot;Arial&quot;, Font.PLAIN, 12)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I2IFLLqEe2b884QLJWpAA" name="frame" visibility="private" type="_1IkbQrLqEe2b884QLJWpAA" association="_1JS0ArLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I2IFbLqEe2b884QLJWpAA" value="new JFrame()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I2IF7LqEe2b884QLJWpAA" name="panel" visibility="private" type="_1IlCUbLqEe2b884QLJWpAA" association="_1JS0BbLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I2IGLLqEe2b884QLJWpAA" value="new JPanel(new GridLayout(rowNum, 2))"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I2IGrLqEe2b884QLJWpAA" name="addButton" visibility="private" type="_1ImQcLLqEe2b884QLJWpAA" association="_1JTbEbLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I2vILLqEe2b884QLJWpAA" value="new JButton(&quot;Add Time-Series&quot;)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I2vIrLqEe2b884QLJWpAA" name="loadButton" visibility="private" type="_1ImQcLLqEe2b884QLJWpAA" association="_1JTbFLLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I2vI7LqEe2b884QLJWpAA" value="new JButton(&quot;Load Data&quot;)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I2vJbLqEe2b884QLJWpAA" name="provinceOne" visibility="private" type="_1Ip60LLqEe2b884QLJWpAA" association="_1JUCIbLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I2vJrLqEe2b884QLJWpAA" value="new JRadioButton(&quot;Province&quot;)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I3WMLLqEe2b884QLJWpAA" name="cityOne" visibility="private" type="_1Ip60LLqEe2b884QLJWpAA" association="_1JUCJLLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I3WMbLqEe2b884QLJWpAA" value="new JRadioButton(&quot;City&quot;)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I3WM7LqEe2b884QLJWpAA" name="provinceTwo" visibility="private" type="_1Ip60LLqEe2b884QLJWpAA" association="_1JUpMLLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I3WNLLqEe2b884QLJWpAA" value="new JRadioButton(&quot;Province&quot;)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I3WNrLqEe2b884QLJWpAA" name="cityTwo" visibility="private" type="_1Ip60LLqEe2b884QLJWpAA" association="_1JUpM7LqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I3WN7LqEe2b884QLJWpAA" value="new JRadioButton(&quot;City&quot;)"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_1Ioss7LqEe2b884QLJWpAA" client="_1FaZkLLqEe2b884QLJWpAA" supplier="_1ISucbLqEe2b884QLJWpAA" contract="_1ISucbLqEe2b884QLJWpAA"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JAgKbLqEe2b884QLJWpAA" name="Form" specification="_1FbnsLLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JAgKrLqEe2b884QLJWpAA" type="_1FaZkLLqEe2b884QLJWpAA" direction="return"/>
+        <language>java</language>
+        <body>frame.setTitle(&quot;Input Form&quot;);&#xD;
+     panel.setBorder(BorderFactory.createEmptyBorder(10, 30, 10, 30));&#xD;
+&#xD;
+     JLabel introLabel1 = new JLabel(&quot;Welcome! Input &quot;, SwingConstants.RIGHT);&#xD;
+     JLabel introLabel2 = new JLabel(&quot;information below&quot;, SwingConstants.LEFT);&#xD;
+     introLabel1.setFont(new Font(&quot;Arial&quot;, Font.BOLD, 18));&#xD;
+     introLabel2.setFont(new Font(&quot;Arial&quot;, Font.BOLD, 18));&#xD;
+     panel.add(introLabel1);&#xD;
+     panel.add(introLabel2);&#xD;
+&#xD;
+     addButton.addActionListener(this);&#xD;
+     loadButton.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             // TODO: disallow the ability to move on when there is no data present&#xD;
+             frame.setVisible(false);&#xD;
+             frame.dispose();&#xD;
+             new Table();&#xD;
+         }&#xD;
+     } );&#xD;
+     panel.add(addButton);&#xD;
+     panel.add(loadButton);&#xD;
+&#xD;
+     ButtonGroup groupOne = new ButtonGroup();&#xD;
+     groupOne.add(provinceOne);&#xD;
+     groupOne.add(cityOne);&#xD;
+&#xD;
+     JPanel radioPanelOne = new JPanel();&#xD;
+&#xD;
+     radioPanelOne.add(provinceOne);&#xD;
+     radioPanelOne.add(cityOne);&#xD;
+&#xD;
+     panel.add(radioPanelOne);&#xD;
+&#xD;
+     JPanel locationPanelOne = new JPanel();&#xD;
+     locationPanelOne.add(new JLabel(&quot;&lt;Pick first location>&quot;));&#xD;
+&#xD;
+     panel.add(locationPanelOne);&#xD;
+&#xD;
+     provinceOne.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             locationPanelOne.remove(0);&#xD;
+             locationPanelOne.add(provinces());&#xD;
+             panel.updateUI();&#xD;
+         }&#xD;
+     });&#xD;
+&#xD;
+     cityOne.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             locationPanelOne.remove(0);&#xD;
+             locationPanelOne.add(cities());&#xD;
+             panel.updateUI();&#xD;
+         }&#xD;
+     });&#xD;
+&#xD;
+     ButtonGroup groupTwo = new ButtonGroup();&#xD;
+     groupTwo.add(provinceTwo);&#xD;
+     groupTwo.add(cityTwo);&#xD;
+&#xD;
+     JPanel radioPanelTwo = new JPanel();&#xD;
+&#xD;
+     radioPanelTwo.add(provinceTwo);&#xD;
+     radioPanelTwo.add(cityTwo);&#xD;
+&#xD;
+     panel.add(radioPanelTwo);&#xD;
+&#xD;
+     JPanel locationPanelTwo = new JPanel();&#xD;
+     locationPanelTwo.add(new JLabel(&quot;&lt;Pick second location>&quot;));&#xD;
+&#xD;
+     panel.add(locationPanelTwo);&#xD;
+&#xD;
+     provinceTwo.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             locationPanelTwo.remove(0);&#xD;
+             locationPanelTwo.add(provinces());&#xD;
+             panel.updateUI();&#xD;
+         }&#xD;
+     });&#xD;
+&#xD;
+     cityTwo.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             locationPanelTwo.remove(0);&#xD;
+             locationPanelTwo.add(cities());&#xD;
+             panel.updateUI();&#xD;
+         }&#xD;
+     });&#xD;
+&#xD;
+     timeSeriesPanel();&#xD;
+&#xD;
+     frame.add(panel);&#xD;
+     frame.pack();&#xD;
+     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+     frame.setLocationRelativeTo(null);&#xD;
+     frame.setVisible(true);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JBHMLLqEe2b884QLJWpAA" name="actionPerformed" specification="_1Iqh4LLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JBHMbLqEe2b884QLJWpAA" name="e" type="_1ISHY7LqEe2b884QLJWpAA"/>
+        <language>java</language>
+        <body>timeSeriesPanel();&#xD;
+     addButton.setEnabled(false);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JBHMrLqEe2b884QLJWpAA" name="provinces" specification="_1FbntLLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JBHM7LqEe2b884QLJWpAA" type="_1Iqh4rLqEe2b884QLJWpAA" direction="return"/>
+        <language>java</language>
+        <body>Vector&lt;String> provinces = new Vector&lt;String>();&#xD;
+&#xD;
+     // Chosen by grouping the GEO column in the dataset and picking the existing provinces&#xD;
+     provinces.add(&quot;Alberta&quot;);&#xD;
+     provinces.add(&quot;British Columbia&quot;);&#xD;
+     provinces.add(&quot;Manitoba&quot;);&#xD;
+     provinces.add(&quot;New Brunswick&quot;);&#xD;
+     provinces.add(&quot;Newfoundland and Labrador&quot;);&#xD;
+     provinces.add(&quot;Nova Scotia&quot;);&#xD;
+     provinces.add(&quot;Ontario&quot;);&#xD;
+     provinces.add(&quot;Prince Edward Island&quot;);&#xD;
+     provinces.add(&quot;Quebec&quot;);&#xD;
+     provinces.add(&quot;Saskatchewan&quot;);&#xD;
+&#xD;
+     return new JComboBox&lt;String>(provinces);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JBHNLLqEe2b884QLJWpAA" name="cities" specification="_1FcOwbLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JBHNbLqEe2b884QLJWpAA" type="_1Iqh4rLqEe2b884QLJWpAA" direction="return"/>
+        <language>java</language>
+        <body>Vector&lt;String> cities = new Vector&lt;String>();&#xD;
+&#xD;
+     // Chosen by grouping the GEO column in the dataset and picking the existing cities&#xD;
+     cities.add(&quot;Calgary&quot;);&#xD;
+     cities.add(&quot;Charlottetown&quot;);&#xD;
+     cities.add(&quot;Edmonton&quot;);&#xD;
+     cities.add(&quot;Greater Sudbury&quot;);&#xD;
+     cities.add(&quot;Guelph&quot;);&#xD;
+     cities.add(&quot;Halifax&quot;);&#xD;
+     cities.add(&quot;Hamilton&quot;);&#xD;
+     cities.add(&quot;Kelowna&quot;);&#xD;
+     cities.add(&quot;Kitchener-Cambridge-Waterloo&quot;);&#xD;
+     cities.add(&quot;London&quot;);&#xD;
+     cities.add(&quot;Montréal&quot;);&#xD;
+     cities.add(&quot;Oshawa&quot;);&#xD;
+     cities.add(&quot;Ottawa-Gatineau&quot;);&#xD;
+     cities.add(&quot;Québec&quot;);&#xD;
+     cities.add(&quot;Regina&quot;);&#xD;
+     cities.add(&quot;Saskatoon&quot;);&#xD;
+     cities.add(&quot;Sherbrooke&quot;);&#xD;
+     cities.add(&quot;St. Catharines-Niagara&quot;);&#xD;
+     cities.add(&quot;St. John's&quot;);&#xD;
+     cities.add(&quot;Toronto&quot;);&#xD;
+     cities.add(&quot;Trois-Rivières&quot;);&#xD;
+     cities.add(&quot;Vancouver&quot;);&#xD;
+     cities.add(&quot;Windsor&quot;);&#xD;
+     cities.add(&quot;Winnipeg&quot;);&#xD;
+&#xD;
+     return new JComboBox&lt;String>(cities);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JBHNrLqEe2b884QLJWpAA" name="timeSeriesPanel" specification="_1Fc10bLqEe2b884QLJWpAA">
+        <language>java</language>
+        <body>panel.setLayout(new GridLayout(rowNum, 2));&#xD;
+     rowNum += 5;&#xD;
+&#xD;
+     panel.add(new JLabel(&quot;Time-Series &quot; + ((rowNum - 9) / 5)));&#xD;
+     panel.add(new JLabel());&#xD;
+&#xD;
+     JLabel startLabel = new JLabel(&quot;Start Time (YYYY-MM):&quot;);&#xD;
+     JTextField startText = new JTextField(20);&#xD;
+     JLabel endLabel = new JLabel(&quot;End Time (YYYY-MM):&quot;);&#xD;
+     JTextField endText = new JTextField(20);&#xD;
+     JLabel timeLabel = new JLabel(&quot;Monthly (m) or Yearly (y):&quot;);&#xD;
+     JTextField timeText = new JTextField(20);&#xD;
+&#xD;
+     startLabel.setBorder(BorderFactory.createEmptyBorder(10, 0, 0, 0));&#xD;
+     startLabel.setFont(defaultFont);&#xD;
+     panel.add(startLabel);&#xD;
+     panel.add(startText);&#xD;
+&#xD;
+     endLabel.setBorder(BorderFactory.createEmptyBorder(10, 0, 0, 0));&#xD;
+     endLabel.setFont(defaultFont);&#xD;
+     panel.add(endLabel);&#xD;
+     panel.add(endText);&#xD;
+&#xD;
+     timeLabel.setBorder(BorderFactory.createEmptyBorder(10, 0, 0, 0));&#xD;
+     timeLabel.setFont(defaultFont);&#xD;
+     panel.add(timeLabel);&#xD;
+     panel.add(timeText);&#xD;
+&#xD;
+     panel.add(new JLabel());&#xD;
+     panel.add(new JLabel());&#xD;
+&#xD;
+     frame.add(panel);&#xD;
+     frame.pack();&#xD;
+     frame.setLocationRelativeTo(null);&#xD;
+     frame.setVisible(true);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JBHN7LqEe2b884QLJWpAA" name="main" specification="_1Fdc4LLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JBHOLLqEe2b884QLJWpAA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1JBHObLqEe2b884QLJWpAA" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>new Form();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_1FbnsLLqEe2b884QLJWpAA" name="Form" method="_1JAgKbLqEe2b884QLJWpAA">
+        <eAnnotations xmi:id="_1FbnsbLqEe2b884QLJWpAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_1FbnsrLqEe2b884QLJWpAA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_1Fbns7LqEe2b884QLJWpAA" type="_1FaZkLLqEe2b884QLJWpAA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1FbntLLqEe2b884QLJWpAA" name="provinces" method="_1JBHMrLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1IrI8bLqEe2b884QLJWpAA" type="_1Iqh4rLqEe2b884QLJWpAA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1FcOwbLqEe2b884QLJWpAA" name="cities" method="_1JBHNLLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1IrI8rLqEe2b884QLJWpAA" type="_1Iqh4rLqEe2b884QLJWpAA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1Fc10bLqEe2b884QLJWpAA" name="timeSeriesPanel" method="_1JBHNrLqEe2b884QLJWpAA"/>
+      <ownedOperation xmi:id="_1Fdc4LLqEe2b884QLJWpAA" name="main" isStatic="true" method="_1JBHN7LqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1Fdc4bLqEe2b884QLJWpAA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1Fdc4rLqEe2b884QLJWpAA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1Iqh4LLqEe2b884QLJWpAA" name="actionPerformed" method="_1JBHMLLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1Iqh4bLqEe2b884QLJWpAA" name="e" type="_1ISHY7LqEe2b884QLJWpAA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1FggMLLqEe2b884QLJWpAA" name="Table">
+      <ownedAttribute xmi:id="_1I39QLLqEe2b884QLJWpAA" name="frame" visibility="private" type="_1IkbQrLqEe2b884QLJWpAA" association="_1JUpNrLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I39QbLqEe2b884QLJWpAA" value="new JFrame()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I39Q7LqEe2b884QLJWpAA" name="north" visibility="private" type="_1IlCUbLqEe2b884QLJWpAA" association="_1JVQQbLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I39RLLqEe2b884QLJWpAA" value="new JPanel()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I4kULLqEe2b884QLJWpAA" name="mid" visibility="private" type="_1IlCUbLqEe2b884QLJWpAA" association="_1JVQRLLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I4kUbLqEe2b884QLJWpAA" value="new JPanel()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I4kU7LqEe2b884QLJWpAA" name="south" visibility="private" type="_1IlCUbLqEe2b884QLJWpAA" association="_1JVQR7LqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I4kVLLqEe2b884QLJWpAA" value="new JPanel()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I4kVrLqEe2b884QLJWpAA" name="switchButton" visibility="private" type="_1ImQcLLqEe2b884QLJWpAA" association="_1JV3UbLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I4kV7LqEe2b884QLJWpAA" value="new  JButton(&quot;Switch to Summary&quot;)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I5LYbLqEe2b884QLJWpAA" name="visualizationButton" visibility="private" type="_1ImQcLLqEe2b884QLJWpAA" association="_1JV3VLLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I5LYrLqEe2b884QLJWpAA" value="new  JButton(&quot;Visualization View&quot;)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I5LZLLqEe2b884QLJWpAA" name="comparisonButton" visibility="private" type="_1ImQcLLqEe2b884QLJWpAA" association="_1JWeYbLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I5LZbLqEe2b884QLJWpAA" value="new  JButton(&quot;Comparison View&quot;)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I5LZ7LqEe2b884QLJWpAA" name="forecastButton" visibility="private" type="_1ImQcLLqEe2b884QLJWpAA" association="_1JWeZLLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I5LaLLqEe2b884QLJWpAA" value="new  JButton(&quot;Forecast View&quot;)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I5ycbLqEe2b884QLJWpAA" name="resetButton" visibility="private" type="_1ImQcLLqEe2b884QLJWpAA" association="_1JXFcLLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I5ycrLqEe2b884QLJWpAA" value="new  JButton(&quot;Reset App&quot;)"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_1IrI87LqEe2b884QLJWpAA" client="_1FggMLLqEe2b884QLJWpAA" supplier="_1ISucbLqEe2b884QLJWpAA" contract="_1ISucbLqEe2b884QLJWpAA"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JBuQLLqEe2b884QLJWpAA" name="Table" specification="_1FhuULLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JBuQbLqEe2b884QLJWpAA" type="_1FggMLLqEe2b884QLJWpAA" direction="return"/>
+        <language>java</language>
+        <body>frame.setTitle(&quot;Table&quot;);&#xD;
+&#xD;
+     switchButton.addActionListener(this);&#xD;
+     north.add(switchButton);&#xD;
+&#xD;
+     mid.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 20));&#xD;
+&#xD;
+     JScrollPane scrollPane = new JScrollPane();&#xD;
+     scrollPane.setPreferredSize(new Dimension(1500,500));&#xD;
+     scrollPane.setViewportView(rawDataTable());&#xD;
+     mid.add(scrollPane);&#xD;
+&#xD;
+     visualizationButton.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             frame.setVisible(false);&#xD;
+             frame.dispose();&#xD;
+             new Visualization();&#xD;
+         }&#xD;
+     } );&#xD;
+     comparisonButton.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             frame.setVisible(false);&#xD;
+             frame.dispose();&#xD;
+             new Comparison();&#xD;
+         }&#xD;
+     } );&#xD;
+     forecastButton.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             frame.setVisible(false);&#xD;
+             frame.dispose();&#xD;
+             new Forecast();&#xD;
+         }&#xD;
+     } );&#xD;
+&#xD;
+     resetButton.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             frame.setVisible(false);&#xD;
+             frame.dispose();&#xD;
+             new Form();&#xD;
+         }&#xD;
+     } );&#xD;
+     south.add(visualizationButton);&#xD;
+     south.add(comparisonButton);&#xD;
+     south.add(forecastButton);&#xD;
+     south.add(resetButton);&#xD;
+&#xD;
+     frame.add(north, BorderLayout.NORTH);&#xD;
+     frame.add(mid);&#xD;
+     frame.add(south, BorderLayout.SOUTH);&#xD;
+     frame.pack();&#xD;
+     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+     frame.setLocationRelativeTo(null);&#xD;
+     frame.setVisible(true);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JBuQrLqEe2b884QLJWpAA" name="rawDataTable" specification="_1FhuVLLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JBuQ7LqEe2b884QLJWpAA" type="_1IrwALLqEe2b884QLJWpAA" direction="return"/>
+        <language>java</language>
+        <body>// TODO: query database and load result&#xD;
+     String[] columnNames = {&quot;REF_DATE&quot;, &quot;GEO&quot;, &quot;DGUID&quot;, &quot;New housing price index&quot;,&#xD;
+                             &quot;UOM&quot;, &quot;UOM_ID&quot;, &quot;SCALAR_FACTOR&quot;, &quot;SCALAR_ID&quot;, &quot;VECTOR&quot;,&#xD;
+                             &quot;COORDINATE&quot;, &quot;VALUE&quot;, &quot;STATUS&quot;, &quot;SYMBOL&quot;, &quot;TERMINATED&quot;, &quot;DECIMAL&quot;,};&#xD;
+&#xD;
+     Object[][] data = {&#xD;
+             {&quot;1981-01&quot;, &quot;Canada&quot;, &quot;2016A000011124&quot;, &quot;Total (house and land)&quot;, &quot;Index, 201612=100&quot;,&#xD;
+                     347, &quot;units&quot;, 0, &quot;v111955442&quot;, 1.1, 38.2, null, null, null, 1},&#xD;
+             {&quot;1981-01&quot;, &quot;Canada&quot;, &quot;2016A000011124&quot;, &quot;House only&quot;, &quot;Index, 201612=100&quot;,&#xD;
+                     347, &quot;units&quot;, 0, &quot;v111955443&quot;, 1.2, 36.1, null, null, null, 1},&#xD;
+             {&quot;1981-01&quot;, &quot;Canada&quot;, &quot;2016A000011124&quot;, &quot;Land only&quot;, &quot;Index, 201612=100&quot;,&#xD;
+                     347, &quot;units&quot;, 0, &quot;v111955444&quot;, 1.3, 40.6, null, null, null, 1},&#xD;
+&#xD;
+     };&#xD;
+&#xD;
+     return new JTable(data, columnNames);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JBuRLLqEe2b884QLJWpAA" name="summaryTable" specification="_1FhuVbLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JBuRbLqEe2b884QLJWpAA" type="_1IrwALLqEe2b884QLJWpAA" direction="return"/>
+        <language>java</language>
+        <body>// TODO: query database and load result&#xD;
+     // TODO: determine summary table columns&#xD;
+     String[] columnNames = {&quot;House&quot;,&#xD;
+             &quot;AVG&quot;};&#xD;
+&#xD;
+     Object[][] data = {&#xD;
+             {&quot;Kathy&quot;, &quot;Smith&quot;},&#xD;
+             {&quot;John&quot;, &quot;Doe&quot;},&#xD;
+             {&quot;Sue&quot;, &quot;Black&quot;},&#xD;
+             {&quot;Jane&quot;, &quot;White&quot;},&#xD;
+             {&quot;Sue&quot;, &quot;Black&quot;},&#xD;
+             {&quot;Jane&quot;, &quot;White&quot;},&#xD;
+             {&quot;Sue&quot;, &quot;Black&quot;},&#xD;
+             {&quot;Jane&quot;, &quot;White&quot;},&#xD;
+             {&quot;Joe&quot;, &quot;Brown&quot;}&#xD;
+     };&#xD;
+&#xD;
+     return new JTable(data, columnNames);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JBuRrLqEe2b884QLJWpAA" name="actionPerformed" specification="_1IsXE7LqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JBuR7LqEe2b884QLJWpAA" name="e" type="_1ISHY7LqEe2b884QLJWpAA"/>
+        <language>java</language>
+        <body>if (switchButton.getText().equals(&quot;Switch to Summary&quot;)) {&#xD;
+         switchButton.setText(&quot;Switch to Raw Data&quot;);&#xD;
+         mid.remove(0);&#xD;
+         JScrollPane scrollPane = new JScrollPane();&#xD;
+         scrollPane.setViewportView(summaryTable());&#xD;
+         mid.add(scrollPane);&#xD;
+         frame.pack();&#xD;
+     }&#xD;
+     else {&#xD;
+         switchButton.setText(&quot;Switch to Summary&quot;);&#xD;
+         mid.remove(0);&#xD;
+         JScrollPane scrollPane = new JScrollPane();&#xD;
+         scrollPane.setPreferredSize(new Dimension(1500,500));&#xD;
+         scrollPane.setViewportView(rawDataTable());&#xD;
+         mid.add(scrollPane);&#xD;
+         frame.pack();&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JBuSLLqEe2b884QLJWpAA" name="main" specification="_1FiVYLLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JBuSbLqEe2b884QLJWpAA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1JBuSrLqEe2b884QLJWpAA" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>new Table();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_1FhuULLqEe2b884QLJWpAA" name="Table" method="_1JBuQLLqEe2b884QLJWpAA">
+        <eAnnotations xmi:id="_1FhuUbLqEe2b884QLJWpAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_1FhuUrLqEe2b884QLJWpAA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_1FhuU7LqEe2b884QLJWpAA" type="_1FggMLLqEe2b884QLJWpAA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1FhuVLLqEe2b884QLJWpAA" name="rawDataTable" method="_1JBuQrLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1IsXEbLqEe2b884QLJWpAA" type="_1IrwALLqEe2b884QLJWpAA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1FhuVbLqEe2b884QLJWpAA" name="summaryTable" method="_1JBuRLLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1IsXErLqEe2b884QLJWpAA" type="_1IrwALLqEe2b884QLJWpAA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1FiVYLLqEe2b884QLJWpAA" name="main" isStatic="true" method="_1JBuSLLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1FiVYbLqEe2b884QLJWpAA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1FiVYrLqEe2b884QLJWpAA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1IsXE7LqEe2b884QLJWpAA" name="actionPerformed" method="_1JBuRrLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1IsXFLLqEe2b884QLJWpAA" name="e" type="_1ISHY7LqEe2b884QLJWpAA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1FkxoLLqEe2b884QLJWpAA" name="Visualization">
+      <ownedAttribute xmi:id="_1I5ydLLqEe2b884QLJWpAA" name="frame" visibility="private" type="_1IkbQrLqEe2b884QLJWpAA" association="_1JXFc7LqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I5ydbLqEe2b884QLJWpAA" value="new JFrame()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I6ZgbLqEe2b884QLJWpAA" name="north" visibility="private" type="_1IlCUbLqEe2b884QLJWpAA" association="_1JXFdrLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I6ZgrLqEe2b884QLJWpAA" value="new JPanel()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I6ZhLLqEe2b884QLJWpAA" name="mid" visibility="private" type="_1IlCUbLqEe2b884QLJWpAA" association="_1JXsgbLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I6ZhbLqEe2b884QLJWpAA" value="new JPanel(new GridLayout(1, 0))"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I6Zh7LqEe2b884QLJWpAA" name="south" visibility="private" type="_1IlCUbLqEe2b884QLJWpAA" association="_1JXshLLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I7AkLLqEe2b884QLJWpAA" value="new JPanel()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I7AkrLqEe2b884QLJWpAA" name="configureButton" visibility="private" type="_1ImQcLLqEe2b884QLJWpAA" association="_1JXsh7LqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I7Ak7LqEe2b884QLJWpAA" value="new  JButton(&quot;Configure&quot;)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I7AlbLqEe2b884QLJWpAA" name="tableButton" visibility="private" type="_1ImQcLLqEe2b884QLJWpAA" association="_1JYTkbLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I7AlrLqEe2b884QLJWpAA" value="new  JButton(&quot;Table View&quot;)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I7nobLqEe2b884QLJWpAA" name="vis1" visibility="private" type="_1Ip60LLqEe2b884QLJWpAA" association="_1JYTlLLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I7norLqEe2b884QLJWpAA" value="new JRadioButton(&quot;Visualization One&quot;)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1I7npLLqEe2b884QLJWpAA" name="vis2" visibility="private" type="_1Ip60LLqEe2b884QLJWpAA" association="_1JY6obLqEe2b884QLJWpAA">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_1I7npbLqEe2b884QLJWpAA" value="new JRadioButton(&quot;Visualization Two&quot;)"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_1Is-ILLqEe2b884QLJWpAA" client="_1FkxoLLqEe2b884QLJWpAA" supplier="_1ISucbLqEe2b884QLJWpAA" contract="_1ISucbLqEe2b884QLJWpAA"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JBuS7LqEe2b884QLJWpAA" name="Visualization" specification="_1Fl_wLLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JBuTLLqEe2b884QLJWpAA" type="_1FkxoLLqEe2b884QLJWpAA" direction="return"/>
+        <language>java</language>
+        <body>frame.setTitle(&quot;Visualizations&quot;);&#xD;
+&#xD;
+     vis1.addActionListener(this);&#xD;
+     vis2.addActionListener(this);&#xD;
+     vis1.setActionCommand(&quot;1&quot;);&#xD;
+     vis2.setActionCommand(&quot;2&quot;);&#xD;
+&#xD;
+     ButtonGroup group = new ButtonGroup();&#xD;
+     group.add(vis1);&#xD;
+     group.add(vis2);&#xD;
+&#xD;
+     north.add(vis1);&#xD;
+     north.add(vis2);&#xD;
+&#xD;
+     mid.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 20));&#xD;
+&#xD;
+     tableButton.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             frame.setVisible(false);&#xD;
+             frame.dispose();&#xD;
+             new Table();&#xD;
+         }&#xD;
+     } );&#xD;
+&#xD;
+     configureButton.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             // configure tab will only show up if there is a visualization selected&#xD;
+             if (vis1.isSelected() || vis2.isSelected()) {&#xD;
+                 JFrame newFrame = new JFrame();&#xD;
+                 JPanel newPanel = new JPanel();&#xD;
+&#xD;
+                 // TODO: IF NEEDED: add params related to the visualizations chosen&#xD;
+&#xD;
+                 newFrame.setTitle(&quot;Configure&quot;);&#xD;
+                 newFrame.add(newPanel);&#xD;
+                 newFrame.pack();&#xD;
+                 newFrame.setLocationRelativeTo(null);&#xD;
+                 newFrame.setVisible(true);&#xD;
+             }&#xD;
+         }&#xD;
+     } );&#xD;
+     south.add(configureButton);&#xD;
+     south.add(tableButton);&#xD;
+&#xD;
+     frame.add(north, BorderLayout.NORTH);&#xD;
+     frame.add(mid);&#xD;
+     frame.add(south, BorderLayout.SOUTH);&#xD;
+     frame.pack();&#xD;
+     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+     frame.setLocationRelativeTo(null);&#xD;
+     frame.setVisible(true);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JCVULLqEe2b884QLJWpAA" name="visualizationOne" specification="_1Fl_xLLqEe2b884QLJWpAA">
+        <language>java</language>
+        <body>// TODO: determine which visualizations we want to show and what the best graph is to do so&#xD;
+&#xD;
+     // THIS WAS SOURCED FROM THE PROFESSORS DEMO WITH PERMISSION. THIS IS SIMPLY A PLACEHOLDER AND WILL NOT BE USED IN THE FINAL APPLICATION&#xD;
+     DefaultCategoryDataset dataset = new DefaultCategoryDataset();&#xD;
+     dataset.setValue(5.6, &quot;Mortality/1000 births&quot;, &quot;2018&quot;);&#xD;
+     dataset.setValue(5.7, &quot;Mortality/1000 births&quot;, &quot;2017&quot;);&#xD;
+     dataset.setValue(5.8, &quot;Mortality/1000 births&quot;, &quot;2016&quot;);&#xD;
+     dataset.setValue(5.8, &quot;Mortality/1000 births&quot;, &quot;2015&quot;);&#xD;
+     dataset.setValue(5.9, &quot;Mortality/1000 births&quot;, &quot;2014&quot;);&#xD;
+     dataset.setValue(6, &quot;Mortality/1000 births&quot;, &quot;2013&quot;);&#xD;
+     dataset.setValue(6.1, &quot;Mortality/1000 births&quot;, &quot;2012&quot;);&#xD;
+     dataset.setValue(6.2, &quot;Mortality/1000 births&quot;, &quot;2011&quot;);&#xD;
+     dataset.setValue(6.4, &quot;Mortality/1000 births&quot;, &quot;2010&quot;);&#xD;
+&#xD;
+     dataset.setValue(2.92, &quot;Hospital beds/1000 people&quot;, &quot;2018&quot;);&#xD;
+     dataset.setValue(2.87, &quot;Hospital beds/1000 people&quot;, &quot;2017&quot;);&#xD;
+     dataset.setValue(2.77, &quot;Hospital beds/1000 people&quot;, &quot;2016&quot;);&#xD;
+     dataset.setValue(2.8, &quot;Hospital beds/1000 people&quot;, &quot;2015&quot;);&#xD;
+     dataset.setValue(2.83, &quot;Hospital beds/1000 people&quot;, &quot;2014&quot;);&#xD;
+     dataset.setValue(2.89, &quot;Hospital beds/1000 people&quot;, &quot;2013&quot;);&#xD;
+     dataset.setValue(2.93, &quot;Hospital beds/1000 people&quot;, &quot;2012&quot;);&#xD;
+     dataset.setValue(2.97, &quot;Hospital beds/1000 people&quot;, &quot;2011&quot;);&#xD;
+     dataset.setValue(3.05, &quot;Hospital beds/1000 people&quot;, &quot;2010&quot;);&#xD;
+&#xD;
+     DefaultCategoryDataset dataset2 = new DefaultCategoryDataset();&#xD;
+&#xD;
+     dataset2.setValue(10623, &quot;Health Expenditure per Capita&quot;, &quot;2018&quot;);&#xD;
+     dataset2.setValue(10209, &quot;Health Expenditure per Capita&quot;, &quot;2017&quot;);&#xD;
+     dataset2.setValue(9877, &quot;Health Expenditure per Capita&quot;, &quot;2016&quot;);&#xD;
+     dataset2.setValue(9491, &quot;Health Expenditure per Capita&quot;, &quot;2015&quot;);&#xD;
+     dataset2.setValue(9023, &quot;Health Expenditure per Capita&quot;, &quot;2014&quot;);&#xD;
+     dataset2.setValue(8599, &quot;Health Expenditure per Capita&quot;, &quot;2013&quot;);&#xD;
+     dataset2.setValue(8399, &quot;Health Expenditure per Capita&quot;, &quot;2012&quot;);&#xD;
+     dataset2.setValue(8130, &quot;Health Expenditure per Capita&quot;, &quot;2011&quot;);&#xD;
+     dataset2.setValue(7930, &quot;Health Expenditure per Capita&quot;, &quot;2010&quot;);&#xD;
+&#xD;
+     CategoryPlot plot = new CategoryPlot();&#xD;
+     BarRenderer barrenderer1 = new BarRenderer();&#xD;
+     BarRenderer barrenderer2 = new BarRenderer();&#xD;
+&#xD;
+     plot.setDataset(0, dataset);&#xD;
+     plot.setRenderer(0, barrenderer1);&#xD;
+     CategoryAxis domainAxis = new CategoryAxis(&quot;Year&quot;);&#xD;
+     plot.setDomainAxis(domainAxis);&#xD;
+     plot.setRangeAxis(new NumberAxis(&quot;&quot;));&#xD;
+&#xD;
+     plot.setDataset(1, dataset2);&#xD;
+     plot.setRenderer(1, barrenderer2);&#xD;
+     plot.setRangeAxis(1, new NumberAxis(&quot;US$&quot;));&#xD;
+&#xD;
+     plot.mapDatasetToRangeAxis(0, 0);// 1st dataset to 1st y-axis&#xD;
+     plot.mapDatasetToRangeAxis(1, 1); // 2nd dataset to 2nd y-axis&#xD;
+&#xD;
+     JFreeChart barChart = new JFreeChart(&quot;Mortality vs Expenses &amp; Hospital Beds&quot;,&#xD;
+             new Font(&quot;Serif&quot;, java.awt.Font.BOLD, 18), plot, true);&#xD;
+&#xD;
+     ChartPanel chartPanel = new ChartPanel(barChart);&#xD;
+     chartPanel.setPreferredSize(new Dimension(400, 300));&#xD;
+     chartPanel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));&#xD;
+     chartPanel.setBackground(Color.white);&#xD;
+     mid.add(chartPanel);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JCVUbLqEe2b884QLJWpAA" name="visualizationTwo" specification="_1Fl_xbLqEe2b884QLJWpAA">
+        <language>java</language>
+        <body>// TODO: determine which visualizations we want to show and what the best graph is to do so&#xD;
+&#xD;
+     // THIS WAS SOURCED FROM THE PROFESSORS DEMO WITH PERMISSION. THIS IS SIMPLY A PLACEHOLDER AND WILL NOT BE USED IN THE FINAL APPLICATION&#xD;
+     TimeSeries series1 = new TimeSeries(&quot;Mortality/1000 births&quot;);&#xD;
+     series1.add(new Year(2018), 5.6);&#xD;
+     series1.add(new Year(2017), 5.7);&#xD;
+     series1.add(new Year(2016), 5.8);&#xD;
+     series1.add(new Year(2015), 5.8);&#xD;
+     series1.add(new Year(2014), 5.9);&#xD;
+     series1.add(new Year(2013), 6.0);&#xD;
+     series1.add(new Year(2012), 6.1);&#xD;
+     series1.add(new Year(2011), 6.2);&#xD;
+     series1.add(new Year(2010), 6.4);&#xD;
+&#xD;
+     TimeSeries series2 = new TimeSeries(&quot;Health Expenditure per Capita&quot;);&#xD;
+     series2.add(new Year(2018), 10624);&#xD;
+     series2.add(new Year(2017), 10209);&#xD;
+     series2.add(new Year(2016), 9877);&#xD;
+     series2.add(new Year(2015), 9491);&#xD;
+     series2.add(new Year(2014), 9023);&#xD;
+     series2.add(new Year(2013), 8599);&#xD;
+     series2.add(new Year(2012), 8399);&#xD;
+     series2.add(new Year(2011), 8130);&#xD;
+     series2.add(new Year(2010), 7930);&#xD;
+     TimeSeriesCollection dataset2 = new TimeSeriesCollection();&#xD;
+     dataset2.addSeries(series2);&#xD;
+&#xD;
+     TimeSeries series3 = new TimeSeries(&quot;Hospital Beds/1000 people&quot;);&#xD;
+     series3.add(new Year(2018), 2.92);&#xD;
+     series3.add(new Year(2017), 2.87);&#xD;
+     series3.add(new Year(2016), 2.77);&#xD;
+     series3.add(new Year(2015), 2.8);&#xD;
+     series3.add(new Year(2014), 2.83);&#xD;
+     series3.add(new Year(2013), 2.89);&#xD;
+     series3.add(new Year(2012), 2.93);&#xD;
+     series3.add(new Year(2011), 2.97);&#xD;
+     series3.add(new Year(2010), 3.05);&#xD;
+&#xD;
+     TimeSeriesCollection dataset = new TimeSeriesCollection();&#xD;
+     dataset.addSeries(series1);&#xD;
+     dataset.addSeries(series3);&#xD;
+&#xD;
+     XYPlot plot = new XYPlot();&#xD;
+     XYItemRenderer itemrenderer1 = new XYLineAndShapeRenderer(false, true);&#xD;
+     XYItemRenderer itemrenderer2 = new XYLineAndShapeRenderer(false, true);&#xD;
+&#xD;
+     plot.setDataset(0, dataset);&#xD;
+     plot.setRenderer(0, itemrenderer1);&#xD;
+     DateAxis domainAxis = new DateAxis(&quot;Year&quot;);&#xD;
+     plot.setDomainAxis(domainAxis);&#xD;
+     plot.setRangeAxis(new NumberAxis(&quot;&quot;));&#xD;
+&#xD;
+     plot.setDataset(1, dataset2);&#xD;
+     plot.setRenderer(1, itemrenderer2);&#xD;
+     plot.setRangeAxis(1, new NumberAxis(&quot;US$&quot;));&#xD;
+&#xD;
+     plot.mapDatasetToRangeAxis(0, 0);// 1st dataset to 1st y-axis&#xD;
+     plot.mapDatasetToRangeAxis(1, 1); // 2nd dataset to 2nd y-axis&#xD;
+&#xD;
+     JFreeChart scatterChart = new JFreeChart(&quot;Mortality vs Expenses &amp; Hospital Beds&quot;,&#xD;
+             new Font(&quot;Serif&quot;, java.awt.Font.BOLD, 18), plot, true);&#xD;
+&#xD;
+     ChartPanel chartPanel = new ChartPanel(scatterChart);&#xD;
+     chartPanel.setPreferredSize(new Dimension(400, 300));&#xD;
+     chartPanel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));&#xD;
+     chartPanel.setBackground(Color.WHITE);&#xD;
+&#xD;
+     mid.add(chartPanel);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JCVUrLqEe2b884QLJWpAA" name="actionPerformed" specification="_1ItlMLLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JCVU7LqEe2b884QLJWpAA" name="e" type="_1ISHY7LqEe2b884QLJWpAA"/>
+        <language>java</language>
+        <body>if (e.getActionCommand().equals(&quot;1&quot;)) {&#xD;
+         try {&#xD;
+             mid.remove(0);&#xD;
+             visualizationOne();&#xD;
+             frame.pack();&#xD;
+         } catch(IndexOutOfBoundsException x) {&#xD;
+             visualizationOne();&#xD;
+             frame.pack();&#xD;
+         }&#xD;
+     }&#xD;
+     else {&#xD;
+         try {&#xD;
+             mid.remove(0);&#xD;
+             visualizationTwo();&#xD;
+             frame.pack();&#xD;
+         } catch(IndexOutOfBoundsException x) {&#xD;
+             visualizationTwo();&#xD;
+             frame.pack();&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1JCVVLLqEe2b884QLJWpAA" name="main" specification="_1Fmm0LLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1JCVVbLqEe2b884QLJWpAA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1JCVVrLqEe2b884QLJWpAA" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>new Visualization();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_1Fl_wLLqEe2b884QLJWpAA" name="Visualization" method="_1JBuS7LqEe2b884QLJWpAA">
+        <eAnnotations xmi:id="_1Fl_wbLqEe2b884QLJWpAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_1Fl_wrLqEe2b884QLJWpAA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_1Fl_w7LqEe2b884QLJWpAA" type="_1FkxoLLqEe2b884QLJWpAA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1Fl_xLLqEe2b884QLJWpAA" name="visualizationOne" method="_1JCVULLqEe2b884QLJWpAA"/>
+      <ownedOperation xmi:id="_1Fl_xbLqEe2b884QLJWpAA" name="visualizationTwo" method="_1JCVUbLqEe2b884QLJWpAA"/>
+      <ownedOperation xmi:id="_1Fmm0LLqEe2b884QLJWpAA" name="main" isStatic="true" method="_1JCVVLLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1Fmm0bLqEe2b884QLJWpAA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1Fmm0rLqEe2b884QLJWpAA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1ItlMLLqEe2b884QLJWpAA" name="actionPerformed" method="_1JCVUrLqEe2b884QLJWpAA">
+        <ownedParameter xmi:id="_1ItlMbLqEe2b884QLJWpAA" name="e" type="_1ISHY7LqEe2b884QLJWpAA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JPws7LqEe2b884QLJWpAA" name="" memberEnd="_1JPwtLLqEe2b884QLJWpAA _1IzEwrLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JPwtLLqEe2b884QLJWpAA" name="" type="_1FU6ALLqEe2b884QLJWpAA" association="_1JPws7LqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JPwtrLqEe2b884QLJWpAA" name="" memberEnd="_1JPwt7LqEe2b884QLJWpAA _1IzExbLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JPwt7LqEe2b884QLJWpAA" name="" type="_1FU6ALLqEe2b884QLJWpAA" association="_1JPwtrLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JQXwbLqEe2b884QLJWpAA" name="" memberEnd="_1JQXwrLqEe2b884QLJWpAA _1Izr0bLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JQXwrLqEe2b884QLJWpAA" name="" type="_1FU6ALLqEe2b884QLJWpAA" association="_1JQXwbLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JQXxLLqEe2b884QLJWpAA" name="" memberEnd="_1JQXxbLqEe2b884QLJWpAA _1Izr1LLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JQXxbLqEe2b884QLJWpAA" name="" type="_1FU6ALLqEe2b884QLJWpAA" association="_1JQXxLLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JQXx7LqEe2b884QLJWpAA" name="" memberEnd="_1JQXyLLqEe2b884QLJWpAA _1Izr17LqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JQXyLLqEe2b884QLJWpAA" name="" type="_1FU6ALLqEe2b884QLJWpAA" association="_1JQXx7LqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JQ-0bLqEe2b884QLJWpAA" name="" memberEnd="_1JQ-0rLqEe2b884QLJWpAA _1I0S4rLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JQ-0rLqEe2b884QLJWpAA" name="" type="_1FU6ALLqEe2b884QLJWpAA" association="_1JQ-0bLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JQ-1LLqEe2b884QLJWpAA" name="" memberEnd="_1JQ-1bLqEe2b884QLJWpAA _1I0S5bLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JQ-1bLqEe2b884QLJWpAA" name="" type="_1FXWQLLqEe2b884QLJWpAA" association="_1JQ-1LLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JQ-17LqEe2b884QLJWpAA" name="" memberEnd="_1JQ-2LLqEe2b884QLJWpAA _1I058LLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JQ-2LLqEe2b884QLJWpAA" name="" type="_1FXWQLLqEe2b884QLJWpAA" association="_1JQ-17LqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JRl4bLqEe2b884QLJWpAA" name="" memberEnd="_1JRl4rLqEe2b884QLJWpAA _1I0587LqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JRl4rLqEe2b884QLJWpAA" name="" type="_1FXWQLLqEe2b884QLJWpAA" association="_1JRl4bLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JRl5LLqEe2b884QLJWpAA" name="" memberEnd="_1JRl5bLqEe2b884QLJWpAA _1I059rLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JRl5bLqEe2b884QLJWpAA" name="" type="_1FXWQLLqEe2b884QLJWpAA" association="_1JRl5LLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JSM8bLqEe2b884QLJWpAA" name="" memberEnd="_1JSM8rLqEe2b884QLJWpAA _1I1hALLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JSM8rLqEe2b884QLJWpAA" name="" type="_1FXWQLLqEe2b884QLJWpAA" association="_1JSM8bLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JSM9LLqEe2b884QLJWpAA" name="" memberEnd="_1JSM9bLqEe2b884QLJWpAA _1I1hA7LqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JSM9bLqEe2b884QLJWpAA" name="" type="_1FXWQLLqEe2b884QLJWpAA" association="_1JSM9LLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JSM97LqEe2b884QLJWpAA" name="" memberEnd="_1JS0ALLqEe2b884QLJWpAA _1I2IEbLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JS0ALLqEe2b884QLJWpAA" name="" type="_1FaZkLLqEe2b884QLJWpAA" association="_1JSM97LqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JS0ArLqEe2b884QLJWpAA" name="" memberEnd="_1JS0A7LqEe2b884QLJWpAA _1I2IFLLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JS0A7LqEe2b884QLJWpAA" name="" type="_1FaZkLLqEe2b884QLJWpAA" association="_1JS0ArLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JS0BbLqEe2b884QLJWpAA" name="" memberEnd="_1JS0BrLqEe2b884QLJWpAA _1I2IF7LqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JS0BrLqEe2b884QLJWpAA" name="" type="_1FaZkLLqEe2b884QLJWpAA" association="_1JS0BbLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JTbEbLqEe2b884QLJWpAA" name="" memberEnd="_1JTbErLqEe2b884QLJWpAA _1I2IGrLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JTbErLqEe2b884QLJWpAA" name="" type="_1FaZkLLqEe2b884QLJWpAA" association="_1JTbEbLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JTbFLLqEe2b884QLJWpAA" name="" memberEnd="_1JTbFbLqEe2b884QLJWpAA _1I2vIrLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JTbFbLqEe2b884QLJWpAA" name="" type="_1FaZkLLqEe2b884QLJWpAA" association="_1JTbFLLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JUCIbLqEe2b884QLJWpAA" name="" memberEnd="_1JUCIrLqEe2b884QLJWpAA _1I2vJbLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JUCIrLqEe2b884QLJWpAA" name="" type="_1FaZkLLqEe2b884QLJWpAA" association="_1JUCIbLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JUCJLLqEe2b884QLJWpAA" name="" memberEnd="_1JUCJbLqEe2b884QLJWpAA _1I3WMLLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JUCJbLqEe2b884QLJWpAA" name="" type="_1FaZkLLqEe2b884QLJWpAA" association="_1JUCJLLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JUpMLLqEe2b884QLJWpAA" name="" memberEnd="_1JUpMbLqEe2b884QLJWpAA _1I3WM7LqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JUpMbLqEe2b884QLJWpAA" name="" type="_1FaZkLLqEe2b884QLJWpAA" association="_1JUpMLLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JUpM7LqEe2b884QLJWpAA" name="" memberEnd="_1JUpNLLqEe2b884QLJWpAA _1I3WNrLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JUpNLLqEe2b884QLJWpAA" name="" type="_1FaZkLLqEe2b884QLJWpAA" association="_1JUpM7LqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JUpNrLqEe2b884QLJWpAA" name="" memberEnd="_1JUpN7LqEe2b884QLJWpAA _1I39QLLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JUpN7LqEe2b884QLJWpAA" name="" type="_1FggMLLqEe2b884QLJWpAA" association="_1JUpNrLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JVQQbLqEe2b884QLJWpAA" name="" memberEnd="_1JVQQrLqEe2b884QLJWpAA _1I39Q7LqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JVQQrLqEe2b884QLJWpAA" name="" type="_1FggMLLqEe2b884QLJWpAA" association="_1JVQQbLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JVQRLLqEe2b884QLJWpAA" name="" memberEnd="_1JVQRbLqEe2b884QLJWpAA _1I4kULLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JVQRbLqEe2b884QLJWpAA" name="" type="_1FggMLLqEe2b884QLJWpAA" association="_1JVQRLLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JVQR7LqEe2b884QLJWpAA" name="" memberEnd="_1JVQSLLqEe2b884QLJWpAA _1I4kU7LqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JVQSLLqEe2b884QLJWpAA" name="" type="_1FggMLLqEe2b884QLJWpAA" association="_1JVQR7LqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JV3UbLqEe2b884QLJWpAA" name="" memberEnd="_1JV3UrLqEe2b884QLJWpAA _1I4kVrLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JV3UrLqEe2b884QLJWpAA" name="" type="_1FggMLLqEe2b884QLJWpAA" association="_1JV3UbLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JV3VLLqEe2b884QLJWpAA" name="" memberEnd="_1JV3VbLqEe2b884QLJWpAA _1I5LYbLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JV3VbLqEe2b884QLJWpAA" name="" type="_1FggMLLqEe2b884QLJWpAA" association="_1JV3VLLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JWeYbLqEe2b884QLJWpAA" name="" memberEnd="_1JWeYrLqEe2b884QLJWpAA _1I5LZLLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JWeYrLqEe2b884QLJWpAA" name="" type="_1FggMLLqEe2b884QLJWpAA" association="_1JWeYbLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JWeZLLqEe2b884QLJWpAA" name="" memberEnd="_1JWeZbLqEe2b884QLJWpAA _1I5LZ7LqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JWeZbLqEe2b884QLJWpAA" name="" type="_1FggMLLqEe2b884QLJWpAA" association="_1JWeZLLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JXFcLLqEe2b884QLJWpAA" name="" memberEnd="_1JXFcbLqEe2b884QLJWpAA _1I5ycbLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JXFcbLqEe2b884QLJWpAA" name="" type="_1FggMLLqEe2b884QLJWpAA" association="_1JXFcLLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JXFc7LqEe2b884QLJWpAA" name="" memberEnd="_1JXFdLLqEe2b884QLJWpAA _1I5ydLLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JXFdLLqEe2b884QLJWpAA" name="" type="_1FkxoLLqEe2b884QLJWpAA" association="_1JXFc7LqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JXFdrLqEe2b884QLJWpAA" name="" memberEnd="_1JXFd7LqEe2b884QLJWpAA _1I6ZgbLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JXFd7LqEe2b884QLJWpAA" name="" type="_1FkxoLLqEe2b884QLJWpAA" association="_1JXFdrLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JXsgbLqEe2b884QLJWpAA" name="" memberEnd="_1JXsgrLqEe2b884QLJWpAA _1I6ZhLLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JXsgrLqEe2b884QLJWpAA" name="" type="_1FkxoLLqEe2b884QLJWpAA" association="_1JXsgbLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JXshLLqEe2b884QLJWpAA" name="" memberEnd="_1JXshbLqEe2b884QLJWpAA _1I6Zh7LqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JXshbLqEe2b884QLJWpAA" name="" type="_1FkxoLLqEe2b884QLJWpAA" association="_1JXshLLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JXsh7LqEe2b884QLJWpAA" name="" memberEnd="_1JXsiLLqEe2b884QLJWpAA _1I7AkrLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JXsiLLqEe2b884QLJWpAA" name="" type="_1FkxoLLqEe2b884QLJWpAA" association="_1JXsh7LqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JYTkbLqEe2b884QLJWpAA" name="" memberEnd="_1JYTkrLqEe2b884QLJWpAA _1I7AlbLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JYTkrLqEe2b884QLJWpAA" name="" type="_1FkxoLLqEe2b884QLJWpAA" association="_1JYTkbLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JYTlLLqEe2b884QLJWpAA" name="" memberEnd="_1JYTlbLqEe2b884QLJWpAA _1I7nobLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JYTlbLqEe2b884QLJWpAA" name="" type="_1FkxoLLqEe2b884QLJWpAA" association="_1JYTlLLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1JY6obLqEe2b884QLJWpAA" name="" memberEnd="_1JY6orLqEe2b884QLJWpAA _1I7npLLqEe2b884QLJWpAA">
+      <ownedEnd xmi:id="_1JY6orLqEe2b884QLJWpAA" name="" type="_1FkxoLLqEe2b884QLJWpAA" association="_1JY6obLqEe2b884QLJWpAA"/>
+    </packagedElement>
+    <profileApplication xmi:id="_0_FIE7LqEe2b884QLJWpAA">
+      <eAnnotations xmi:id="_0_FvILLqEe2b884QLJWpAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_0_FvIbLqEe2b884QLJWpAA" base_Package="_0-YkgLLqEe2b884QLJWpAA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1FCmILLqEe2b884QLJWpAA" base_Element="_1FB_ELLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1FKh8bLqEe2b884QLJWpAA" base_Element="_1FKh8LLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Annotations xmi:id="_1FLJALLqEe2b884QLJWpAA" base_Element="_1FKh8LLqEe2b884QLJWpAA">
+    <annotations xmi:id="_1FLJAbLqEe2b884QLJWpAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_1FM-MLLqEe2b884QLJWpAA" genericsValue="QueryResult" base_Element="_1FMXILLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1FOzYLLqEe2b884QLJWpAA" genericsValue="QueryResult" base_Element="_1FOMULLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1FOzY7LqEe2b884QLJWpAA" base_Element="_1FOzYbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Array xmi:id="_1FOzZbLqEe2b884QLJWpAA" base_Element="_1FOzYrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1FTr47LqEe2b884QLJWpAA" base_Element="_1FTr4LLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1FcOwLLqEe2b884QLJWpAA" genericsValue="String" base_Element="_1FbntLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1Fc10LLqEe2b884QLJWpAA" genericsValue="String" base_Element="_1FcOwbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H00YLLqEe2b884QLJWpAA" base_Element="_1H0NULLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H00YrLqEe2b884QLJWpAA" base_Element="_1H00YbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H1bcbLqEe2b884QLJWpAA" base_Element="_1H1bcLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1H2CgbLqEe2b884QLJWpAA" genericsValue="ArrayList&lt;String>" base_Element="_1H1bcrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H33sbLqEe2b884QLJWpAA" base_Element="_1H33sLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H4ewLLqEe2b884QLJWpAA" base_Element="_1H33srLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H4ewrLqEe2b884QLJWpAA" base_Element="_1H4ewbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H5F0LLqEe2b884QLJWpAA" base_Element="_1H4ew7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H5F0rLqEe2b884QLJWpAA" base_Element="_1H5F0bLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H5s4bLqEe2b884QLJWpAA" base_Element="_1H5s4LLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H5s47LqEe2b884QLJWpAA" base_Element="_1H5s4rLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H6T8LLqEe2b884QLJWpAA" base_Element="_1H5s5LLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H6T8rLqEe2b884QLJWpAA" base_Element="_1H6T8bLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H67ALLqEe2b884QLJWpAA" base_Element="_1H6T87LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H67ArLqEe2b884QLJWpAA" base_Element="_1H67AbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H9-ULLqEe2b884QLJWpAA" base_Element="_1H9XQLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H9-UrLqEe2b884QLJWpAA" base_Element="_1H9-UbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H-lYLLqEe2b884QLJWpAA" base_Element="_1H9-U7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H_McLLqEe2b884QLJWpAA" base_Element="_1H-lYbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H_zgLLqEe2b884QLJWpAA" base_Element="_1H_McbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1H_zgrLqEe2b884QLJWpAA" base_Element="_1H_zgbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IAakLLqEe2b884QLJWpAA" base_Element="_1H_zg7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IFTELLqEe2b884QLJWpAA" base_Element="_1IEsALLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IFTErLqEe2b884QLJWpAA" base_Element="_1IFTEbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IHvULLqEe2b884QLJWpAA" base_Element="_1IHIQLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IHvUrLqEe2b884QLJWpAA" base_Element="_1IHvUbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IIWYbLqEe2b884QLJWpAA" base_Element="_1IIWYLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IIWY7LqEe2b884QLJWpAA" base_Element="_1IIWYrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1II9cbLqEe2b884QLJWpAA" base_Element="_1II9cLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IJkgLLqEe2b884QLJWpAA" base_Element="_1II9crLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IJkgrLqEe2b884QLJWpAA" base_Element="_1IJkgbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IMAwLLqEe2b884QLJWpAA" base_Element="_1ILZsLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IMn0LLqEe2b884QLJWpAA" base_Element="_1IMAwbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IRgUbLqEe2b884QLJWpAA" base_Element="_1IRgULLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1ISHYLLqEe2b884QLJWpAA" base_Element="_1IRgUrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1ISHYrLqEe2b884QLJWpAA" base_Element="_1ISHYbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1ISucLLqEe2b884QLJWpAA" base_Element="_1ISHY7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1ISucrLqEe2b884QLJWpAA" base_Element="_1ISucbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1IZcILLqEe2b884QLJWpAA" genericsValue="QueryResult" base_Element="_1IY1ErLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1IZcIbLqEe2b884QLJWpAA" genericsValue="QueryResult" base_Element="_1IY1E7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1IaqQLLqEe2b884QLJWpAA" genericsValue="LocalDate" base_Element="_1IaDOLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IbRVLLqEe2b884QLJWpAA" base_Element="_1IaqQbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1Ib4YLLqEe2b884QLJWpAA" genericsValue="QueryResult" base_Element="_1IbRULLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1Ib4YbLqEe2b884QLJWpAA" genericsValue="QueryResult" base_Element="_1IbRUbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Annotations xmi:id="_1IcfcLLqEe2b884QLJWpAA" base_Element="_1IaqQbLqEe2b884QLJWpAA">
+    <annotations xmi:id="_1IcfcbLqEe2b884QLJWpAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_1IdGgLLqEe2b884QLJWpAA" base_Element="_1Icfc7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1IeUoLLqEe2b884QLJWpAA" genericsValue="QueryResult" base_Element="_1IdtkbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IeUorLqEe2b884QLJWpAA" base_Element="_1IeUobLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1Ie7sLLqEe2b884QLJWpAA" base_Element="_1IeUpLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1Igw4LLqEe2b884QLJWpAA" genericsValue="QueryResult" base_Element="_1IgJ0bLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1Ih_A7LqEe2b884QLJWpAA" genericsValue="QueryResult" base_Element="_1IhX97LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1Ih_BLLqEe2b884QLJWpAA" genericsValue="QueryResult" base_Element="_1Ih_ALLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IimFLLqEe2b884QLJWpAA" base_Element="_1IimELLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1IjNILLqEe2b884QLJWpAA" genericsValue="QueryResult" base_Element="_1IimEbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1IjNIbLqEe2b884QLJWpAA" genericsValue="QueryResult" base_Element="_1IimErLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Annotations xmi:id="_1Ij0MLLqEe2b884QLJWpAA" base_Element="_1IimELLqEe2b884QLJWpAA">
+    <annotations xmi:id="_1Ij0MbLqEe2b884QLJWpAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_1IkbQLLqEe2b884QLJWpAA" genericsValue="QueryResult" base_Element="_1Ij0M7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IlCULLqEe2b884QLJWpAA" base_Element="_1IkbQrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IlpYLLqEe2b884QLJWpAA" base_Element="_1IlCUbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1ImQcbLqEe2b884QLJWpAA" base_Element="_1ImQcLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1Im3gbLqEe2b884QLJWpAA" base_Element="_1ImQcrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Annotations xmi:id="_1Im3grLqEe2b884QLJWpAA" base_Element="_1ImQcrLqEe2b884QLJWpAA">
+    <annotations xmi:id="_1Im3g7LqEe2b884QLJWpAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IossLLqEe2b884QLJWpAA" base_Element="_1IoFobLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Annotations xmi:id="_1IossbLqEe2b884QLJWpAA" base_Element="_1IoFobLqEe2b884QLJWpAA">
+    <annotations xmi:id="_1IossrLqEe2b884QLJWpAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_1IpTwbLqEe2b884QLJWpAA" base_Element="_1IpTwLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1Ip60bLqEe2b884QLJWpAA" base_Element="_1Ip60LLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IrI8LLqEe2b884QLJWpAA" base_Element="_1Iqh4rLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1IsXELLqEe2b884QLJWpAA" base_Element="_1IrwALLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IsXFbLqEe2b884QLJWpAA" base_Element="_1IsXE7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Annotations xmi:id="_1IsXFrLqEe2b884QLJWpAA" base_Element="_1IsXE7LqEe2b884QLJWpAA">
+    <annotations xmi:id="_1IsXF7LqEe2b884QLJWpAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1ItlMrLqEe2b884QLJWpAA" base_Element="_1ItlMLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Annotations xmi:id="_1ItlM7LqEe2b884QLJWpAA" base_Element="_1ItlMLLqEe2b884QLJWpAA">
+    <annotations xmi:id="_1IuMQLLqEe2b884QLJWpAA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IvaYLLqEe2b884QLJWpAA" base_Element="_1IuzULLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1IvaYrLqEe2b884QLJWpAA" genericsValue="TimeSeries" base_Element="_1IvaYbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IvaY7LqEe2b884QLJWpAA" base_Element="_1IvaYbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IwBcbLqEe2b884QLJWpAA" base_Element="_1IwBcLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IwBc7LqEe2b884QLJWpAA" base_Element="_1IwBcrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IwBdbLqEe2b884QLJWpAA" base_Element="_1IwBdLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IwogLLqEe2b884QLJWpAA" base_Element="_1IwBdrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IwogrLqEe2b884QLJWpAA" base_Element="_1IwogbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IwohLLqEe2b884QLJWpAA" base_Element="_1Iwog7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IxPkLLqEe2b884QLJWpAA" base_Element="_1IwohbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IxPkrLqEe2b884QLJWpAA" base_Element="_1IxPkbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IxPlLLqEe2b884QLJWpAA" base_Element="_1IxPk7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1Ix2oLLqEe2b884QLJWpAA" genericsValue="QueryResult" base_Element="_1IxPlbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1Ix2obLqEe2b884QLJWpAA" base_Element="_1IxPlbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Generics xmi:id="_1Ix2o7LqEe2b884QLJWpAA" genericsValue="ArrayList&lt;String>" base_Element="_1Ix2orLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1Ix2pLLqEe2b884QLJWpAA" base_Element="_1Ix2orLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IydsbLqEe2b884QLJWpAA" base_Element="_1IydsLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1Iyds7LqEe2b884QLJWpAA" base_Element="_1IydsrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IydtbLqEe2b884QLJWpAA" base_Element="_1IydtLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IzEwbLqEe2b884QLJWpAA" base_Element="_1IydtrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1IzExLLqEe2b884QLJWpAA" base_Element="_1IzEwrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1Izr0LLqEe2b884QLJWpAA" base_Element="_1IzExbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1Izr07LqEe2b884QLJWpAA" base_Element="_1Izr0bLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1Izr1rLqEe2b884QLJWpAA" base_Element="_1Izr1LLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I0S4bLqEe2b884QLJWpAA" base_Element="_1Izr17LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I0S5LLqEe2b884QLJWpAA" base_Element="_1I0S4rLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I0S57LqEe2b884QLJWpAA" base_Element="_1I0S5bLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I058rLqEe2b884QLJWpAA" base_Element="_1I058LLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I059bLqEe2b884QLJWpAA" base_Element="_1I0587LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I05-LLqEe2b884QLJWpAA" base_Element="_1I059rLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I1hArLqEe2b884QLJWpAA" base_Element="_1I1hALLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I1hBbLqEe2b884QLJWpAA" base_Element="_1I1hA7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I2IELLqEe2b884QLJWpAA" base_Element="_1I1hBrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I2IE7LqEe2b884QLJWpAA" base_Element="_1I2IEbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I2IFrLqEe2b884QLJWpAA" base_Element="_1I2IFLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I2IGbLqEe2b884QLJWpAA" base_Element="_1I2IF7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I2vIbLqEe2b884QLJWpAA" base_Element="_1I2IGrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I2vJLLqEe2b884QLJWpAA" base_Element="_1I2vIrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I2vJ7LqEe2b884QLJWpAA" base_Element="_1I2vJbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I3WMrLqEe2b884QLJWpAA" base_Element="_1I3WMLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I3WNbLqEe2b884QLJWpAA" base_Element="_1I3WM7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I3WOLLqEe2b884QLJWpAA" base_Element="_1I3WNrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I39QrLqEe2b884QLJWpAA" base_Element="_1I39QLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I39RbLqEe2b884QLJWpAA" base_Element="_1I39Q7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I4kUrLqEe2b884QLJWpAA" base_Element="_1I4kULLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I4kVbLqEe2b884QLJWpAA" base_Element="_1I4kU7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I5LYLLqEe2b884QLJWpAA" base_Element="_1I4kVrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I5LY7LqEe2b884QLJWpAA" base_Element="_1I5LYbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I5LZrLqEe2b884QLJWpAA" base_Element="_1I5LZLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I5ycLLqEe2b884QLJWpAA" base_Element="_1I5LZ7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I5yc7LqEe2b884QLJWpAA" base_Element="_1I5ycbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I6ZgLLqEe2b884QLJWpAA" base_Element="_1I5ydLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I6Zg7LqEe2b884QLJWpAA" base_Element="_1I6ZgbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I6ZhrLqEe2b884QLJWpAA" base_Element="_1I6ZhLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I7AkbLqEe2b884QLJWpAA" base_Element="_1I6Zh7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I7AlLLqEe2b884QLJWpAA" base_Element="_1I7AkrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I7noLLqEe2b884QLJWpAA" base_Element="_1I7AlbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I7no7LqEe2b884QLJWpAA" base_Element="_1I7nobLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1I7nprLqEe2b884QLJWpAA" base_Element="_1I7npLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JN7gLLqEe2b884QLJWpAA" base_Element="_1JNUcLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JOikrLqEe2b884QLJWpAA" base_Element="_1JOikLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JPJoLLqEe2b884QLJWpAA" base_Element="_1JOik7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JPJo7LqEe2b884QLJWpAA" base_Element="_1JPJobLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JPJprLqEe2b884QLJWpAA" base_Element="_1JPJpLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JPwsrLqEe2b884QLJWpAA" base_Element="_1JPwsLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JPwtbLqEe2b884QLJWpAA" base_Element="_1JPws7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JQXwLLqEe2b884QLJWpAA" base_Element="_1JPwtrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JQXw7LqEe2b884QLJWpAA" base_Element="_1JQXwbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JQXxrLqEe2b884QLJWpAA" base_Element="_1JQXxLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JQ-0LLqEe2b884QLJWpAA" base_Element="_1JQXx7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JQ-07LqEe2b884QLJWpAA" base_Element="_1JQ-0bLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JQ-1rLqEe2b884QLJWpAA" base_Element="_1JQ-1LLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JRl4LLqEe2b884QLJWpAA" base_Element="_1JQ-17LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JRl47LqEe2b884QLJWpAA" base_Element="_1JRl4bLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JSM8LLqEe2b884QLJWpAA" base_Element="_1JRl5LLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JSM87LqEe2b884QLJWpAA" base_Element="_1JSM8bLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JSM9rLqEe2b884QLJWpAA" base_Element="_1JSM9LLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JS0AbLqEe2b884QLJWpAA" base_Element="_1JSM97LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JS0BLLqEe2b884QLJWpAA" base_Element="_1JS0ArLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JTbELLqEe2b884QLJWpAA" base_Element="_1JS0BbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JTbE7LqEe2b884QLJWpAA" base_Element="_1JTbEbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JUCILLqEe2b884QLJWpAA" base_Element="_1JTbFLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JUCI7LqEe2b884QLJWpAA" base_Element="_1JUCIbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JUCJrLqEe2b884QLJWpAA" base_Element="_1JUCJLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JUpMrLqEe2b884QLJWpAA" base_Element="_1JUpMLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JUpNbLqEe2b884QLJWpAA" base_Element="_1JUpM7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JVQQLLqEe2b884QLJWpAA" base_Element="_1JUpNrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JVQQ7LqEe2b884QLJWpAA" base_Element="_1JVQQbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JVQRrLqEe2b884QLJWpAA" base_Element="_1JVQRLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JV3ULLqEe2b884QLJWpAA" base_Element="_1JVQR7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JV3U7LqEe2b884QLJWpAA" base_Element="_1JV3UbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JWeYLLqEe2b884QLJWpAA" base_Element="_1JV3VLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JWeY7LqEe2b884QLJWpAA" base_Element="_1JWeYbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JWeZrLqEe2b884QLJWpAA" base_Element="_1JWeZLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JXFcrLqEe2b884QLJWpAA" base_Element="_1JXFcLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JXFdbLqEe2b884QLJWpAA" base_Element="_1JXFc7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JXsgLLqEe2b884QLJWpAA" base_Element="_1JXFdrLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JXsg7LqEe2b884QLJWpAA" base_Element="_1JXsgbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JXshrLqEe2b884QLJWpAA" base_Element="_1JXshLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JYTkLLqEe2b884QLJWpAA" base_Element="_1JXsh7LqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JYTk7LqEe2b884QLJWpAA" base_Element="_1JYTkbLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JY6oLLqEe2b884QLJWpAA" base_Element="_1JYTlLLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Reference xmi:id="_1JY6o7LqEe2b884QLJWpAA" base_Element="_1JY6obLqEe2b884QLJWpAA"/>
+  <UMLLabProfile:Patch xmi:id="_1n4NcLLqEe2b884QLJWpAA" base_Element="_1FTE0LLqEe2b884QLJWpAA" patchText="@@ -419,16 +419,19 @@&#xA; ison()%7B%7D&#xA;+;%0D%0A&#xA; %0D%0A    @O&#xA;" conflicting="false"/>
+  <UMLLabProfile:Patch xmi:id="_1n6CoLLqEe2b884QLJWpAA" base_Element="_1FBYALLqEe2b884QLJWpAA" patchText="@@ -189,16 +189,19 @@&#xA; ller()%7B%7D&#xA;+;%0D%0A&#xA; %0D%0A    pu&#xA;" conflicting="false"/>
+</xmi:XMI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_1phzQLLqEe2b884QLJWpAA">
+  <modelElement href="eecs3311-project-bravo2.uml#_1EM4obLqEe2b884QLJWpAA"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_2bdmgLLqEe2b884QLJWpAA" name="TableController">
+    <modelElement href="eecs3311-project-bravo2.uml#_1FBYALLqEe2b884QLJWpAA"/>
+    <visualProperties xmi:id="_2bdmgbLqEe2b884QLJWpAA" position="50.0,50.0"/>
+    <stereotypes xmi:id="_2bdmgrLqEe2b884QLJWpAA" name="Patch">
+      <modelElement href="eecs3311-project-bravo2.uml#_1n6CoLLqEe2b884QLJWpAA"/>
+    </stereotypes>
+    <visibility xmi:id="_2bdmg7LqEe2b884QLJWpAA" label="+"/>
+    <operations xmi:id="_2bdmhLLqEe2b884QLJWpAA" name="TableController">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FB_ELLqEe2b884QLJWpAA"/>
+      <keywords xmi:id="_2bdmhbLqEe2b884QLJWpAA" keyword="create"/>
+      <stereotypes xmi:id="_2bdmhrLqEe2b884QLJWpAA" name="LegacyStyledElement">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FCmILLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2bdmh7LqEe2b884QLJWpAA" label="-"/>
+      <cardinality xmi:id="_2bdmiLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2bdmibLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FCmIbLqEe2b884QLJWpAA"/>
+        <type xmi:id="_2bdmirLqEe2b884QLJWpAA" name="TableController">
+          <modelElement href="eecs3311-project-bravo2.uml#_1FBYALLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_2bdmi7LqEe2b884QLJWpAA" name="main" staticOperation="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1FCmIrLqEe2b884QLJWpAA"/>
+      <visibility xmi:id="_2bdmjLLqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_2bdmjbLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_2bdmjrLqEe2b884QLJWpAA" name="args">
+        <modelElement href="eecs3311-project-bravo2.uml#_1FCmI7LqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_2bdmj7LqEe2b884QLJWpAA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_2bdmkLLqEe2b884QLJWpAA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2bdmkbLqEe2b884QLJWpAA" name="getData" staticOperation="true">
+      <modelElement href="eecs3311-project-bravo2.uml#_1H1bcrLqEe2b884QLJWpAA"/>
+      <stereotypes xmi:id="_2bdmkrLqEe2b884QLJWpAA" name="Generics">
+        <modelElement href="eecs3311-project-bravo2.uml#_1H2CgbLqEe2b884QLJWpAA"/>
+      </stereotypes>
+      <visibility xmi:id="_2bdmk7LqEe2b884QLJWpAA" label="+"/>
+      <cardinality xmi:id="_2bdmlLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2bdmlbLqEe2b884QLJWpAA">
+        <modelElement href="eecs3311-project-bravo2.uml#_1IY1ELLqEe2b884QLJWpAA"/>
+        <type xmi:id="_2bdmlrLqEe2b884QLJWpAA" name="ArrayList">
+          <modelElement href="eecs3311-project-bravo2.uml#_1H1bcLLqEe2b884QLJWpAA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2bdml7LqEe2b884QLJWpAA" name="form">
+        <modelElement href="eecs3311-project-bravo2.uml#_1H1bc7LqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_2bdmmLLqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2bdmmbLqEe2b884QLJWpAA" name="Form">
+          <modelElement href="eecs3311-project-bravo2.uml#_1FD0QLLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2bdmmrLqEe2b884QLJWpAA" name="db">
+        <modelElement href="eecs3311-project-bravo2.uml#_1H2CgLLqEe2b884QLJWpAA"/>
+        <cardinality xmi:id="_2bdmm7LqEe2b884QLJWpAA" label="1" max="1" min="1"/>
+        <type xmi:id="_2bdmnLLqEe2b884QLJWpAA" name="SQLRealEstateData">
+          <modelElement href="eecs3311-project-bravo2.uml#_1FNlQLLqEe2b884QLJWpAA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

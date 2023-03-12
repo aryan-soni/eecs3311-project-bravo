@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_tuqOcLLqEe2b884QLJWpAA" name="eecs3311_project_bravo">
+    <eAnnotations xmi:id="_tvbqgLLqEe2b884QLJWpAA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_tvbqgbLqEe2b884QLJWpAA" source="codegen">
+        <details xmi:id="_tvbqgrLqEe2b884QLJWpAA" key="codegenDirectory" value="/eecs3311-project-bravo/src"/>
+      </contents>
+    </eAnnotations>
+    <profileApplication xmi:id="_tvc4oLLqEe2b884QLJWpAA">
+      <eAnnotations xmi:id="_tvf78LLqEe2b884QLJWpAA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_tvi_QLLqEe2b884QLJWpAA" base_Package="_tuqOcLLqEe2b884QLJWpAA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+</xmi:XMI>

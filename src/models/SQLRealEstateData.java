@@ -35,8 +35,6 @@ public class SQLRealEstateData implements RealEstateData {
             // Puts the location of the database in a string
             String DBLocation = "jdbc:mysql://localhost:3306/realestatedatabase";
 
-            // Sets the username, changes based on what you set it too, but if you dont it
-            // defaults to root
             String user = "root";
 
             // This is the password, depends on what you set it to
